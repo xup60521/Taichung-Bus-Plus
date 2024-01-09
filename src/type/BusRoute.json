@@ -1,0 +1,2311 @@
+[
+    {
+      "RouteUID": "TXG206",
+      "RouteID": "206",
+      "RouteName": {
+        "Zh_tw": "206",
+        "En": "206"
+      },
+      "Direction": 0,
+      "Stops": [
+        {
+          "StopUID": "TXG6693",
+          "StopID": "6693",
+          "StopName": {
+            "Zh_tw": "豐原",
+            "En": "Fengyuan"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 1,
+          "StopPosition": {
+            "PositionLon": 120.721719,
+            "PositionLat": 24.253934,
+            "GeoHash": "wsmcgp6c7"
+          },
+          "StationID": "6687"
+        },
+        {
+          "StopUID": "TXG20993",
+          "StopID": "20993",
+          "StopName": {
+            "Zh_tw": "頂街(中正路)",
+            "En": "Dingjie(Zhongzheng Road)"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 2,
+          "StopPosition": {
+            "PositionLon": 120.72124,
+            "PositionLat": 24.252453,
+            "GeoHash": "wsmcgp48b"
+          },
+          "StationID": "1389"
+        },
+        {
+          "StopUID": "TXG20980",
+          "StopID": "20980",
+          "StopName": {
+            "Zh_tw": "新都酒店",
+            "En": "New Plaza Hotel"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 3,
+          "StopPosition": {
+            "PositionLon": 120.723894,
+            "PositionLat": 24.252149,
+            "GeoHash": "wsmcgnurn"
+          },
+          "StationID": "842"
+        },
+        {
+          "StopUID": "TXG20981",
+          "StopID": "20981",
+          "StopName": {
+            "Zh_tw": "豐原老人會館",
+            "En": "Fengyuan Sr. Citizens Hall"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 4,
+          "StopPosition": {
+            "PositionLon": 120.72603200000002,
+            "PositionLat": 24.252193000000002,
+            "GeoHash": "wsmcgnyp2"
+          },
+          "StationID": "5081"
+        },
+        {
+          "StopUID": "TXG20982",
+          "StopID": "20982",
+          "StopName": {
+            "Zh_tw": "向陽圓環東路口",
+            "En": "Xiangyang-Yuanhuan E. Intersection"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 5,
+          "StopPosition": {
+            "PositionLon": 120.728135,
+            "PositionLat": 24.251252,
+            "GeoHash": "wsmcgnz9c"
+          },
+          "StationID": "6169"
+        },
+        {
+          "StopUID": "TXG20983",
+          "StopID": "20983",
+          "StopName": {
+            "Zh_tw": "葫蘆墩文化中心",
+            "En": "Huludun Cultural Center"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 6,
+          "StopPosition": {
+            "PositionLon": 120.729795,
+            "PositionLat": 24.252956,
+            "GeoHash": "wsmcgr0g8"
+          },
+          "StationID": "3675"
+        },
+        {
+          "StopUID": "TXG20989",
+          "StopID": "20989",
+          "StopName": {
+            "Zh_tw": "圓環東水源路口",
+            "En": "Yuanhuan E.-Shuiyuan Intersection"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 7,
+          "StopPosition": {
+            "PositionLon": 120.729908,
+            "PositionLat": 24.255749,
+            "GeoHash": "wsmcgr8gf"
+          },
+          "StationID": "1639"
+        },
+        {
+          "StopUID": "TXG19782",
+          "StopID": "19782",
+          "StopName": {
+            "Zh_tw": "大楓樹福德祠",
+            "En": "Dafengshu Fude Temple"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 8,
+          "StopPosition": {
+            "PositionLon": 120.73072523886692,
+            "PositionLat": 24.257850878511206,
+            "GeoHash": "wsmf5212j"
+          },
+          "StationID": "274"
+        },
+        {
+          "StopUID": "TXG5626",
+          "StopID": "5626",
+          "StopName": {
+            "Zh_tw": "永豐原紙廠",
+            "En": "Yongfongyuan Paper Factory"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 9,
+          "StopPosition": {
+            "PositionLon": 120.7322787454735,
+            "PositionLat": 24.25869650118083,
+            "GeoHash": "wsmf524t1"
+          },
+          "StationID": "1391"
+        },
+        {
+          "StopUID": "TXG21224",
+          "StopID": "21224",
+          "StopName": {
+            "Zh_tw": "翁子",
+            "En": "Wengzi"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 10,
+          "StopPosition": {
+            "PositionLon": 120.73717557547637,
+            "PositionLat": 24.261165450889415,
+            "GeoHash": "wsmf52w5s"
+          },
+          "StationID": "1394"
+        },
+        {
+          "StopUID": "TXG6145",
+          "StopID": "6145",
+          "StopName": {
+            "Zh_tw": "翁子保養場",
+            "En": "Wenzi Maintenance Course"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 11,
+          "StopPosition": {
+            "PositionLon": 120.739414,
+            "PositionLat": 24.262234,
+            "GeoHash": "wsmf52zcb"
+          },
+          "StationID": "1395"
+        },
+        {
+          "StopUID": "TXG6146",
+          "StopID": "6146",
+          "StopName": {
+            "Zh_tw": "翁子國小",
+            "En": "Wong-Zi Elementary School"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 12,
+          "StopPosition": {
+            "PositionLon": 120.74277328572812,
+            "PositionLat": 24.26380214279933,
+            "GeoHash": "wsmf5944y"
+          },
+          "StationID": "1397"
+        },
+        {
+          "StopUID": "TXG5541",
+          "StopID": "5541",
+          "StopName": {
+            "Zh_tw": "半張",
+            "En": "Banzhang"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 13,
+          "StopPosition": {
+            "PositionLon": 120.74564300000002,
+            "PositionLat": 24.265170000000005,
+            "GeoHash": "wsmf59k6c"
+          },
+          "StationID": "1399"
+        },
+        {
+          "StopUID": "TXG6993",
+          "StopID": "6993",
+          "StopName": {
+            "Zh_tw": "蜈蚣崎步道口",
+            "En": "Wugongqi Hiking Trail"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 14,
+          "StopPosition": {
+            "PositionLon": 120.748706,
+            "PositionLat": 24.267275,
+            "GeoHash": "wsmf59wx0"
+          },
+          "StationID": "1643"
+        },
+        {
+          "StopUID": "TXG6196",
+          "StopID": "6196",
+          "StopName": {
+            "Zh_tw": "國家教育研究院",
+            "En": "National Academy for Educational Research"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 15,
+          "StopPosition": {
+            "PositionLon": 120.751747,
+            "PositionLat": 24.270843000000006,
+            "GeoHash": "wsmf5f2ez"
+          },
+          "StationID": "1402"
+        },
+        {
+          "StopUID": "TXG5729",
+          "StopID": "5729",
+          "StopName": {
+            "Zh_tw": "朴子口",
+            "En": "Pozikou"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 16,
+          "StopPosition": {
+            "PositionLon": 120.753962,
+            "PositionLat": 24.27343,
+            "GeoHash": "wsmf5ff6g"
+          },
+          "StationID": "1404"
+        },
+        {
+          "StopUID": "TXG6996",
+          "StopID": "6996",
+          "StopName": {
+            "Zh_tw": "民安",
+            "En": "Minan"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 17,
+          "StopPosition": {
+            "PositionLon": 120.75666,
+            "PositionLat": 24.275162,
+            "GeoHash": "wsmf5ghm4"
+          },
+          "StationID": "1632"
+        },
+        {
+          "StopUID": "TXG6184",
+          "StopID": "6184",
+          "StopName": {
+            "Zh_tw": "埤頭",
+            "En": "Pitou"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 18,
+          "StopPosition": {
+            "PositionLon": 120.759211,
+            "PositionLat": 24.276638,
+            "GeoHash": "wsmf5gqjt"
+          },
+          "StationID": "1406"
+        },
+        {
+          "StopUID": "TXG5658",
+          "StopID": "5658",
+          "StopName": {
+            "Zh_tw": "石岡水壩",
+            "En": "Shihgang Dam"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 19,
+          "StopPosition": {
+            "PositionLon": 120.766627,
+            "PositionLat": 24.278105,
+            "GeoHash": "wsmfh5ew4"
+          },
+          "StationID": "1408"
+        },
+        {
+          "StopUID": "TXG5848",
+          "StopID": "5848",
+          "StopName": {
+            "Zh_tw": "岡尾",
+            "En": "Gangwei"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 20,
+          "StopPosition": {
+            "PositionLon": 120.771967,
+            "PositionLat": 24.277531,
+            "GeoHash": "wsmfh5x6y"
+          },
+          "StationID": "1410"
+        },
+        {
+          "StopUID": "TXG5657",
+          "StopID": "5657",
+          "StopName": {
+            "Zh_tw": "石岡",
+            "En": "Shihgang"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 21,
+          "StopPosition": {
+            "PositionLon": 120.776321,
+            "PositionLat": 24.276565,
+            "GeoHash": "wsmfh76th"
+          },
+          "StationID": "1412"
+        },
+        {
+          "StopUID": "TXG5659",
+          "StopID": "5659",
+          "StopName": {
+            "Zh_tw": "石岡區公所",
+            "En": "Shihgang District Office"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 22,
+          "StopPosition": {
+            "PositionLon": 120.780762,
+            "PositionLat": 24.274966,
+            "GeoHash": "wsmfh7jgg"
+          },
+          "StationID": "1414"
+        },
+        {
+          "StopUID": "TXG5029",
+          "StopID": "5029",
+          "StopName": {
+            "Zh_tw": "九房厝",
+            "En": "Jiufangcuo"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 23,
+          "StopPosition": {
+            "PositionLon": 120.784266,
+            "PositionLat": 24.274476,
+            "GeoHash": "wsmfhe03j"
+          },
+          "StationID": "1416"
+        },
+        {
+          "StopUID": "TXG6194",
+          "StopID": "6194",
+          "StopName": {
+            "Zh_tw": "情人木橋",
+            "En": "Lovers Wood Bridge"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 24,
+          "StopPosition": {
+            "PositionLon": 120.788629,
+            "PositionLat": 24.273917,
+            "GeoHash": "wsmfhdgtg"
+          },
+          "StationID": "1418"
+        },
+        {
+          "StopUID": "TXG5947",
+          "StopID": "5947",
+          "StopName": {
+            "Zh_tw": "社寮角",
+            "En": "Sheliaojiao"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 25,
+          "StopPosition": {
+            "PositionLon": 120.791655,
+            "PositionLat": 24.272624,
+            "GeoHash": "wsmfhdty3"
+          },
+          "StationID": "1420"
+        },
+        {
+          "StopUID": "TXG6460",
+          "StopID": "6460",
+          "StopName": {
+            "Zh_tw": "新豐冷凍",
+            "En": "Xinfeng Freezer Company"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 26,
+          "StopPosition": {
+            "PositionLon": 120.79644576635147,
+            "PositionLat": 24.270512498056426,
+            "GeoHash": "wsmfhf33c"
+          },
+          "StationID": "1422"
+        },
+        {
+          "StopUID": "TXG6213",
+          "StopID": "6213",
+          "StopName": {
+            "Zh_tw": "梅子",
+            "En": "Meizi"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 27,
+          "StopPosition": {
+            "PositionLon": 120.801102,
+            "PositionLat": 24.268689,
+            "GeoHash": "wsmfhcuxm"
+          },
+          "StationID": "1424"
+        },
+        {
+          "StopUID": "TXG5865",
+          "StopID": "5865",
+          "StopName": {
+            "Zh_tw": "明山寺",
+            "En": "Mingshan Temple"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 28,
+          "StopPosition": {
+            "PositionLon": 120.80421,
+            "PositionLat": 24.267457,
+            "GeoHash": "wsmfhcybn"
+          },
+          "StationID": "1426"
+        },
+        {
+          "StopUID": "TXG5101",
+          "StopID": "5101",
+          "StopName": {
+            "Zh_tw": "下土牛",
+            "En": "Xiatu-niu"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 29,
+          "StopPosition": {
+            "PositionLon": 120.806917,
+            "PositionLat": 24.266077,
+            "GeoHash": "wsmfj18bj"
+          },
+          "StationID": "1428"
+        },
+        {
+          "StopUID": "TXG6268",
+          "StopID": "6268",
+          "StopName": {
+            "Zh_tw": "連厝",
+            "En": "Liancuo"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 30,
+          "StopPosition": {
+            "PositionLon": 120.810193,
+            "PositionLat": 24.263977,
+            "GeoHash": "wsmfj157c"
+          },
+          "StationID": "1430"
+        },
+        {
+          "StopUID": "TXG6595",
+          "StopID": "6595",
+          "StopName": {
+            "Zh_tw": "德興里",
+            "En": "Dexing Village"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 31,
+          "StopPosition": {
+            "PositionLon": 120.81270500000001,
+            "PositionLat": 24.262373000000004,
+            "GeoHash": "wsmfj0v4s"
+          },
+          "StationID": "1432"
+        },
+        {
+          "StopUID": "TXG5198",
+          "StopID": "5198",
+          "StopName": {
+            "Zh_tw": "土牛(豐勢路)",
+            "En": "Tuniu(Fengshi Road)"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 32,
+          "StopPosition": {
+            "PositionLon": 120.81607999999999,
+            "PositionLat": 24.260208000000002,
+            "GeoHash": "wsmfj0rtf"
+          },
+          "StationID": "1629"
+        },
+        {
+          "StopUID": "TXG13594",
+          "StopID": "13594",
+          "StopName": {
+            "Zh_tw": "東勢游泳池",
+            "En": "Dongshi Swimming pool"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 33,
+          "StopPosition": {
+            "PositionLon": 120.823511,
+            "PositionLat": 24.261598,
+            "GeoHash": "wsmfj2syp"
+          },
+          "StationID": "2665"
+        },
+        {
+          "StopUID": "TXG5899",
+          "StopID": "5899",
+          "StopName": {
+            "Zh_tw": "東勢",
+            "En": "Dongshi"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 34,
+          "StopPosition": {
+            "PositionLon": 120.827744,
+            "PositionLat": 24.2584,
+            "GeoHash": "wsmfj8056"
+          },
+          "StationID": "6649"
+        },
+        {
+          "StopUID": "TXG5987",
+          "StopID": "5987",
+          "StopName": {
+            "Zh_tw": "南平里",
+            "En": "Nanping Village"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 35,
+          "StopPosition": {
+            "PositionLon": 120.829235,
+            "PositionLat": 24.255013,
+            "GeoHash": "wsmcvx3pt"
+          },
+          "StationID": "1443"
+        },
+        {
+          "StopUID": "TXG5302",
+          "StopID": "5302",
+          "StopName": {
+            "Zh_tw": "中嵙口",
+            "En": "Zhongkekou"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 36,
+          "StopPosition": {
+            "PositionLon": 120.829831,
+            "PositionLat": 24.252501,
+            "GeoHash": "wsmcvx195"
+          },
+          "StationID": "1444"
+        },
+        {
+          "StopUID": "TXG5889",
+          "StopID": "5889",
+          "StopName": {
+            "Zh_tw": "東勢南站",
+            "En": "Dongshi South Station"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 37,
+          "StopPosition": {
+            "PositionLon": 120.830743,
+            "PositionLat": 24.249682,
+            "GeoHash": "wsmcvwd28"
+          },
+          "StationID": "1796"
+        },
+        {
+          "StopUID": "TXG7072",
+          "StopID": "7072",
+          "StopName": {
+            "Zh_tw": "石角口",
+            "En": "Shijiaokou"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 38,
+          "StopPosition": {
+            "PositionLon": 120.832145,
+            "PositionLat": 24.246808,
+            "GeoHash": "wsmcvtgrc"
+          },
+          "StationID": "1446"
+        },
+        {
+          "StopUID": "TXG12952",
+          "StopID": "12952",
+          "StopName": {
+            "Zh_tw": "東勢林業文化園區",
+            "En": "Dongshih Forestry Culture Park"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 39,
+          "StopPosition": {
+            "PositionLon": 120.832891,
+            "PositionLat": 24.244678,
+            "GeoHash": "wsmcvteg6"
+          },
+          "StationID": "7152"
+        },
+        {
+          "StopUID": "TXG7073",
+          "StopID": "7073",
+          "StopName": {
+            "Zh_tw": "新盛里(東勢高工)",
+            "En": "Xinsheng Village(Dongshih Industrial Senior High School)"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 40,
+          "StopPosition": {
+            "PositionLon": 120.833566,
+            "PositionLat": 24.241935,
+            "GeoHash": "wsmcvth7d"
+          },
+          "StationID": "1448"
+        }
+      ],
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG206",
+      "RouteID": "206",
+      "RouteName": {
+        "Zh_tw": "206",
+        "En": "206"
+      },
+      "Direction": 1,
+      "Stops": [
+        {
+          "StopUID": "TXG13713",
+          "StopID": "13713",
+          "StopName": {
+            "Zh_tw": "新盛里(東勢高工)",
+            "En": "Xinsheng Village(Dongshih Industrial Senior High School)"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 1,
+          "StopPosition": {
+            "PositionLon": 120.833674,
+            "PositionLat": 24.242234,
+            "GeoHash": "wsmcvthmh"
+          },
+          "StationID": "1449"
+        },
+        {
+          "StopUID": "TXG12953",
+          "StopID": "12953",
+          "StopName": {
+            "Zh_tw": "東勢林業文化園區",
+            "En": "Dongshih Forestry Culture Park"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 2,
+          "StopPosition": {
+            "PositionLon": 120.833042,
+            "PositionLat": 24.244697,
+            "GeoHash": "wsmcvtegt"
+          },
+          "StationID": "7153"
+        },
+        {
+          "StopUID": "TXG5654",
+          "StopID": "5654",
+          "StopName": {
+            "Zh_tw": "石角口",
+            "En": "Shijiaokou"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 3,
+          "StopPosition": {
+            "PositionLon": 120.83173,
+            "PositionLat": 24.248246,
+            "GeoHash": "wsmcvw6br"
+          },
+          "StationID": "1447"
+        },
+        {
+          "StopUID": "TXG5889",
+          "StopID": "5889",
+          "StopName": {
+            "Zh_tw": "東勢南站",
+            "En": "Dongshi South Station"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 4,
+          "StopPosition": {
+            "PositionLon": 120.830743,
+            "PositionLat": 24.249682,
+            "GeoHash": "wsmcvwd28"
+          },
+          "StationID": "1796"
+        },
+        {
+          "StopUID": "TXG5302",
+          "StopID": "5302",
+          "StopName": {
+            "Zh_tw": "中嵙口",
+            "En": "Zhongkekou"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 5,
+          "StopPosition": {
+            "PositionLon": 120.829831,
+            "PositionLat": 24.252501,
+            "GeoHash": "wsmcvx195"
+          },
+          "StationID": "1444"
+        },
+        {
+          "StopUID": "TXG5987",
+          "StopID": "5987",
+          "StopName": {
+            "Zh_tw": "南平里",
+            "En": "Nanping Village"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 6,
+          "StopPosition": {
+            "PositionLon": 120.829235,
+            "PositionLat": 24.255013,
+            "GeoHash": "wsmcvx3pt"
+          },
+          "StationID": "1443"
+        },
+        {
+          "StopUID": "TXG5899",
+          "StopID": "5899",
+          "StopName": {
+            "Zh_tw": "東勢",
+            "En": "Dongshi"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 7,
+          "StopPosition": {
+            "PositionLon": 120.827744,
+            "PositionLat": 24.2584,
+            "GeoHash": "wsmfj8056"
+          },
+          "StationID": "6649"
+        },
+        {
+          "StopUID": "TXG5745",
+          "StopID": "5745",
+          "StopName": {
+            "Zh_tw": "東勢老人會館",
+            "En": "Dongshi Sr. Citizens Hall"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 8,
+          "StopPosition": {
+            "PositionLon": 120.82699,
+            "PositionLat": 24.261112,
+            "GeoHash": "wsmfj2xe0"
+          },
+          "StationID": "1437"
+        },
+        {
+          "StopUID": "TXG5905",
+          "StopID": "5905",
+          "StopName": {
+            "Zh_tw": "東新國中",
+            "En": "Dung-shing Junior High School"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 9,
+          "StopPosition": {
+            "PositionLon": 120.826628,
+            "PositionLat": 24.262858,
+            "GeoHash": "wsmfj2zm2"
+          },
+          "StationID": "1434"
+        },
+        {
+          "StopUID": "TXG6462",
+          "StopID": "6462",
+          "StopName": {
+            "Zh_tw": "新豐新寧街口",
+            "En": "Xinfeng-Xinning Intersection"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 10,
+          "StopPosition": {
+            "PositionLon": 120.825179,
+            "PositionLat": 24.263376,
+            "GeoHash": "wsmfj3n0q"
+          },
+          "StationID": "1642"
+        },
+        {
+          "StopUID": "TXG5198",
+          "StopID": "5198",
+          "StopName": {
+            "Zh_tw": "土牛(豐勢路)",
+            "En": "Tuniu(Fengshi Road)"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 11,
+          "StopPosition": {
+            "PositionLon": 120.81607999999999,
+            "PositionLat": 24.260208000000002,
+            "GeoHash": "wsmfj0rtf"
+          },
+          "StationID": "1629"
+        },
+        {
+          "StopUID": "TXG6595",
+          "StopID": "6595",
+          "StopName": {
+            "Zh_tw": "德興里",
+            "En": "Dexing Village"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 12,
+          "StopPosition": {
+            "PositionLon": 120.81270500000001,
+            "PositionLat": 24.262373000000004,
+            "GeoHash": "wsmfj0v4s"
+          },
+          "StationID": "1432"
+        },
+        {
+          "StopUID": "TXG6268",
+          "StopID": "6268",
+          "StopName": {
+            "Zh_tw": "連厝",
+            "En": "Liancuo"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 13,
+          "StopPosition": {
+            "PositionLon": 120.810193,
+            "PositionLat": 24.263977,
+            "GeoHash": "wsmfj157c"
+          },
+          "StationID": "1430"
+        },
+        {
+          "StopUID": "TXG5101",
+          "StopID": "5101",
+          "StopName": {
+            "Zh_tw": "下土牛",
+            "En": "Xiatu-niu"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 14,
+          "StopPosition": {
+            "PositionLon": 120.806917,
+            "PositionLat": 24.266077,
+            "GeoHash": "wsmfj18bj"
+          },
+          "StationID": "1428"
+        },
+        {
+          "StopUID": "TXG5865",
+          "StopID": "5865",
+          "StopName": {
+            "Zh_tw": "明山寺",
+            "En": "Mingshan Temple"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 15,
+          "StopPosition": {
+            "PositionLon": 120.80421,
+            "PositionLat": 24.267457,
+            "GeoHash": "wsmfhcybn"
+          },
+          "StationID": "1426"
+        },
+        {
+          "StopUID": "TXG6213",
+          "StopID": "6213",
+          "StopName": {
+            "Zh_tw": "梅子",
+            "En": "Meizi"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 16,
+          "StopPosition": {
+            "PositionLon": 120.801102,
+            "PositionLat": 24.268689,
+            "GeoHash": "wsmfhcuxm"
+          },
+          "StationID": "1424"
+        },
+        {
+          "StopUID": "TXG6460",
+          "StopID": "6460",
+          "StopName": {
+            "Zh_tw": "新豐冷凍",
+            "En": "Xinfeng Freezer Company"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 17,
+          "StopPosition": {
+            "PositionLon": 120.79644576635147,
+            "PositionLat": 24.270512498056426,
+            "GeoHash": "wsmfhf33c"
+          },
+          "StationID": "1422"
+        },
+        {
+          "StopUID": "TXG5947",
+          "StopID": "5947",
+          "StopName": {
+            "Zh_tw": "社寮角",
+            "En": "Sheliaojiao"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 18,
+          "StopPosition": {
+            "PositionLon": 120.791655,
+            "PositionLat": 24.272624,
+            "GeoHash": "wsmfhdty3"
+          },
+          "StationID": "1420"
+        },
+        {
+          "StopUID": "TXG6194",
+          "StopID": "6194",
+          "StopName": {
+            "Zh_tw": "情人木橋",
+            "En": "Lovers Wood Bridge"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 19,
+          "StopPosition": {
+            "PositionLon": 120.788629,
+            "PositionLat": 24.273917,
+            "GeoHash": "wsmfhdgtg"
+          },
+          "StationID": "1418"
+        },
+        {
+          "StopUID": "TXG5029",
+          "StopID": "5029",
+          "StopName": {
+            "Zh_tw": "九房厝",
+            "En": "Jiufangcuo"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 20,
+          "StopPosition": {
+            "PositionLon": 120.784266,
+            "PositionLat": 24.274476,
+            "GeoHash": "wsmfhe03j"
+          },
+          "StationID": "1416"
+        },
+        {
+          "StopUID": "TXG5659",
+          "StopID": "5659",
+          "StopName": {
+            "Zh_tw": "石岡區公所",
+            "En": "Shihgang District Office"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 21,
+          "StopPosition": {
+            "PositionLon": 120.780762,
+            "PositionLat": 24.274966,
+            "GeoHash": "wsmfh7jgg"
+          },
+          "StationID": "1414"
+        },
+        {
+          "StopUID": "TXG5657",
+          "StopID": "5657",
+          "StopName": {
+            "Zh_tw": "石岡",
+            "En": "Shihgang"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 22,
+          "StopPosition": {
+            "PositionLon": 120.776321,
+            "PositionLat": 24.276565,
+            "GeoHash": "wsmfh76th"
+          },
+          "StationID": "1412"
+        },
+        {
+          "StopUID": "TXG5848",
+          "StopID": "5848",
+          "StopName": {
+            "Zh_tw": "岡尾",
+            "En": "Gangwei"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 23,
+          "StopPosition": {
+            "PositionLon": 120.771967,
+            "PositionLat": 24.277531,
+            "GeoHash": "wsmfh5x6y"
+          },
+          "StationID": "1410"
+        },
+        {
+          "StopUID": "TXG5658",
+          "StopID": "5658",
+          "StopName": {
+            "Zh_tw": "石岡水壩",
+            "En": "Shihgang Dam"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 24,
+          "StopPosition": {
+            "PositionLon": 120.766627,
+            "PositionLat": 24.278105,
+            "GeoHash": "wsmfh5ew4"
+          },
+          "StationID": "1408"
+        },
+        {
+          "StopUID": "TXG6184",
+          "StopID": "6184",
+          "StopName": {
+            "Zh_tw": "埤頭",
+            "En": "Pitou"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 25,
+          "StopPosition": {
+            "PositionLon": 120.759211,
+            "PositionLat": 24.276638,
+            "GeoHash": "wsmf5gqjt"
+          },
+          "StationID": "1406"
+        },
+        {
+          "StopUID": "TXG6472",
+          "StopID": "6472",
+          "StopName": {
+            "Zh_tw": "民安",
+            "En": "Minan"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 26,
+          "StopPosition": {
+            "PositionLon": 120.756491,
+            "PositionLat": 24.275296,
+            "GeoHash": "wsmf5ghjy"
+          },
+          "StationID": "1631"
+        },
+        {
+          "StopUID": "TXG5729",
+          "StopID": "5729",
+          "StopName": {
+            "Zh_tw": "朴子口",
+            "En": "Pozikou"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 27,
+          "StopPosition": {
+            "PositionLon": 120.753962,
+            "PositionLat": 24.27343,
+            "GeoHash": "wsmf5ff6g"
+          },
+          "StationID": "1404"
+        },
+        {
+          "StopUID": "TXG6196",
+          "StopID": "6196",
+          "StopName": {
+            "Zh_tw": "國家教育研究院",
+            "En": "National Academy for Educational Research"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 28,
+          "StopPosition": {
+            "PositionLon": 120.751747,
+            "PositionLat": 24.270843000000006,
+            "GeoHash": "wsmf5f2ez"
+          },
+          "StationID": "1402"
+        },
+        {
+          "StopUID": "TXG5728",
+          "StopID": "5728",
+          "StopName": {
+            "Zh_tw": "蜈蚣崎步道口",
+            "En": "Wugongqi Hiking Trail"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 29,
+          "StopPosition": {
+            "PositionLon": 120.748866,
+            "PositionLat": 24.267887,
+            "GeoHash": "wsmf59yds"
+          },
+          "StationID": "1644"
+        },
+        {
+          "StopUID": "TXG5541",
+          "StopID": "5541",
+          "StopName": {
+            "Zh_tw": "半張",
+            "En": "Banzhang"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 30,
+          "StopPosition": {
+            "PositionLon": 120.74564300000002,
+            "PositionLat": 24.265170000000005,
+            "GeoHash": "wsmf59k6c"
+          },
+          "StationID": "1399"
+        },
+        {
+          "StopUID": "TXG6146",
+          "StopID": "6146",
+          "StopName": {
+            "Zh_tw": "翁子國小",
+            "En": "Wong-Zi Elementary School"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 31,
+          "StopPosition": {
+            "PositionLon": 120.74277328572812,
+            "PositionLat": 24.26380214279933,
+            "GeoHash": "wsmf5944y"
+          },
+          "StationID": "1397"
+        },
+        {
+          "StopUID": "TXG6145",
+          "StopID": "6145",
+          "StopName": {
+            "Zh_tw": "翁子保養場",
+            "En": "Wenzi Maintenance Course"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 32,
+          "StopPosition": {
+            "PositionLon": 120.739414,
+            "PositionLat": 24.262234,
+            "GeoHash": "wsmf52zcb"
+          },
+          "StationID": "1395"
+        },
+        {
+          "StopUID": "TXG6144",
+          "StopID": "6144",
+          "StopName": {
+            "Zh_tw": "翁子",
+            "En": "Wengzi"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 33,
+          "StopPosition": {
+            "PositionLon": 120.73701798674415,
+            "PositionLat": 24.261242907208963,
+            "GeoHash": "wsmf52w5b"
+          },
+          "StationID": "1393"
+        },
+        {
+          "StopUID": "TXG5626",
+          "StopID": "5626",
+          "StopName": {
+            "Zh_tw": "永豐原紙廠",
+            "En": "Yongfongyuan Paper Factory"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 34,
+          "StopPosition": {
+            "PositionLon": 120.7322787454735,
+            "PositionLat": 24.25869650118083,
+            "GeoHash": "wsmf524t1"
+          },
+          "StationID": "1391"
+        },
+        {
+          "StopUID": "TXG19782",
+          "StopID": "19782",
+          "StopName": {
+            "Zh_tw": "大楓樹福德祠",
+            "En": "Dafengshu Fude Temple"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 35,
+          "StopPosition": {
+            "PositionLon": 120.73072523886692,
+            "PositionLat": 24.257850878511206,
+            "GeoHash": "wsmf5212j"
+          },
+          "StationID": "274"
+        },
+        {
+          "StopUID": "TXG20990",
+          "StopID": "20990",
+          "StopName": {
+            "Zh_tw": "圓環東水源路口",
+            "En": "Yuanhuan E.-Shuiyuan Intersection"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 36,
+          "StopPosition": {
+            "PositionLon": 120.729645,
+            "PositionLat": 24.255896,
+            "GeoHash": "wsmcgr8su"
+          },
+          "StationID": "1640"
+        },
+        {
+          "StopUID": "TXG20988",
+          "StopID": "20988",
+          "StopName": {
+            "Zh_tw": "葫蘆墩文化中心",
+            "En": "Huludun Cultural Center"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 37,
+          "StopPosition": {
+            "PositionLon": 120.729516,
+            "PositionLat": 24.252775,
+            "GeoHash": "wsmcgr0d9"
+          },
+          "StationID": "3676"
+        },
+        {
+          "StopUID": "TXG20987",
+          "StopID": "20987",
+          "StopName": {
+            "Zh_tw": "向陽圓環東路口",
+            "En": "Xiangyang-Yuanhuan E. Intersection"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 38,
+          "StopPosition": {
+            "PositionLon": 120.728151,
+            "PositionLat": 24.251279,
+            "GeoHash": "wsmcgnz9c"
+          },
+          "StationID": "6168"
+        },
+        {
+          "StopUID": "TXG20986",
+          "StopID": "20986",
+          "StopName": {
+            "Zh_tw": "豐原老人會館",
+            "En": "Fengyuan Sr. Citizens Hall"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 39,
+          "StopPosition": {
+            "PositionLon": 120.726196,
+            "PositionLat": 24.252198,
+            "GeoHash": "wsmcgnypk"
+          },
+          "StationID": "5080"
+        },
+        {
+          "StopUID": "TXG20985",
+          "StopID": "20985",
+          "StopName": {
+            "Zh_tw": "新都酒店",
+            "En": "New Plaza Hotel"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 40,
+          "StopPosition": {
+            "PositionLon": 120.724055,
+            "PositionLat": 24.252276,
+            "GeoHash": "wsmcgnuxd"
+          },
+          "StationID": "843"
+        },
+        {
+          "StopUID": "TXG5835",
+          "StopID": "5835",
+          "StopName": {
+            "Zh_tw": "和平街",
+            "En": "Heping Street"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 41,
+          "StopPosition": {
+            "PositionLon": 120.719895,
+            "PositionLat": 24.252281,
+            "GeoHash": "wsmcgncxc"
+          },
+          "StationID": "1264"
+        },
+        {
+          "StopUID": "TXG11367",
+          "StopID": "11367",
+          "StopName": {
+            "Zh_tw": "豐原",
+            "En": "Fengyuan"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 42,
+          "StopPosition": {
+            "PositionLon": 120.721824,
+            "PositionLat": 24.25396,
+            "GeoHash": "wsmcgp6cw"
+          },
+          "StationID": "6688"
+        }
+      ],
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG956",
+      "RouteID": "956",
+      "RouteName": {
+        "Zh_tw": "206延",
+        "En": "206E"
+      },
+      "Direction": 0,
+      "Stops": [
+        {
+          "StopUID": "TXG6956",
+          "StopID": "6956",
+          "StopName": {
+            "Zh_tw": "石岡國中",
+            "En": "Shigang Junior High School"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 1,
+          "StopPosition": {
+            "PositionLon": 120.796976,
+            "PositionLat": 24.267948,
+            "GeoHash": "wsmfhccej"
+          },
+          "StationID": "6548"
+        },
+        {
+          "StopUID": "TXG6957",
+          "StopID": "6957",
+          "StopName": {
+            "Zh_tw": "新豐冷凍",
+            "En": "Xinfeng Freezer Company"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 2,
+          "StopPosition": {
+            "PositionLon": 120.796292,
+            "PositionLat": 24.270797,
+            "GeoHash": "wsmfhf35t"
+          },
+          "StationID": "1423"
+        },
+        {
+          "StopUID": "TXG6958",
+          "StopID": "6958",
+          "StopName": {
+            "Zh_tw": "社寮角",
+            "En": "Sheliaojiao"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 3,
+          "StopPosition": {
+            "PositionLon": 120.792001,
+            "PositionLat": 24.272648,
+            "GeoHash": "wsmfhdwn3"
+          },
+          "StationID": "1421"
+        },
+        {
+          "StopUID": "TXG6959",
+          "StopID": "6959",
+          "StopName": {
+            "Zh_tw": "情人木橋",
+            "En": "Lovers Wood Bridge"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 4,
+          "StopPosition": {
+            "PositionLon": 120.788718,
+            "PositionLat": 24.274069,
+            "GeoHash": "wsmfhdgwt"
+          },
+          "StationID": "1419"
+        },
+        {
+          "StopUID": "TXG6960",
+          "StopID": "6960",
+          "StopName": {
+            "Zh_tw": "九房厝",
+            "En": "Jiufangcuo"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 5,
+          "StopPosition": {
+            "PositionLon": 120.784115,
+            "PositionLat": 24.274685,
+            "GeoHash": "wsmfhe063"
+          },
+          "StationID": "1417"
+        },
+        {
+          "StopUID": "TXG6961",
+          "StopID": "6961",
+          "StopName": {
+            "Zh_tw": "石岡區公所",
+            "En": "Shihgang District Office"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 6,
+          "StopPosition": {
+            "PositionLon": 120.780564,
+            "PositionLat": 24.275047,
+            "GeoHash": "wsmfh7jsr"
+          },
+          "StationID": "1415"
+        },
+        {
+          "StopUID": "TXG6962",
+          "StopID": "6962",
+          "StopName": {
+            "Zh_tw": "石岡",
+            "En": "Shihgang"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 7,
+          "StopPosition": {
+            "PositionLon": 120.775892,
+            "PositionLat": 24.276687,
+            "GeoHash": "wsmfh76mf"
+          },
+          "StationID": "1413"
+        },
+        {
+          "StopUID": "TXG18058",
+          "StopID": "18058",
+          "StopName": {
+            "Zh_tw": "石岡國小",
+            "En": "Shigang Elementary School"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 8,
+          "StopPosition": {
+            "PositionLon": 120.774025,
+            "PositionLat": 24.276692,
+            "GeoHash": "wsmfh72vy"
+          },
+          "StationID": "2995"
+        },
+        {
+          "StopUID": "TXG5657",
+          "StopID": "5657",
+          "StopName": {
+            "Zh_tw": "石岡",
+            "En": "Shihgang"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 9,
+          "StopPosition": {
+            "PositionLon": 120.776321,
+            "PositionLat": 24.276565,
+            "GeoHash": "wsmfh76th"
+          },
+          "StationID": "1412"
+        },
+        {
+          "StopUID": "TXG5659",
+          "StopID": "5659",
+          "StopName": {
+            "Zh_tw": "石岡區公所",
+            "En": "Shihgang District Office"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 10,
+          "StopPosition": {
+            "PositionLon": 120.780762,
+            "PositionLat": 24.274966,
+            "GeoHash": "wsmfh7jgg"
+          },
+          "StationID": "1414"
+        },
+        {
+          "StopUID": "TXG5029",
+          "StopID": "5029",
+          "StopName": {
+            "Zh_tw": "九房厝",
+            "En": "Jiufangcuo"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 11,
+          "StopPosition": {
+            "PositionLon": 120.784266,
+            "PositionLat": 24.274476,
+            "GeoHash": "wsmfhe03j"
+          },
+          "StationID": "1416"
+        },
+        {
+          "StopUID": "TXG6194",
+          "StopID": "6194",
+          "StopName": {
+            "Zh_tw": "情人木橋",
+            "En": "Lovers Wood Bridge"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 12,
+          "StopPosition": {
+            "PositionLon": 120.788629,
+            "PositionLat": 24.273917,
+            "GeoHash": "wsmfhdgtg"
+          },
+          "StationID": "1418"
+        },
+        {
+          "StopUID": "TXG5947",
+          "StopID": "5947",
+          "StopName": {
+            "Zh_tw": "社寮角",
+            "En": "Sheliaojiao"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 13,
+          "StopPosition": {
+            "PositionLon": 120.791655,
+            "PositionLat": 24.272624,
+            "GeoHash": "wsmfhdty3"
+          },
+          "StationID": "1420"
+        },
+        {
+          "StopUID": "TXG6460",
+          "StopID": "6460",
+          "StopName": {
+            "Zh_tw": "新豐冷凍",
+            "En": "Xinfeng Freezer Company"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 14,
+          "StopPosition": {
+            "PositionLon": 120.79644576635147,
+            "PositionLat": 24.270512498056426,
+            "GeoHash": "wsmfhf33c"
+          },
+          "StationID": "1422"
+        },
+        {
+          "StopUID": "TXG6213",
+          "StopID": "6213",
+          "StopName": {
+            "Zh_tw": "梅子",
+            "En": "Meizi"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 15,
+          "StopPosition": {
+            "PositionLon": 120.801102,
+            "PositionLat": 24.268689,
+            "GeoHash": "wsmfhcuxm"
+          },
+          "StationID": "1424"
+        },
+        {
+          "StopUID": "TXG5865",
+          "StopID": "5865",
+          "StopName": {
+            "Zh_tw": "明山寺",
+            "En": "Mingshan Temple"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 16,
+          "StopPosition": {
+            "PositionLon": 120.80421,
+            "PositionLat": 24.267457,
+            "GeoHash": "wsmfhcybn"
+          },
+          "StationID": "1426"
+        },
+        {
+          "StopUID": "TXG5101",
+          "StopID": "5101",
+          "StopName": {
+            "Zh_tw": "下土牛",
+            "En": "Xiatu-niu"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 17,
+          "StopPosition": {
+            "PositionLon": 120.806917,
+            "PositionLat": 24.266077,
+            "GeoHash": "wsmfj18bj"
+          },
+          "StationID": "1428"
+        },
+        {
+          "StopUID": "TXG6268",
+          "StopID": "6268",
+          "StopName": {
+            "Zh_tw": "連厝",
+            "En": "Liancuo"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 18,
+          "StopPosition": {
+            "PositionLon": 120.810193,
+            "PositionLat": 24.263977,
+            "GeoHash": "wsmfj157c"
+          },
+          "StationID": "1430"
+        },
+        {
+          "StopUID": "TXG6595",
+          "StopID": "6595",
+          "StopName": {
+            "Zh_tw": "德興里",
+            "En": "Dexing Village"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 19,
+          "StopPosition": {
+            "PositionLon": 120.81270500000001,
+            "PositionLat": 24.262373000000004,
+            "GeoHash": "wsmfj0v4s"
+          },
+          "StationID": "1432"
+        },
+        {
+          "StopUID": "TXG5198",
+          "StopID": "5198",
+          "StopName": {
+            "Zh_tw": "土牛(豐勢路)",
+            "En": "Tuniu(Fengshi Road)"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 20,
+          "StopPosition": {
+            "PositionLon": 120.81607999999999,
+            "PositionLat": 24.260208000000002,
+            "GeoHash": "wsmfj0rtf"
+          },
+          "StationID": "1629"
+        },
+        {
+          "StopUID": "TXG13594",
+          "StopID": "13594",
+          "StopName": {
+            "Zh_tw": "東勢游泳池",
+            "En": "Dongshi Swimming pool"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 21,
+          "StopPosition": {
+            "PositionLon": 120.823511,
+            "PositionLat": 24.261598,
+            "GeoHash": "wsmfj2syp"
+          },
+          "StationID": "2665"
+        },
+        {
+          "StopUID": "TXG5899",
+          "StopID": "5899",
+          "StopName": {
+            "Zh_tw": "東勢",
+            "En": "Dongshi"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 22,
+          "StopPosition": {
+            "PositionLon": 120.827744,
+            "PositionLat": 24.2584,
+            "GeoHash": "wsmfj8056"
+          },
+          "StationID": "6649"
+        },
+        {
+          "StopUID": "TXG5987",
+          "StopID": "5987",
+          "StopName": {
+            "Zh_tw": "南平里",
+            "En": "Nanping Village"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 23,
+          "StopPosition": {
+            "PositionLon": 120.829235,
+            "PositionLat": 24.255013,
+            "GeoHash": "wsmcvx3pt"
+          },
+          "StationID": "1443"
+        },
+        {
+          "StopUID": "TXG5302",
+          "StopID": "5302",
+          "StopName": {
+            "Zh_tw": "中嵙口",
+            "En": "Zhongkekou"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 24,
+          "StopPosition": {
+            "PositionLon": 120.829831,
+            "PositionLat": 24.252501,
+            "GeoHash": "wsmcvx195"
+          },
+          "StationID": "1444"
+        },
+        {
+          "StopUID": "TXG5889",
+          "StopID": "5889",
+          "StopName": {
+            "Zh_tw": "東勢南站",
+            "En": "Dongshi South Station"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 25,
+          "StopPosition": {
+            "PositionLon": 120.830743,
+            "PositionLat": 24.249682,
+            "GeoHash": "wsmcvwd28"
+          },
+          "StationID": "1796"
+        },
+        {
+          "StopUID": "TXG7072",
+          "StopID": "7072",
+          "StopName": {
+            "Zh_tw": "石角口",
+            "En": "Shijiaokou"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 26,
+          "StopPosition": {
+            "PositionLon": 120.832145,
+            "PositionLat": 24.246808,
+            "GeoHash": "wsmcvtgrc"
+          },
+          "StationID": "1446"
+        },
+        {
+          "StopUID": "TXG12952",
+          "StopID": "12952",
+          "StopName": {
+            "Zh_tw": "東勢林業文化園區",
+            "En": "Dongshih Forestry Culture Park"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 27,
+          "StopPosition": {
+            "PositionLon": 120.832891,
+            "PositionLat": 24.244678,
+            "GeoHash": "wsmcvteg6"
+          },
+          "StationID": "7152"
+        },
+        {
+          "StopUID": "TXG7073",
+          "StopID": "7073",
+          "StopName": {
+            "Zh_tw": "新盛里(東勢高工)",
+            "En": "Xinsheng Village(Dongshih Industrial Senior High School)"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 28,
+          "StopPosition": {
+            "PositionLon": 120.833566,
+            "PositionLat": 24.241935,
+            "GeoHash": "wsmcvth7d"
+          },
+          "StationID": "1448"
+        }
+      ],
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG956",
+      "RouteID": "956",
+      "RouteName": {
+        "Zh_tw": "206延",
+        "En": "206E"
+      },
+      "Direction": 1,
+      "Stops": [
+        {
+          "StopUID": "TXG13713",
+          "StopID": "13713",
+          "StopName": {
+            "Zh_tw": "新盛里(東勢高工)",
+            "En": "Xinsheng Village(Dongshih Industrial Senior High School)"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 1,
+          "StopPosition": {
+            "PositionLon": 120.833674,
+            "PositionLat": 24.242234,
+            "GeoHash": "wsmcvthmh"
+          },
+          "StationID": "1449"
+        },
+        {
+          "StopUID": "TXG12953",
+          "StopID": "12953",
+          "StopName": {
+            "Zh_tw": "東勢林業文化園區",
+            "En": "Dongshih Forestry Culture Park"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 2,
+          "StopPosition": {
+            "PositionLon": 120.833042,
+            "PositionLat": 24.244697,
+            "GeoHash": "wsmcvtegt"
+          },
+          "StationID": "7153"
+        },
+        {
+          "StopUID": "TXG5654",
+          "StopID": "5654",
+          "StopName": {
+            "Zh_tw": "石角口",
+            "En": "Shijiaokou"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 3,
+          "StopPosition": {
+            "PositionLon": 120.83173,
+            "PositionLat": 24.248246,
+            "GeoHash": "wsmcvw6br"
+          },
+          "StationID": "1447"
+        },
+        {
+          "StopUID": "TXG5889",
+          "StopID": "5889",
+          "StopName": {
+            "Zh_tw": "東勢南站",
+            "En": "Dongshi South Station"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 4,
+          "StopPosition": {
+            "PositionLon": 120.830743,
+            "PositionLat": 24.249682,
+            "GeoHash": "wsmcvwd28"
+          },
+          "StationID": "1796"
+        },
+        {
+          "StopUID": "TXG5302",
+          "StopID": "5302",
+          "StopName": {
+            "Zh_tw": "中嵙口",
+            "En": "Zhongkekou"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 5,
+          "StopPosition": {
+            "PositionLon": 120.829831,
+            "PositionLat": 24.252501,
+            "GeoHash": "wsmcvx195"
+          },
+          "StationID": "1444"
+        },
+        {
+          "StopUID": "TXG5987",
+          "StopID": "5987",
+          "StopName": {
+            "Zh_tw": "南平里",
+            "En": "Nanping Village"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 6,
+          "StopPosition": {
+            "PositionLon": 120.829235,
+            "PositionLat": 24.255013,
+            "GeoHash": "wsmcvx3pt"
+          },
+          "StationID": "1443"
+        },
+        {
+          "StopUID": "TXG5899",
+          "StopID": "5899",
+          "StopName": {
+            "Zh_tw": "東勢",
+            "En": "Dongshi"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 7,
+          "StopPosition": {
+            "PositionLon": 120.827744,
+            "PositionLat": 24.2584,
+            "GeoHash": "wsmfj8056"
+          },
+          "StationID": "6649"
+        },
+        {
+          "StopUID": "TXG5745",
+          "StopID": "5745",
+          "StopName": {
+            "Zh_tw": "東勢老人會館",
+            "En": "Dongshi Sr. Citizens Hall"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 8,
+          "StopPosition": {
+            "PositionLon": 120.82699,
+            "PositionLat": 24.261112,
+            "GeoHash": "wsmfj2xe0"
+          },
+          "StationID": "1437"
+        },
+        {
+          "StopUID": "TXG5905",
+          "StopID": "5905",
+          "StopName": {
+            "Zh_tw": "東新國中",
+            "En": "Dung-shing Junior High School"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 9,
+          "StopPosition": {
+            "PositionLon": 120.826628,
+            "PositionLat": 24.262858,
+            "GeoHash": "wsmfj2zm2"
+          },
+          "StationID": "1434"
+        },
+        {
+          "StopUID": "TXG6462",
+          "StopID": "6462",
+          "StopName": {
+            "Zh_tw": "新豐新寧街口",
+            "En": "Xinfeng-Xinning Intersection"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 10,
+          "StopPosition": {
+            "PositionLon": 120.825179,
+            "PositionLat": 24.263376,
+            "GeoHash": "wsmfj3n0q"
+          },
+          "StationID": "1642"
+        },
+        {
+          "StopUID": "TXG5198",
+          "StopID": "5198",
+          "StopName": {
+            "Zh_tw": "土牛(豐勢路)",
+            "En": "Tuniu(Fengshi Road)"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 11,
+          "StopPosition": {
+            "PositionLon": 120.81607999999999,
+            "PositionLat": 24.260208000000002,
+            "GeoHash": "wsmfj0rtf"
+          },
+          "StationID": "1629"
+        },
+        {
+          "StopUID": "TXG6595",
+          "StopID": "6595",
+          "StopName": {
+            "Zh_tw": "德興里",
+            "En": "Dexing Village"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 12,
+          "StopPosition": {
+            "PositionLon": 120.81270500000001,
+            "PositionLat": 24.262373000000004,
+            "GeoHash": "wsmfj0v4s"
+          },
+          "StationID": "1432"
+        },
+        {
+          "StopUID": "TXG6268",
+          "StopID": "6268",
+          "StopName": {
+            "Zh_tw": "連厝",
+            "En": "Liancuo"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 13,
+          "StopPosition": {
+            "PositionLon": 120.810193,
+            "PositionLat": 24.263977,
+            "GeoHash": "wsmfj157c"
+          },
+          "StationID": "1430"
+        },
+        {
+          "StopUID": "TXG5101",
+          "StopID": "5101",
+          "StopName": {
+            "Zh_tw": "下土牛",
+            "En": "Xiatu-niu"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 14,
+          "StopPosition": {
+            "PositionLon": 120.806917,
+            "PositionLat": 24.266077,
+            "GeoHash": "wsmfj18bj"
+          },
+          "StationID": "1428"
+        },
+        {
+          "StopUID": "TXG5865",
+          "StopID": "5865",
+          "StopName": {
+            "Zh_tw": "明山寺",
+            "En": "Mingshan Temple"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 15,
+          "StopPosition": {
+            "PositionLon": 120.80421,
+            "PositionLat": 24.267457,
+            "GeoHash": "wsmfhcybn"
+          },
+          "StationID": "1426"
+        },
+        {
+          "StopUID": "TXG6963",
+          "StopID": "6963",
+          "StopName": {
+            "Zh_tw": "梅子",
+            "En": "Meizi"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 16,
+          "StopPosition": {
+            "PositionLon": 120.802346,
+            "PositionLat": 24.268384,
+            "GeoHash": "wsmfhcvtd"
+          },
+          "StationID": "1425"
+        },
+        {
+          "StopUID": "TXG6957",
+          "StopID": "6957",
+          "StopName": {
+            "Zh_tw": "新豐冷凍",
+            "En": "Xinfeng Freezer Company"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 17,
+          "StopPosition": {
+            "PositionLon": 120.796292,
+            "PositionLat": 24.270797,
+            "GeoHash": "wsmfhf35t"
+          },
+          "StationID": "1423"
+        },
+        {
+          "StopUID": "TXG6958",
+          "StopID": "6958",
+          "StopName": {
+            "Zh_tw": "社寮角",
+            "En": "Sheliaojiao"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 18,
+          "StopPosition": {
+            "PositionLon": 120.792001,
+            "PositionLat": 24.272648,
+            "GeoHash": "wsmfhdwn3"
+          },
+          "StationID": "1421"
+        },
+        {
+          "StopUID": "TXG6959",
+          "StopID": "6959",
+          "StopName": {
+            "Zh_tw": "情人木橋",
+            "En": "Lovers Wood Bridge"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 19,
+          "StopPosition": {
+            "PositionLon": 120.788718,
+            "PositionLat": 24.274069,
+            "GeoHash": "wsmfhdgwt"
+          },
+          "StationID": "1419"
+        },
+        {
+          "StopUID": "TXG6960",
+          "StopID": "6960",
+          "StopName": {
+            "Zh_tw": "九房厝",
+            "En": "Jiufangcuo"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 20,
+          "StopPosition": {
+            "PositionLon": 120.784115,
+            "PositionLat": 24.274685,
+            "GeoHash": "wsmfhe063"
+          },
+          "StationID": "1417"
+        },
+        {
+          "StopUID": "TXG6961",
+          "StopID": "6961",
+          "StopName": {
+            "Zh_tw": "石岡區公所",
+            "En": "Shihgang District Office"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 21,
+          "StopPosition": {
+            "PositionLon": 120.780564,
+            "PositionLat": 24.275047,
+            "GeoHash": "wsmfh7jsr"
+          },
+          "StationID": "1415"
+        },
+        {
+          "StopUID": "TXG6962",
+          "StopID": "6962",
+          "StopName": {
+            "Zh_tw": "石岡",
+            "En": "Shihgang"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 22,
+          "StopPosition": {
+            "PositionLon": 120.775892,
+            "PositionLat": 24.276687,
+            "GeoHash": "wsmfh76mf"
+          },
+          "StationID": "1413"
+        },
+        {
+          "StopUID": "TXG18058",
+          "StopID": "18058",
+          "StopName": {
+            "Zh_tw": "石岡國小",
+            "En": "Shigang Elementary School"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 23,
+          "StopPosition": {
+            "PositionLon": 120.774025,
+            "PositionLat": 24.276692,
+            "GeoHash": "wsmfh72vy"
+          },
+          "StationID": "2995"
+        },
+        {
+          "StopUID": "TXG5657",
+          "StopID": "5657",
+          "StopName": {
+            "Zh_tw": "石岡",
+            "En": "Shihgang"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 24,
+          "StopPosition": {
+            "PositionLon": 120.776321,
+            "PositionLat": 24.276565,
+            "GeoHash": "wsmfh76th"
+          },
+          "StationID": "1412"
+        },
+        {
+          "StopUID": "TXG5659",
+          "StopID": "5659",
+          "StopName": {
+            "Zh_tw": "石岡區公所",
+            "En": "Shihgang District Office"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 25,
+          "StopPosition": {
+            "PositionLon": 120.780762,
+            "PositionLat": 24.274966,
+            "GeoHash": "wsmfh7jgg"
+          },
+          "StationID": "1414"
+        },
+        {
+          "StopUID": "TXG5029",
+          "StopID": "5029",
+          "StopName": {
+            "Zh_tw": "九房厝",
+            "En": "Jiufangcuo"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 26,
+          "StopPosition": {
+            "PositionLon": 120.784266,
+            "PositionLat": 24.274476,
+            "GeoHash": "wsmfhe03j"
+          },
+          "StationID": "1416"
+        },
+        {
+          "StopUID": "TXG6194",
+          "StopID": "6194",
+          "StopName": {
+            "Zh_tw": "情人木橋",
+            "En": "Lovers Wood Bridge"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 27,
+          "StopPosition": {
+            "PositionLon": 120.788629,
+            "PositionLat": 24.273917,
+            "GeoHash": "wsmfhdgtg"
+          },
+          "StationID": "1418"
+        },
+        {
+          "StopUID": "TXG5947",
+          "StopID": "5947",
+          "StopName": {
+            "Zh_tw": "社寮角",
+            "En": "Sheliaojiao"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 28,
+          "StopPosition": {
+            "PositionLon": 120.791655,
+            "PositionLat": 24.272624,
+            "GeoHash": "wsmfhdty3"
+          },
+          "StationID": "1420"
+        },
+        {
+          "StopUID": "TXG6460",
+          "StopID": "6460",
+          "StopName": {
+            "Zh_tw": "新豐冷凍",
+            "En": "Xinfeng Freezer Company"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 29,
+          "StopPosition": {
+            "PositionLon": 120.79644576635147,
+            "PositionLat": 24.270512498056426,
+            "GeoHash": "wsmfhf33c"
+          },
+          "StationID": "1422"
+        },
+        {
+          "StopUID": "TXG6213",
+          "StopID": "6213",
+          "StopName": {
+            "Zh_tw": "梅子",
+            "En": "Meizi"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 30,
+          "StopPosition": {
+            "PositionLon": 120.801102,
+            "PositionLat": 24.268689,
+            "GeoHash": "wsmfhcuxm"
+          },
+          "StationID": "1424"
+        },
+        {
+          "StopUID": "TXG6956",
+          "StopID": "6956",
+          "StopName": {
+            "Zh_tw": "石岡國中",
+            "En": "Shigang Junior High School"
+          },
+          "StopBoarding": 0,
+          "StopSequence": 31,
+          "StopPosition": {
+            "PositionLon": 120.796976,
+            "PositionLat": 24.267948,
+            "GeoHash": "wsmfhccej"
+          },
+          "StationID": "6548"
+        }
+      ],
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    }
+  ]
+

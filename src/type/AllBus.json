@@ -1,0 +1,1868 @@
+[
+    {
+      "RouteUID": "TXG1",
+      "RouteID": "1",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "15",
+          "OperatorName": {
+            "Zh_tw": "中台灣客運",
+            "En": "Ct Bus Co., Ltd."
+          },
+          "OperatorCode": "CenterTaiwanBus",
+          "OperatorNo": "0401"
+        },
+        {
+          "OperatorID": "3",
+          "OperatorName": {
+            "Zh_tw": "統聯客運",
+            "En": "United Highway Bus Co., Ltd."
+          },
+          "OperatorCode": "UnitedHighwayBus",
+          "OperatorNo": "1201"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG1",
+          "SubRouteID": "1",
+          "OperatorIDs": [
+            "15",
+            "3"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "1",
+            "En": "1"
+          },
+          "Headsign": "臺中刑務所演武場(國漫館) - 中臺科技大學校區",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG1",
+          "SubRouteID": "1",
+          "OperatorIDs": [
+            "15",
+            "3"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "1",
+            "En": "1"
+          },
+          "Headsign": "臺中刑務所演武場(國漫館) - 中臺科技大學校區",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "1",
+        "En": "1"
+      },
+      "DepartureStopNameZh": "臺中刑務所演武場(國漫館)",
+      "DepartureStopNameEn": "Budokan Martial Arts Hall (NTMC)",
+      "DestinationStopNameZh": "中臺科技大學校區",
+      "DestinationStopNameEn": "C.T.U.S.T. Campus",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/1",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG1000",
+      "RouteID": "1000",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG1000",
+          "SubRouteID": "1000",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "100",
+            "En": "100"
+          },
+          "Headsign": "高鐵臺中站 - 臺中車站(臺灣大道) - 高鐵臺中站",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG1000",
+          "SubRouteID": "1000",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "100",
+            "En": "100"
+          },
+          "Headsign": "高鐵臺中站 - 臺中車站(臺灣大道) - 高鐵臺中站",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "100",
+        "En": "100"
+      },
+      "DepartureStopNameZh": "高鐵臺中站",
+      "DepartureStopNameEn": "HSR Taichung Station",
+      "DestinationStopNameZh": "臺中車站(臺灣大道)",
+      "DestinationStopNameEn": "Taichung Station(Taiwan Boulevard)",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG101",
+      "RouteID": "101",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG101",
+          "SubRouteID": "101",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "101",
+            "En": "101"
+          },
+          "Headsign": "彰化車站 - 敦化后庄七街口",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG101",
+          "SubRouteID": "101",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "101",
+            "En": "101"
+          },
+          "Headsign": "彰化車站 - 敦化后庄七街口",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "101",
+        "En": "101"
+      },
+      "DepartureStopNameZh": "敦化后庄七街口",
+      "DepartureStopNameEn": "Dunhua-Houzhuang 7th Intersection",
+      "DestinationStopNameZh": "彰化車站",
+      "DestinationStopNameEn": "Changhua Station",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/101",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG105",
+      "RouteID": "105",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "19",
+          "OperatorName": {
+            "Zh_tw": "中鹿客運",
+            "En": "Chung-Lu Bus Co., Ltd."
+          },
+          "OperatorCode": "ChungluBus",
+          "OperatorNo": "0402"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG105",
+          "SubRouteID": "105",
+          "OperatorIDs": [
+            "19"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "105",
+            "En": "105"
+          },
+          "Headsign": "四張犁 - 臺中車站 - 龍井",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG105",
+          "SubRouteID": "105",
+          "OperatorIDs": [
+            "19"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "105",
+            "En": "105"
+          },
+          "Headsign": "四張犁 - 臺中車站 - 龍井",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "105",
+        "En": "105"
+      },
+      "DepartureStopNameZh": "四張犁",
+      "DepartureStopNameEn": "Sizhangli",
+      "DestinationStopNameZh": "龍井",
+      "DestinationStopNameEn": "Longjing",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/105",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG1051",
+      "RouteID": "1051",
+      "HasSubRoutes": false,
+      "Operators": [
+        {
+          "OperatorID": "19",
+          "OperatorName": {
+            "Zh_tw": "中鹿客運",
+            "En": "Chung-Lu Bus Co., Ltd."
+          },
+          "OperatorCode": "ChungluBus",
+          "OperatorNo": "0402"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG1051",
+          "SubRouteID": "1051",
+          "OperatorIDs": [
+            "19"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "105副",
+            "En": "105V"
+          },
+          "Headsign": "大道國中校門口 - 四張犁",
+          "Direction": 0
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "105副",
+        "En": "105V"
+      },
+      "DepartureStopNameZh": "大道國中校門口",
+      "DepartureStopNameEn": "Da Dau Junior High School(School gate)",
+      "DestinationStopNameZh": "四張犁",
+      "DestinationStopNameEn": "Sizhangli",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG1052",
+      "RouteID": "1052",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "19",
+          "OperatorName": {
+            "Zh_tw": "中鹿客運",
+            "En": "Chung-Lu Bus Co., Ltd."
+          },
+          "OperatorCode": "ChungluBus",
+          "OperatorNo": "0402"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG1052",
+          "SubRouteID": "1052",
+          "OperatorIDs": [
+            "19"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "105延",
+            "En": "105E"
+          },
+          "Headsign": "四張犁 - 臺中車站 - 龍津高中",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG1052",
+          "SubRouteID": "1052",
+          "OperatorIDs": [
+            "19"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "105延",
+            "En": "105E"
+          },
+          "Headsign": "四張犁 - 臺中車站 - 龍津高中",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "105延",
+        "En": "105E"
+      },
+      "DepartureStopNameZh": "四張犁",
+      "DepartureStopNameEn": "Sizhangli",
+      "DestinationStopNameZh": "龍津高中",
+      "DestinationStopNameEn": "Long-Jin Senior High School",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG107",
+      "RouteID": "107",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG107",
+          "SubRouteID": "107",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "107",
+            "En": "107"
+          },
+          "Headsign": "警察電台  - 舊正(烏溪橋頭)",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG107",
+          "SubRouteID": "107",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "107",
+            "En": "107"
+          },
+          "Headsign": "警察電台  - 舊正(烏溪橋頭)",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "107",
+        "En": "107"
+      },
+      "DepartureStopNameZh": "黎明新村",
+      "DepartureStopNameEn": "Liming Community",
+      "DestinationStopNameZh": "舊正",
+      "DestinationStopNameEn": "Jiuzheng",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/107",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG1071",
+      "RouteID": "1071",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG1071",
+          "SubRouteID": "1071",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "107延",
+            "En": "107E"
+          },
+          "Headsign": "警察電台 - 舊正社區停車場",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG1071",
+          "SubRouteID": "1071",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "107延",
+            "En": "107E"
+          },
+          "Headsign": "警察電台 - 舊正社區停車場",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "107延",
+        "En": "107E"
+      },
+      "DepartureStopNameZh": "黎明新村",
+      "DepartureStopNameEn": "Liming Community",
+      "DestinationStopNameZh": "舊正社區停車場",
+      "DestinationStopNameEn": "Jiuzheng Community Parking Lot",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/1071",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG108",
+      "RouteID": "108",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG108",
+          "SubRouteID": "108",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "108",
+            "En": "108"
+          },
+          "Headsign": "港尾 - 南開科技大學校區",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG108",
+          "SubRouteID": "108",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "108",
+            "En": "108"
+          },
+          "Headsign": "港尾 - 南開科技大學校區",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "108",
+        "En": "108"
+      },
+      "DepartureStopNameZh": "港尾",
+      "DepartureStopNameEn": "Gangwei",
+      "DestinationStopNameZh": "南開科技大學校區",
+      "DestinationStopNameEn": "Nan Kai University of Technology Campus",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/108",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG11",
+      "RouteID": "11",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        },
+        {
+          "OperatorID": "5",
+          "OperatorName": {
+            "Zh_tw": "全航客運",
+            "En": "Chuan Hang Bus Co., Ltd."
+          },
+          "OperatorCode": "ChuanHangBus",
+          "OperatorNo": "0602"
+        },
+        {
+          "OperatorID": "6",
+          "OperatorName": {
+            "Zh_tw": "豐原客運",
+            "En": "Fengyuan Bus Co., Ltd."
+          },
+          "OperatorCode": "FengyuanBus",
+          "OperatorNo": "1801"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG11",
+          "SubRouteID": "11",
+          "OperatorIDs": [
+            "1",
+            "5",
+            "6"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "11",
+            "En": "11"
+          },
+          "Headsign": "臺中車站 - 科博館 - 臺中車站",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG11",
+          "SubRouteID": "11",
+          "OperatorIDs": [
+            "1",
+            "5",
+            "6"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "11",
+            "En": "11"
+          },
+          "Headsign": "臺中車站 - 科博館 - 臺中車站",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "11",
+        "En": "11"
+      },
+      "DepartureStopNameZh": "臺中車站(民族路口)-右環",
+      "DepartureStopNameEn": "Taichung Station(Minzu Intersection) - Right Circl",
+      "DestinationStopNameZh": "臺中車站(成功路口)-左環",
+      "DestinationStopNameEn": "Taichung Station(Chenggong Intersection) - Left Ci",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/11",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG111",
+      "RouteID": "111",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "4",
+          "OperatorName": {
+            "Zh_tw": "巨業交通",
+            "En": "Geya Bus Co., Ltd."
+          },
+          "OperatorCode": "GeyaBus",
+          "OperatorNo": "0504"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG111",
+          "SubRouteID": "111",
+          "OperatorIDs": [
+            "4"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "111",
+            "En": "111"
+          },
+          "Headsign": "清水車站 - 鰲峰山公園 - 臺中港旅客服務中心",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG111",
+          "SubRouteID": "111",
+          "OperatorIDs": [
+            "4"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "111",
+            "En": "111"
+          },
+          "Headsign": "清水車站 - 鰲峰山公園 - 臺中港旅客服務中心",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "111",
+        "En": "111"
+      },
+      "DepartureStopNameZh": "清水車站",
+      "DepartureStopNameEn": "Qingshui Station",
+      "DestinationStopNameZh": "臺中港旅客服務中心",
+      "DestinationStopNameEn": "Taichung Harbor Passenger Service Center",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/111",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG1151",
+      "RouteID": "1151",
+      "HasSubRoutes": false,
+      "Operators": [
+        {
+          "OperatorID": "15",
+          "OperatorName": {
+            "Zh_tw": "中台灣客運",
+            "En": "Ct Bus Co., Ltd."
+          },
+          "OperatorCode": "CenterTaiwanBus",
+          "OperatorNo": "0401"
+        },
+        {
+          "OperatorID": "3",
+          "OperatorName": {
+            "Zh_tw": "統聯客運",
+            "En": "United Highway Bus Co., Ltd."
+          },
+          "OperatorCode": "UnitedHighwayBus",
+          "OperatorNo": "1201"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG1151",
+          "SubRouteID": "1151",
+          "OperatorIDs": [
+            "15",
+            "3"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "151A",
+            "En": "151A"
+          },
+          "Headsign": "朝陽科技大學 - 臺中市議會",
+          "Direction": 0
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "151A",
+        "En": "151A"
+      },
+      "DepartureStopNameZh": "朝陽科技大學",
+      "DepartureStopNameEn": "Chaoyang University of Technology",
+      "DestinationStopNameZh": "臺中市議會",
+      "DestinationStopNameEn": "Taichung City Council",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/1151",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG12",
+      "RouteID": "12",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        },
+        {
+          "OperatorID": "5",
+          "OperatorName": {
+            "Zh_tw": "全航客運",
+            "En": "Chuan Hang Bus Co., Ltd."
+          },
+          "OperatorCode": "ChuanHangBus",
+          "OperatorNo": "0602"
+        },
+        {
+          "OperatorID": "6",
+          "OperatorName": {
+            "Zh_tw": "豐原客運",
+            "En": "Fengyuan Bus Co., Ltd."
+          },
+          "OperatorCode": "FengyuanBus",
+          "OperatorNo": "1801"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG12",
+          "SubRouteID": "12",
+          "OperatorIDs": [
+            "1",
+            "5",
+            "6"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "12",
+            "En": "12"
+          },
+          "Headsign": "明德高中 - 豐原高中",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG12",
+          "SubRouteID": "12",
+          "OperatorIDs": [
+            "1",
+            "5",
+            "6"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "12",
+            "En": "12"
+          },
+          "Headsign": "明德高中 - 豐原高中",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "12",
+        "En": "12"
+      },
+      "DepartureStopNameZh": "明德高中",
+      "DepartureStopNameEn": "Mingder Senior High School",
+      "DestinationStopNameZh": "豐原高中",
+      "DestinationStopNameEn": "Fengyuan Senior High School",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/12",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG121",
+      "RouteID": "121",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        },
+        {
+          "OperatorID": "5",
+          "OperatorName": {
+            "Zh_tw": "全航客運",
+            "En": "Chuan Hang Bus Co., Ltd."
+          },
+          "OperatorCode": "ChuanHangBus",
+          "OperatorNo": "0602"
+        },
+        {
+          "OperatorID": "6",
+          "OperatorName": {
+            "Zh_tw": "豐原客運",
+            "En": "Fengyuan Bus Co., Ltd."
+          },
+          "OperatorCode": "FengyuanBus",
+          "OperatorNo": "1801"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG121",
+          "SubRouteID": "121",
+          "OperatorIDs": [
+            "1",
+            "5",
+            "6"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "12延",
+            "En": "12E"
+          },
+          "Headsign": "明德高中 - 豐原鎮清宮",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG121",
+          "SubRouteID": "121",
+          "OperatorIDs": [
+            "1",
+            "5",
+            "6"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "12延",
+            "En": "12E"
+          },
+          "Headsign": "明德高中 - 豐原鎮清宮",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "12延",
+        "En": "12E"
+      },
+      "DepartureStopNameZh": "明德高中",
+      "DepartureStopNameEn": "Mingder Senior High School",
+      "DestinationStopNameZh": "豐原鎮清宮",
+      "DestinationStopNameEn": "Fengyuan Zhenqing Temple",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG123",
+      "RouteID": "123",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "19",
+          "OperatorName": {
+            "Zh_tw": "中鹿客運",
+            "En": "Chung-Lu Bus Co., Ltd."
+          },
+          "OperatorCode": "ChungluBus",
+          "OperatorNo": "0402"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG123",
+          "SubRouteID": "123",
+          "OperatorIDs": [
+            "19"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "123",
+            "En": "123"
+          },
+          "Headsign": "臺中慈濟醫院-梧棲觀光漁港",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG123",
+          "SubRouteID": "123",
+          "OperatorIDs": [
+            "19"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "123",
+            "En": "123"
+          },
+          "Headsign": "臺中慈濟醫院-梧棲觀光漁港",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "123",
+        "En": "123"
+      },
+      "DepartureStopNameZh": "臺中慈濟醫院",
+      "DepartureStopNameEn": "Taichung  Tzu Chi Hospital",
+      "DestinationStopNameZh": "梧棲觀光漁港",
+      "DestinationStopNameEn": "Wuci Fishing Port",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/123",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG127",
+      "RouteID": "127",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "4",
+          "OperatorName": {
+            "Zh_tw": "巨業交通",
+            "En": "Geya Bus Co., Ltd."
+          },
+          "OperatorCode": "GeyaBus",
+          "OperatorNo": "0504"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG127",
+          "SubRouteID": "127",
+          "OperatorIDs": [
+            "4"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "127",
+            "En": "127"
+          },
+          "Headsign": "豐樂雕塑公園 - 臺中洲際棒球場",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG127",
+          "SubRouteID": "127",
+          "OperatorIDs": [
+            "4"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "127",
+            "En": "127"
+          },
+          "Headsign": "豐樂雕塑公園 - 臺中洲際棒球場",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "127",
+        "En": "127"
+      },
+      "DepartureStopNameZh": "豐樂雕塑公園",
+      "DepartureStopNameEn": "Fong Le Sculpture Park",
+      "DestinationStopNameZh": "臺中洲際棒球場",
+      "DestinationStopNameEn": "Intercontinental Baseball Stadium",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/127",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG1271",
+      "RouteID": "1271",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "4",
+          "OperatorName": {
+            "Zh_tw": "巨業交通",
+            "En": "Geya Bus Co., Ltd."
+          },
+          "OperatorCode": "GeyaBus",
+          "OperatorNo": "0504"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG1271",
+          "SubRouteID": "1271",
+          "OperatorIDs": [
+            "4"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "127延",
+            "En": "127E"
+          },
+          "Headsign": "捷運大慶站(建國北路) - 臺中洲際棒球場",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG1271",
+          "SubRouteID": "1271",
+          "OperatorIDs": [
+            "4"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "127延",
+            "En": "127E"
+          },
+          "Headsign": "捷運大慶站(建國北路) - 臺中洲際棒球場",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "127延",
+        "En": "127E"
+      },
+      "DepartureStopNameZh": "捷運大慶站(建國北路)",
+      "DepartureStopNameEn": "MRT Daqing Station(Jianguo N. Rd.)",
+      "DestinationStopNameZh": "臺中洲際棒球場",
+      "DestinationStopNameEn": "Intercontinental Baseball Stadium",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/1271",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG128",
+      "RouteID": "128",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG128",
+          "SubRouteID": "128",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "128",
+            "En": "128"
+          },
+          "Headsign": "大雅 - 清水",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG128",
+          "SubRouteID": "128",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "128",
+            "En": "128"
+          },
+          "Headsign": "大雅 - 清水",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "128",
+        "En": "128"
+      },
+      "DepartureStopNameZh": "大雅",
+      "DepartureStopNameEn": "Daya",
+      "DestinationStopNameZh": "清水",
+      "DestinationStopNameEn": "Qingshui",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/128",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG129",
+      "RouteID": "129",
+      "HasSubRoutes": false,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG129",
+          "SubRouteID": "129",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "128區",
+            "En": "128S"
+          },
+          "Headsign": "大雅 - 梧棲",
+          "Direction": 0
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "128區",
+        "En": "128S"
+      },
+      "DepartureStopNameZh": "大雅",
+      "DepartureStopNameEn": "Daya",
+      "DestinationStopNameZh": "梧棲",
+      "DestinationStopNameEn": "Wuqi",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/129",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG131",
+      "RouteID": "131",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG131",
+          "SubRouteID": "131",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "131",
+            "En": "131"
+          },
+          "Headsign": "北屯區行政大樓  - 朝陽科技大學",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG131",
+          "SubRouteID": "131",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "131",
+            "En": "131"
+          },
+          "Headsign": "北屯區行政大樓  - 朝陽科技大學",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "131",
+        "En": "131"
+      },
+      "DepartureStopNameZh": "北屯區行政大樓",
+      "DepartureStopNameEn": "Beitun District Admin. Building",
+      "DestinationStopNameZh": "朝陽科技大學",
+      "DestinationStopNameEn": "Chaoyang University of Technology",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/131",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG132",
+      "RouteID": "132",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG132",
+          "SubRouteID": "132",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "132",
+            "En": "132"
+          },
+          "Headsign": "北屯區行政大樓-朝陽科技大學 ",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG132",
+          "SubRouteID": "132",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "132",
+            "En": "132"
+          },
+          "Headsign": "北屯區行政大樓-朝陽科技大學 ",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "132",
+        "En": "132"
+      },
+      "DepartureStopNameZh": "北屯區行政大樓",
+      "DepartureStopNameEn": "Beitun District Admin. Building",
+      "DestinationStopNameZh": "朝陽科技大學",
+      "DestinationStopNameEn": "Chaoyang University of Technology",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/132",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG133",
+      "RouteID": "133",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG133",
+          "SubRouteID": "133",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "133",
+            "En": "133"
+          },
+          "Headsign": "新烏日車站 - 朝陽科技大學",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG133",
+          "SubRouteID": "133",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "133",
+            "En": "133"
+          },
+          "Headsign": "新烏日車站 - 朝陽科技大學",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "133",
+        "En": "133"
+      },
+      "DepartureStopNameZh": "新烏日車站",
+      "DepartureStopNameEn": "Xinwuri Station",
+      "DestinationStopNameZh": "朝陽科技大學",
+      "DestinationStopNameEn": "Chaoyang University of Technology",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/133",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG14",
+      "RouteID": "14",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG14",
+          "SubRouteID": "14",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "14",
+            "En": "14"
+          },
+          "Headsign": "干城站 - 舊庄",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG14",
+          "SubRouteID": "14",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "14",
+            "En": "14"
+          },
+          "Headsign": "干城站 - 舊庄",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "14",
+        "En": "14"
+      },
+      "DepartureStopNameZh": "干城站",
+      "DepartureStopNameEn": "Gancheng Station",
+      "DestinationStopNameZh": "舊庄",
+      "DestinationStopNameEn": "Jiuzhuang",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/14",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG141",
+      "RouteID": "141",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG141",
+          "SubRouteID": "141",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "14副",
+            "En": "14V"
+          },
+          "Headsign": "干城站 - 神岡區公所",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG141",
+          "SubRouteID": "141",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "14副",
+            "En": "14V"
+          },
+          "Headsign": "干城站 - 神岡區公所",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "14副",
+        "En": "14V"
+      },
+      "DepartureStopNameZh": "干城站",
+      "DepartureStopNameEn": "Gancheng Station",
+      "DestinationStopNameZh": "神岡區公所",
+      "DestinationStopNameEn": "Shengang District Office",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/141",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG1411",
+      "RouteID": "1411",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG1411",
+          "SubRouteID": "1411",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "14副2",
+            "En": "14V2"
+          },
+          "Headsign": "干城站 - 大圳厚生路口",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG1411",
+          "SubRouteID": "1411",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "14副2",
+            "En": "14V2"
+          },
+          "Headsign": "干城站 - 大圳厚生路口",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "14副2",
+        "En": "14V2"
+      },
+      "DepartureStopNameZh": "干城站",
+      "DepartureStopNameEn": "Gancheng Station",
+      "DestinationStopNameZh": "大圳厚生路口",
+      "DestinationStopNameEn": "Dazun-Housheng Intersection",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/1411",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG142",
+      "RouteID": "142",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG142",
+          "SubRouteID": "142",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "142",
+            "En": "142"
+          },
+          "Headsign": "干城站-豐年社區五站-干城站",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG142",
+          "SubRouteID": "142",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "142",
+            "En": "142"
+          },
+          "Headsign": "干城站-豐年社區五站-干城站",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "142",
+        "En": "142"
+      },
+      "DepartureStopNameZh": "干城站",
+      "DepartureStopNameEn": "Gancheng Station",
+      "DestinationStopNameZh": "豐年社區",
+      "DestinationStopNameEn": "Fengnian Community",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/142",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG144",
+      "RouteID": "144",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG144",
+          "SubRouteID": "144",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "14延",
+            "En": "14E"
+          },
+          "Headsign": "干城站 - 南清宮",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG144",
+          "SubRouteID": "144",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "14延",
+            "En": "14E"
+          },
+          "Headsign": "干城站 - 南清宮",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "14延",
+        "En": "14E"
+      },
+      "DepartureStopNameZh": "干城站",
+      "DepartureStopNameEn": "Gancheng Station",
+      "DestinationStopNameZh": "南清宮",
+      "DestinationStopNameEn": "Nanqing Temple",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/144",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG15",
+      "RouteID": "15",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "1",
+          "OperatorName": {
+            "Zh_tw": "台中客運",
+            "En": "Taichung Bus Co., Ltd."
+          },
+          "OperatorCode": "TaichungBus",
+          "OperatorNo": "0501"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG15",
+          "SubRouteID": "15",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "15",
+            "En": "15"
+          },
+          "Headsign": "臺中刑務所演武場(國漫館) - 國軍臺中總醫院",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG15",
+          "SubRouteID": "15",
+          "OperatorIDs": [
+            "1"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "15",
+            "En": "15"
+          },
+          "Headsign": "臺中刑務所演武場(國漫館) - 國軍臺中總醫院",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "15",
+        "En": "15"
+      },
+      "DepartureStopNameZh": "光明國中(公館路46巷)",
+      "DepartureStopNameEn": "Guang Ming Junior High School(Gongguan Rd. 46th La",
+      "DestinationStopNameZh": "國軍臺中總醫院",
+      "DestinationStopNameEn": "Taichung Armed Forces General Hospital",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/15",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG151",
+      "RouteID": "151",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "15",
+          "OperatorName": {
+            "Zh_tw": "中台灣客運",
+            "En": "Ct Bus Co., Ltd."
+          },
+          "OperatorCode": "CenterTaiwanBus",
+          "OperatorNo": "0401"
+        },
+        {
+          "OperatorID": "3",
+          "OperatorName": {
+            "Zh_tw": "統聯客運",
+            "En": "United Highway Bus Co., Ltd."
+          },
+          "OperatorCode": "UnitedHighwayBus",
+          "OperatorNo": "1201"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG151",
+          "SubRouteID": "151",
+          "OperatorIDs": [
+            "15",
+            "3"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "151",
+            "En": "151"
+          },
+          "Headsign": "臺中市議會 - 朝陽科技大學",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG151",
+          "SubRouteID": "151",
+          "OperatorIDs": [
+            "15",
+            "3"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "151",
+            "En": "151"
+          },
+          "Headsign": "臺中市議會 - 朝陽科技大學",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "151",
+        "En": "151"
+      },
+      "DepartureStopNameZh": "臺中市議會",
+      "DepartureStopNameEn": "Taichung City Council",
+      "DestinationStopNameZh": "朝陽科技大學",
+      "DestinationStopNameEn": "Chaoyang University of Technology",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/151",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    },
+    {
+      "RouteUID": "TXG152",
+      "RouteID": "152",
+      "HasSubRoutes": true,
+      "Operators": [
+        {
+          "OperatorID": "15",
+          "OperatorName": {
+            "Zh_tw": "中台灣客運",
+            "En": "Ct Bus Co., Ltd."
+          },
+          "OperatorCode": "CenterTaiwanBus",
+          "OperatorNo": "0401"
+        },
+        {
+          "OperatorID": "3",
+          "OperatorName": {
+            "Zh_tw": "統聯客運",
+            "En": "United Highway Bus Co., Ltd."
+          },
+          "OperatorCode": "UnitedHighwayBus",
+          "OperatorNo": "1201"
+        }
+      ],
+      "AuthorityID": "007",
+      "ProviderID": "007",
+      "SubRoutes": [
+        {
+          "SubRouteUID": "TXG152",
+          "SubRouteID": "152",
+          "OperatorIDs": [
+            "15",
+            "3"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "152",
+            "En": "152"
+          },
+          "Headsign": "臺中市議會 - 翁子國小",
+          "Direction": 0
+        },
+        {
+          "SubRouteUID": "TXG152",
+          "SubRouteID": "152",
+          "OperatorIDs": [
+            "15",
+            "3"
+          ],
+          "SubRouteName": {
+            "Zh_tw": "152",
+            "En": "152"
+          },
+          "Headsign": "臺中市議會 - 翁子國小",
+          "Direction": 1
+        }
+      ],
+      "BusRouteType": 11,
+      "RouteName": {
+        "Zh_tw": "152",
+        "En": "152"
+      },
+      "DepartureStopNameZh": "臺中市議會",
+      "DepartureStopNameEn": "Taichung City Council",
+      "DestinationStopNameZh": "翁子國小",
+      "DestinationStopNameEn": "Wong-Zi Elementary School",
+      "RouteMapImageUrl": "https://citybus.taichung.gov.tw/ebus/route-map/152",
+      "City": "Taichung",
+      "CityCode": "TXG",
+      "UpdateTime": "2024-01-09T19:10:07+08:00",
+      "VersionID": 5872
+    }
+  ]

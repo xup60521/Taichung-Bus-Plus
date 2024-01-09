@@ -4,7 +4,7 @@ import type { AllBusType } from "@/type/AllBusType"
 import type { BusRouteType } from "@/type/BusRouteType"
 import { trpc } from "../_trpc/client"
 import Select from "react-select"
-import { useEffect, useState } from "react"
+import { useEffect, useId, useState } from "react"
 
 export default function Bus() {
 
@@ -14,8 +14,12 @@ export default function Bus() {
    const selectOptions = data.data?.map(d=>{
     return {
         "value": d.RouteName.Zh_tw,
-        "label": d.RouteName.Zh_tw
+        "label": d.RouteName.Zh_tw,
+        "key": d.RouteName.Zh_tw,
     }
+   })
+   const selectKeys = data.data?.map(d=>{
+    return d.RouteName.Zh_tw
    })
 
     return (
@@ -23,7 +27,7 @@ export default function Bus() {
             <div className="flex h-5/6">
                 <div className="w-96 h-full p-4 flex flex-col items-center gap-2">
                     <p className="font-black">---選擇路線---</p>
-                    <Select onChange={(e)=>setBus(e?.value ?? "")} options={selectOptions} className="text-black w-full" />
+                    <Select onChange={(e)=>setBus(e?.value ?? "")} options={selectOptions} instanceId={useId()} className="text-black w-full" />
                     <div className=" flex-grow w-full overflow-y-auto flex flex-col gap-2">
                         <StopList routeDetail={routeDetail} direction={1} bus={bus} />
                     </div>

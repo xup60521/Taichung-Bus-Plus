@@ -20,7 +20,10 @@ export default function Bus() {
         "key": d.RouteName.Zh_tw,
     }
    })
-   const isOneWay = (routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
+   let isOneWay = false;
+   if (Array.isArray(routeDetail.data)) {
+        isOneWay = (routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
+   }
 
     return (
         <div className=" bg-slate-900 w-screen h-screen text-white overflow-x-hidden flex flex-col justify-center items-center">

@@ -31,6 +31,7 @@ export default function Bus() {
                     <div className=" flex-grow w-full overflow-y-auto flex flex-col gap-2">
                         <StopList routeDetail={routeDetail} direction={1} bus={bus} />
                     </div>
+                    
                 </div>
             </div>
         </div>
@@ -54,7 +55,7 @@ function StopList({routeDetail, direction, bus}: {routeDetail: BusRouteType, dir
         <>
             {filteredData.map(d=>{
                 return (
-                    <div>
+                    <div key={d.StopName.Zh_tw}>
                         <span className="text-xl">{d.StopName.Zh_tw}</span>
                     </div>
                 )

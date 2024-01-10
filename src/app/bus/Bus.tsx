@@ -1,20 +1,21 @@
 'use client'
 
+import { publicENV } from "@/lib/publicENV"
 import type { Datum }  from "@/type/AllBusType" 
 import type { BusRouteType } from "@/type/BusRouteType"
+import type { Unpacked } from "@/type/TypeOperator"
 import { trpc } from "../_trpc/client"
-import Select from "react-select"
-import { useId, useState } from "react"
+import { useEffect, useId, useState } from "react"
 import { FaArrowRightLong } from "react-icons/fa6";
-import {APIProvider, Map} from '@vis.gl/react-google-maps';
-import { publicENV } from "@/lib/publicENV"
-import GMap from "./_component/GMap"
+import {APIProvider, InfoWindow, Map,  useMarkerRef, Marker  } from '@vis.gl/react-google-maps';
+import Select from "react-select"
 
 export default function Bus({initData}: {initData: Datum[]}) {
     
    const [bus, setBus] = useState("")
    const routeDetail = trpc.getBusRoute.useQuery(bus ?? "") as BusRouteType
    const [order, setOrder] = useState(0)
+   const [position, setPosition] = useState({ lat: 24.137396608878987, lng: 120.68692065044608 });
    const selectOptions = initData.map(d=>{
     return {
         "value": d.RouteName.Zh_tw,
@@ -26,6 +27,19 @@ export default function Bus({initData}: {initData: Datum[]}) {
    if (Array.isArray(routeDetail.data)) {
         isOneWay = (routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
    }
+
+   useEffect(() => {
+    if ("geolocation" in navigator) {
+        navigator.geolocation.getCurrentPosition(function (position) {
+            setPosition({
+                lat: position.coords.latitude,
+                lng: position.coords.longitude,
+            });
+        });
+    } else {
+        console.log("Geolocation is not available in your browser.");
+    }
+}, []);
 
     return (
         <>
@@ -46,10 +60,18 @@ export default function Bus({initData}: {initData: Datum[]}) {
                     </div>
                 </div>
                 <div className="absolute h-screen w-screen z-10">
-                    <GMap />
+                    <APIProvider apiKey={publicENV.NEXT_PUBLIC_Google_Map_API_Key??""}>
+                        <Map
+                        zoom={11.5}
+                        center={position}
+                        gestureHandling={'greedy'}
+                        disableDefaultUI={true}
+                        >
+                            <StopsMarker routeDetail={routeDetail} direction={order} bus={bus} />   
+                        </Map>
+                    </APIProvider>
                 </div>
             </div>
-            
         </>
     )
 }
@@ -87,3 +109,40 @@ function StopList({routeDetail, direction, bus}: {routeDetail: BusRouteType, dir
     )
 }
 
+function StopsMarker({routeDetail, direction, bus}: {routeDetail: BusRouteType, direction: number, bus:string}) {
+    if (!Array.isArray(routeDetail.data)) {
+        return ""
+    }
+    const isOneWay = (routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
+    let filteredData;
+    if (isOneWay) {
+        filteredData = routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus)[0].Stops
+    } else {
+        filteredData = routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus && item.Direction === direction)[0].Stops
+    }
+
+    return (
+        <>
+            {filteredData.reverse().map((d)=>{
+                return <DisplayMaker  key={d.StopSequence.toString()} d={d} />
+            })}
+        </>
+    )
+}
+
+function DisplayMaker({d}:{d: Unpacked<Unpacked<BusRouteType["data"]>["Stops"]>}) {
+    const [markerRef, marker] = useMarkerRef();
+    const [open, setOpen] = useState(false)
+    
+    return (
+        <>
+            <Marker ref={markerRef} position={{lat: d.StopPosition.PositionLat, lng: d.StopPosition.PositionLon}}
+                        title={d.StopName.Zh_tw} onClick={()=>setOpen(prev=>!prev)}  />
+            {open && <InfoWindow anchor={marker} key={d.StopSequence.toString()+"info"} onCloseClick={()=>setOpen(false)} >
+                        <div key={d.StopSequence.toString()+"infoElm"} className="">
+                            <p className="font-bold" >{`${d.StopSequence} ${d.StopName.Zh_tw}`}</p>
+                        </div>
+                    </InfoWindow>}
+        </>
+    )
+}

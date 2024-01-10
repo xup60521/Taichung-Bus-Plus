@@ -3,32 +3,34 @@
 import { publicENV } from "@/lib/publicENV"
 import type { Datum }  from "@/type/AllBusType" 
 import type { BusRouteType } from "@/type/BusRouteType"
-import type { Unpacked } from "@/type/TypeOperator"
 import { trpc } from "../_trpc/client"
 import { useEffect, useId, useState } from "react"
-import { FaArrowRightLong } from "react-icons/fa6";
-import {APIProvider, InfoWindow, Map,  useMarkerRef, Marker  } from '@vis.gl/react-google-maps';
+import {APIProvider, Map  } from '@vis.gl/react-google-maps';
 import Select from "react-select"
+import StopList from "./_component/StopList"
+import StopsMarker from "./_component/StopsMaker"
+import { useRouter } from "next/navigation"
 
 export default function Bus({initData}: {initData: Datum[]}) {
     
-   const [bus, setBus] = useState("")
-   const routeDetail = trpc.getBusRoute.useQuery(bus ?? "") as BusRouteType
-   const [order, setOrder] = useState(0)
-   const [position, setPosition] = useState({ lat: 24.137396608878987, lng: 120.68692065044608 });
-   const selectOptions = initData.map(d=>{
+    const router = useRouter()
+    const [bus, setBus] = useState("")
+    const routeDetail = trpc.getBusRoute.useQuery(bus ?? "") as BusRouteType
+    const [order, setOrder] = useState(0)
+    const [position, setPosition] = useState({ lat: 24.137396608878987, lng: 120.68692065044608 });
+    const selectOptions = initData.map(d=>{
     return {
         "value": d.RouteName.Zh_tw,
         "label": d.RouteName.Zh_tw,
         "key": d.RouteName.Zh_tw,
     }
-   })
-   let isOneWay = false;
-   if (Array.isArray(routeDetail.data)) {
+    })
+    let isOneWay = false;
+    if (Array.isArray(routeDetail.data)) {
         isOneWay = (routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
-   }
+    }
 
-   useEffect(() => {
+    useEffect(() => {
     if ("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition(function (position) {
             setPosition({
@@ -39,7 +41,11 @@ export default function Bus({initData}: {initData: Datum[]}) {
     } else {
         console.log("Geolocation is not available in your browser.");
     }
-}, []);
+    }, []);
+
+    useEffect(()=>{
+        router.refresh()
+    },[order])
 
     return (
         <>
@@ -50,10 +56,8 @@ export default function Bus({initData}: {initData: Datum[]}) {
                         <Select onChange={(e)=>setBus(e?.value ?? "")} options={selectOptions} instanceId={useId()} className="text-black w-full" />
                         <div>
                             {!isOneWay && <button onClick={()=>{
-                                setOrder((prev)=>{
-                                    if (prev === 1) {return 0}
-                                    return 1
-                                })
+                                if (order === 1) {setOrder(0)} 
+                                else {setOrder(1)}
                             }}>Change Direction</button>}
                         </div>
                         <StopList routeDetail={routeDetail} direction={order} bus={bus} />                    
@@ -76,73 +80,6 @@ export default function Bus({initData}: {initData: Datum[]}) {
     )
 }
 
-function StopList({routeDetail, direction, bus}: {routeDetail: BusRouteType, direction: number, bus:string}) {
-    if (!Array.isArray(routeDetail.data)) {
-        return ""
-    }
-    const isOneWay = (routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
-    let filteredData;
-    if (isOneWay) {
-        filteredData = routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus)[0].Stops
-    } else {
-        filteredData = routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus && item.Direction === direction)[0].Stops
-    }
-    
 
-    return (
-        <>
-            <div className="flex items-center justify-center gap-2 bg-slate-200 text-slate-900 font-bold border-2 rounded-md p-2 w-full">
-                <span className="w-2/5 text-center">{filteredData[0].StopName.Zh_tw}</span>
-                <span className="w-1/5 flex justify-center "><FaArrowRightLong /></span>
-                <span className="w-2/5 text-center">{filteredData.reverse()[0].StopName.Zh_tw}</span>
-            </div>
-            <div className=" flex-grow w-full overflow-y-auto flex flex-col gap-2">
-                {filteredData.reverse().map(d=>{
-                    return (
-                        <div key={d.StopName.Zh_tw}>
-                            <span className="text-xl">{d.StopName.Zh_tw}</span>
-                        </div>
-                    )
-                })}
-            </div>
-        </>
-    )
-}
 
-function StopsMarker({routeDetail, direction, bus}: {routeDetail: BusRouteType, direction: number, bus:string}) {
-    if (!Array.isArray(routeDetail.data)) {
-        return ""
-    }
-    const isOneWay = (routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
-    let filteredData;
-    if (isOneWay) {
-        filteredData = routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus)[0].Stops
-    } else {
-        filteredData = routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus && item.Direction === direction)[0].Stops
-    }
 
-    return (
-        <>
-            {filteredData.reverse().map((d)=>{
-                return <DisplayMaker  key={d.StopSequence.toString()} d={d} />
-            })}
-        </>
-    )
-}
-
-function DisplayMaker({d}:{d: Unpacked<Unpacked<BusRouteType["data"]>["Stops"]>}) {
-    const [markerRef, marker] = useMarkerRef();
-    const [open, setOpen] = useState(false)
-    
-    return (
-        <>
-            <Marker ref={markerRef} position={{lat: d.StopPosition.PositionLat, lng: d.StopPosition.PositionLon}}
-                        title={d.StopName.Zh_tw} onClick={()=>setOpen(prev=>!prev)}  />
-            {open && <InfoWindow anchor={marker} key={d.StopSequence.toString()+"info"} onCloseClick={()=>setOpen(false)} >
-                        <div key={d.StopSequence.toString()+"infoElm"} className="">
-                            <p className="font-bold" >{`${d.StopSequence} ${d.StopName.Zh_tw}`}</p>
-                        </div>
-                    </InfoWindow>}
-        </>
-    )
-}

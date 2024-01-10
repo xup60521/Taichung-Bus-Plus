@@ -14,6 +14,7 @@
     "@trpc/next": "^10.45.0",
     "@trpc/react-query": "^10.45.0",
     "@trpc/server": "^10.45.0",
+    "@vis.gl/react-google-maps": "^0.4.2",
     "axios": "^1.6.5",
     "next": "14.0.4",
     "react": "^18",

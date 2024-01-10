@@ -6,6 +6,9 @@ import { trpc } from "../_trpc/client"
 import Select from "react-select"
 import { useId, useState } from "react"
 import { FaArrowRightLong } from "react-icons/fa6";
+import {APIProvider, Map} from '@vis.gl/react-google-maps';
+import { publicENV } from "@/lib/publicENV"
+import GMap from "./_component/GMap"
 
 export default function Bus({initData}: {initData: Datum[]}) {
     
@@ -25,23 +28,29 @@ export default function Bus({initData}: {initData: Datum[]}) {
    }
 
     return (
-        <div className=" bg-slate-900 w-screen h-screen text-white overflow-x-hidden flex flex-col justify-center items-center">
-            <div className="flex h-5/6">
-                <div className="w-96 h-full p-4 flex flex-col items-center gap-4">
-                    <p className="font-black">---選擇路線---</p>
-                    <Select onChange={(e)=>setBus(e?.value ?? "")} options={selectOptions} instanceId={useId()} className="text-black w-full" />
-                    <div>
-                        {!isOneWay && <button onClick={()=>{
-                            setOrder((prev)=>{
-                                if (prev === 1) {return 0}
-                                return 1
-                            })
-                        }}>Change Direction</button>}
+        <>
+            <div className=" w-screen h-screen text-black overflow-x-hidden flex flex-col justify-center items-center z-20">
+                <div className="flex h-full w-full">
+                    <div className="bg-white bg-opacity-50 backdrop-blur-lg  w-96 h-full p-4 flex flex-col items-center gap-4 z-50">
+                        <p className="font-black text-lg">---選擇路線---</p>
+                        <Select onChange={(e)=>setBus(e?.value ?? "")} options={selectOptions} instanceId={useId()} className="text-black w-full" />
+                        <div>
+                            {!isOneWay && <button onClick={()=>{
+                                setOrder((prev)=>{
+                                    if (prev === 1) {return 0}
+                                    return 1
+                                })
+                            }}>Change Direction</button>}
+                        </div>
+                        <StopList routeDetail={routeDetail} direction={order} bus={bus} />                    
                     </div>
-                    <StopList routeDetail={routeDetail} direction={order} bus={bus} />                    
+                </div>
+                <div className="absolute h-screen w-screen z-10">
+                    <GMap />
                 </div>
             </div>
-        </div>
+            
+        </>
     )
 }
 
@@ -77,3 +86,4 @@ function StopList({routeDetail, direction, bus}: {routeDetail: BusRouteType, dir
         </>
     )
 }
+

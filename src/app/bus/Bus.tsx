@@ -21,8 +21,7 @@ export default function Bus({initData}: {initData: Datum[]}) {
     const selectOptions = initData.map(d=>{
     return {
         "value": d.RouteName.Zh_tw,
-        "label": d.RouteName.Zh_tw,
-        "key": d.RouteName.Zh_tw,
+        "label": `${d.RouteName.Zh_tw} ${d.SubRoutes[0].Headsign}`,
     }
     })
     let isOneWay = false;

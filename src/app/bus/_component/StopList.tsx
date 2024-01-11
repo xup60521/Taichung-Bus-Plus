@@ -4,7 +4,7 @@ import { trpc } from "@/app/_trpc/client";
 import { BusRouteEstType } from "@/type/BusRouteEstType";
 import type { BusRouteType } from "@/type/BusRouteType";
 import { useRouter } from "next/navigation";
-import { JSXElementConstructor, PromiseLikeOfReactNode, ReactElement, ReactNode, ReactPortal, useEffect } from "react";
+import { JSXElementConstructor, PromiseLikeOfReactNode, ReactElement, ReactNode, ReactPortal, useEffect, useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 
 export default function StopList({routeDetail, direction, bus}: 
@@ -30,13 +30,13 @@ export default function StopList({routeDetail, direction, bus}:
                 utils.getRouteArrivalEst.invalidate()
                 router.refresh()
             }
-        }, 15000)
+        }, 10000)
         return ()=>{clearInterval(intervalId)}
       }, [])
     
 
     return (
-        <>
+        <>  
             <div className="flex items-center justify-center gap-2 bg-slate-200 text-slate-900 font-bold border-2 rounded-md p-2 w-full">
                 <span className="w-2/5 text-center">{filteredData[0].StopName.Zh_tw}</span>
                 <span className="w-1/5 flex justify-center "><FaArrowRightLong /></span>

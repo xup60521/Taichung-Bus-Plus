@@ -45,6 +45,7 @@ export default function Bus({initData}: {initData: AllBusType[]}) {
     }
     }, []);
 
+
     
 
     return (

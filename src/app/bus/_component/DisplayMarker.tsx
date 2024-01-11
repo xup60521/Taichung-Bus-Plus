@@ -5,7 +5,7 @@ import type { Unpacked } from "@/type/TypeOperator";
 import { InfoWindow,  AdvancedMarker, Pin } from "@vis.gl/react-google-maps";
 import { useState } from "react";
 
-export default function DisplayMarker({d, bg_color}:{d: Unpacked<Unpacked<BusRouteType["data"]>["Stops"]>, bg_color:string}) {
+export default function DisplayMarker({d, bg_color}:{d: Unpacked<BusRouteType["Stops"]>, bg_color:string}) {
     
     const [open, setOpen] = useState(false)    
     

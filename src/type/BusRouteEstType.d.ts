@@ -1,35 +1,42 @@
 export type BusRouteEstType = {
-    PlateNumb:     PlateNumb;
-    StopUID:       string;
-    StopID:        string;
-    StopName:      Name;
-    RouteUID:      RouteUid;
-    RouteID:       string;
-    RouteName:     Name;
-    SubRouteUID:   RouteUid;
-    SubRouteID:    string;
-    SubRouteName:  Name;
-    Direction:     number;
-    EstimateTime?: number;
-    StopSequence:  number;
-    StopStatus:    number;
-    NextBusTime:   Date;
-    Estimates?:    Estimate[];
-    SrcUpdateTime: Date;
-    UpdateTime:    Date;
+  PlateNumb: string
+  StopUID: string
+  StopID: string
+  StopName: StopName
+  RouteUID: string
+  RouteID: string
+  RouteName: RouteName
+  SubRouteUID: string
+  SubRouteID: string
+  SubRouteName: SubRouteName
+  Direction: number
+  EstimateTime?: number
+  StopSequence: number
+  StopStatus: number
+  NextBusTime?: string
+  Estimates?: Estimate[]
+  SrcUpdateTime: string
+  UpdateTime: string
+}
+
+export type StopName = {
+  Zh_tw: string
+  En: string
+}
+
+export type RouteName = {
+  Zh_tw: string
+  En: string
+}
+
+export type SubRouteName = {
+  Zh_tw: string
+  En: string
 }
 
 export type Estimate = {
-    PlateNumb:    PlateNumb;
-    EstimateTime: number;
-    IsLastBus:    boolean;
+  PlateNumb: string
+  EstimateTime: number
+  IsLastBus: boolean
+  VehicleStopStatus?: number
 }
-
-export type PlateNumb = string;
-
-export type Name = {
-    Zh_tw: string;
-    En:    string;
-}
-
-export type RouteUid = string;

@@ -1,1564 +1,2771 @@
-[
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG12952",
-    "StopID": "12952",
-    "StopName": {
-      "Zh_tw": "東勢林業文化園區",
-      "En": "Dongshih Forestry Culture Park"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 27,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:25:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG12953",
-    "StopID": "12953",
-    "StopName": {
-      "Zh_tw": "東勢林業文化園區",
-      "En": "Dongshih Forestry Culture Park"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 2,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG13594",
-    "StopID": "13594",
-    "StopName": {
-      "Zh_tw": "東勢游泳池",
-      "En": "Dongshi Swimming pool"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 21,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:17:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG13713",
-    "StopID": "13713",
-    "StopName": {
-      "Zh_tw": "新盛里(東勢高工)",
-      "En": "Xinsheng Village(Dongshih Industrial Senior High School)"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 1,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG18058",
-    "StopID": "18058",
-    "StopName": {
-      "Zh_tw": "石岡國小",
-      "En": "Shigang Elementary School"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 8,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:03:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG18058",
-    "StopID": "18058",
-    "StopName": {
-      "Zh_tw": "石岡國小",
-      "En": "Shigang Elementary School"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 23,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5029",
-    "StopID": "5029",
-    "StopName": {
-      "Zh_tw": "九房厝",
-      "En": "Jiufangcuo"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 11,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:07:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5029",
-    "StopID": "5029",
-    "StopName": {
-      "Zh_tw": "九房厝",
-      "En": "Jiufangcuo"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 26,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5101",
-    "StopID": "5101",
-    "StopName": {
-      "Zh_tw": "下土牛",
-      "En": "Xiatu-niu"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 17,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:12:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5101",
-    "StopID": "5101",
-    "StopName": {
-      "Zh_tw": "下土牛",
-      "En": "Xiatu-niu"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 14,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5198",
-    "StopID": "5198",
-    "StopName": {
-      "Zh_tw": "土牛(豐勢路)",
-      "En": "Tuniu(Fengshi Road)"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 20,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:14:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5198",
-    "StopID": "5198",
-    "StopName": {
-      "Zh_tw": "土牛(豐勢路)",
-      "En": "Tuniu(Fengshi Road)"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 11,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5302",
-    "StopID": "5302",
-    "StopName": {
-      "Zh_tw": "中嵙口",
-      "En": "Zhongkekou"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 24,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:22:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5302",
-    "StopID": "5302",
-    "StopName": {
-      "Zh_tw": "中嵙口",
-      "En": "Zhongkekou"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 5,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5654",
-    "StopID": "5654",
-    "StopName": {
-      "Zh_tw": "石角口",
-      "En": "Shijiaokou"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 3,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5657",
-    "StopID": "5657",
-    "StopName": {
-      "Zh_tw": "石岡",
-      "En": "Shihgang"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 9,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:05:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5657",
-    "StopID": "5657",
-    "StopName": {
-      "Zh_tw": "石岡",
-      "En": "Shihgang"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 24,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5659",
-    "StopID": "5659",
-    "StopName": {
-      "Zh_tw": "石岡區公所",
-      "En": "Shihgang District Office"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 10,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:06:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5659",
-    "StopID": "5659",
-    "StopName": {
-      "Zh_tw": "石岡區公所",
-      "En": "Shihgang District Office"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 25,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5745",
-    "StopID": "5745",
-    "StopName": {
-      "Zh_tw": "東勢老人會館",
-      "En": "Dongshi Sr. Citizens Hall"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 8,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5865",
-    "StopID": "5865",
-    "StopName": {
-      "Zh_tw": "明山寺",
-      "En": "Mingshan Temple"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 16,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:11:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5865",
-    "StopID": "5865",
-    "StopName": {
-      "Zh_tw": "明山寺",
-      "En": "Mingshan Temple"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 15,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5889",
-    "StopID": "5889",
-    "StopName": {
-      "Zh_tw": "東勢南站",
-      "En": "Dongshi South Station"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 25,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:23:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5889",
-    "StopID": "5889",
-    "StopName": {
-      "Zh_tw": "東勢南站",
-      "En": "Dongshi South Station"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 4,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5899",
-    "StopID": "5899",
-    "StopName": {
-      "Zh_tw": "東勢",
-      "En": "Dongshi"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 22,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:19:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5899",
-    "StopID": "5899",
-    "StopName": {
-      "Zh_tw": "東勢",
-      "En": "Dongshi"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 7,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5905",
-    "StopID": "5905",
-    "StopName": {
-      "Zh_tw": "東新國中",
-      "En": "Dung-shing Junior High School"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 9,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5947",
-    "StopID": "5947",
-    "StopName": {
-      "Zh_tw": "社寮角",
-      "En": "Sheliaojiao"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 13,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:08:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5947",
-    "StopID": "5947",
-    "StopName": {
-      "Zh_tw": "社寮角",
-      "En": "Sheliaojiao"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 28,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5987",
-    "StopID": "5987",
-    "StopName": {
-      "Zh_tw": "南平里",
-      "En": "Nanping Village"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 23,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:20:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG5987",
-    "StopID": "5987",
-    "StopName": {
-      "Zh_tw": "南平里",
-      "En": "Nanping Village"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 6,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6194",
-    "StopID": "6194",
-    "StopName": {
-      "Zh_tw": "情人木橋",
-      "En": "Lovers Wood Bridge"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 12,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:08:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6194",
-    "StopID": "6194",
-    "StopName": {
-      "Zh_tw": "情人木橋",
-      "En": "Lovers Wood Bridge"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 27,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6213",
-    "StopID": "6213",
-    "StopName": {
-      "Zh_tw": "梅子",
-      "En": "Meizi"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 15,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:10:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6213",
-    "StopID": "6213",
-    "StopName": {
-      "Zh_tw": "梅子",
-      "En": "Meizi"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 30,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6268",
-    "StopID": "6268",
-    "StopName": {
-      "Zh_tw": "連厝",
-      "En": "Liancuo"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 18,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:13:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6268",
-    "StopID": "6268",
-    "StopName": {
-      "Zh_tw": "連厝",
-      "En": "Liancuo"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 13,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6460",
-    "StopID": "6460",
-    "StopName": {
-      "Zh_tw": "新豐冷凍",
-      "En": "Xinfeng Freezer Company"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 14,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:10:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6460",
-    "StopID": "6460",
-    "StopName": {
-      "Zh_tw": "新豐冷凍",
-      "En": "Xinfeng Freezer Company"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 29,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6462",
-    "StopID": "6462",
-    "StopName": {
-      "Zh_tw": "新豐新寧街口",
-      "En": "Xinfeng-Xinning Intersection"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 10,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6595",
-    "StopID": "6595",
-    "StopName": {
-      "Zh_tw": "德興里",
-      "En": "Dexing Village"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 19,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:13:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6595",
-    "StopID": "6595",
-    "StopName": {
-      "Zh_tw": "德興里",
-      "En": "Dexing Village"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 12,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6956",
-    "StopID": "6956",
-    "StopName": {
-      "Zh_tw": "石岡國中",
-      "En": "Shigang Junior High School"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 1,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T16:55:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6956",
-    "StopID": "6956",
-    "StopName": {
-      "Zh_tw": "石岡國中",
-      "En": "Shigang Junior High School"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 31,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6957",
-    "StopID": "6957",
-    "StopName": {
-      "Zh_tw": "新豐冷凍",
-      "En": "Xinfeng Freezer Company"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 2,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T16:58:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6957",
-    "StopID": "6957",
-    "StopName": {
-      "Zh_tw": "新豐冷凍",
-      "En": "Xinfeng Freezer Company"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 17,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6958",
-    "StopID": "6958",
-    "StopName": {
-      "Zh_tw": "社寮角",
-      "En": "Sheliaojiao"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 3,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T16:59:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6958",
-    "StopID": "6958",
-    "StopName": {
-      "Zh_tw": "社寮角",
-      "En": "Sheliaojiao"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 18,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6959",
-    "StopID": "6959",
-    "StopName": {
-      "Zh_tw": "情人木橋",
-      "En": "Lovers Wood Bridge"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 4,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T16:59:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6959",
-    "StopID": "6959",
-    "StopName": {
-      "Zh_tw": "情人木橋",
-      "En": "Lovers Wood Bridge"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 19,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6960",
-    "StopID": "6960",
-    "StopName": {
-      "Zh_tw": "九房厝",
-      "En": "Jiufangcuo"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 5,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:00:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6960",
-    "StopID": "6960",
-    "StopName": {
-      "Zh_tw": "九房厝",
-      "En": "Jiufangcuo"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 20,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6961",
-    "StopID": "6961",
-    "StopName": {
-      "Zh_tw": "石岡區公所",
-      "En": "Shihgang District Office"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 6,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:01:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6961",
-    "StopID": "6961",
-    "StopName": {
-      "Zh_tw": "石岡區公所",
-      "En": "Shihgang District Office"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 21,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6962",
-    "StopID": "6962",
-    "StopName": {
-      "Zh_tw": "石岡",
-      "En": "Shihgang"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 7,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:02:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6962",
-    "StopID": "6962",
-    "StopName": {
-      "Zh_tw": "石岡",
-      "En": "Shihgang"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 22,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG6963",
-    "StopID": "6963",
-    "StopName": {
-      "Zh_tw": "梅子",
-      "En": "Meizi"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 1,
-    "StopSequence": 16,
-    "StopStatus": 3,
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG7072",
-    "StopID": "7072",
-    "StopName": {
-      "Zh_tw": "石角口",
-      "En": "Shijiaokou"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 26,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:24:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
-  },
-  {
-    "PlateNumb": "",
-    "StopUID": "TXG7073",
-    "StopID": "7073",
-    "StopName": {
-      "Zh_tw": "新盛里(東勢高工)",
-      "En": "Xinsheng Village(Dongshih Industrial Senior High School)"
-    },
-    "RouteUID": "TXG956",
-    "RouteID": "956",
-    "RouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "SubRouteUID": "TXG956",
-    "SubRouteID": "956",
-    "SubRouteName": {
-      "Zh_tw": "206延",
-      "En": "206E"
-    },
-    "Direction": 0,
-    "StopSequence": 28,
-    "StopStatus": 1,
-    "NextBusTime": "2024-01-11T17:25:00+08:00",
-    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
-    "UpdateTime": "2024-01-11T15:47:18+08:00"
+{
+  "status": "success",
+  "fetchStatus": "idle",
+  "isLoading": false,
+  "isSuccess": true,
+  "isError": false,
+  "isInitialLoading": false,
+  "data": [
+    {
+      "PlateNumb": "FAD-195",
+      "StopUID": "TXG10724",
+      "StopID": "10724",
+      "StopName": {
+        "Zh_tw": "中正國小(專用道)",
+        "En": "Chung-Cheng Elementary School(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 180,
+      "StopSequence": 18,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:29:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 180,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 1380,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 2100,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "297-U8",
+      "StopUID": "TXG10730",
+      "StopID": "10730",
+      "StopName": {
+        "Zh_tw": "中港新城(專用道)",
+        "En": "Zhonggang Community(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 300,
+      "StopSequence": 10,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:13:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 300,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 1080,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "618-U8",
+      "StopUID": "TXG10966",
+      "StopID": "10966",
+      "StopName": {
+        "Zh_tw": "澄清醫院(專用道)",
+        "En": "Cheng Ching Hospital(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 0,
+      "StopSequence": 16,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:13:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "618-U8",
+          "EstimateTime": 0,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "616-U8",
+          "EstimateTime": 480,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 1260,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 1440,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 1800,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 2280,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 2700,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 3900,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 4620,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "297-U8",
+      "StopUID": "TXG10967",
+      "StopID": "10967",
+      "StopName": {
+        "Zh_tw": "澄清醫院(專用道)",
+        "En": "Cheng Ching Hospital(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 180,
+      "StopSequence": 9,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:11:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 180,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 1020,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "616-U8",
+      "StopUID": "TXG11053",
+      "StopID": "11053",
+      "StopName": {
+        "Zh_tw": "福安(專用道)",
+        "En": "Fu-an(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 300,
+      "StopSequence": 14,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:11:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "616-U8",
+          "EstimateTime": 300,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 1140,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 1320,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 1620,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 2100,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 2580,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 3720,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 4440,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "KKA-1601",
+      "StopUID": "TXG11257",
+      "StopID": "11257",
+      "StopName": {
+        "Zh_tw": "坪頂(專用道)",
+        "En": "Pingding(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 540,
+      "StopSequence": 5,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:04:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 540,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "762-U8",
+      "StopUID": "TXG12251",
+      "StopID": "12251",
+      "StopName": {
+        "Zh_tw": "臺中車站(A月台)",
+        "En": "Taichung Station(A railway platform)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 360,
+      "StopSequence": 26,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:40:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 360,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 780,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 2040,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 2760,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "762-U8",
+      "StopUID": "TXG12251",
+      "StopID": "12251",
+      "StopName": {
+        "Zh_tw": "臺中車站(A月台)",
+        "En": "Taichung Station(A railway platform)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 420,
+      "StopSequence": 1,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T18:42:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 420,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 840,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 2100,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 2820,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "616-U8",
+      "StopUID": "TXG1262",
+      "StopID": "1262",
+      "StopName": {
+        "Zh_tw": "秋紅谷(專用道)",
+        "En": "Maple Garden(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 180,
+      "StopSequence": 13,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:08:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "616-U8",
+          "EstimateTime": 180,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 960,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 1080,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 1440,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 1920,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 2400,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 3540,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 4260,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "616-U8",
+      "StopUID": "TXG1264",
+      "StopID": "1264",
+      "StopName": {
+        "Zh_tw": "新光/遠百(專用道)",
+        "En": "Shin Kong Mitsukoshi/Top City Dept. Store(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 0,
+      "StopSequence": 12,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:06:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "616-U8",
+          "EstimateTime": 0,
+          "IsLastBus": false,
+          "VehicleStopStatus": 1
+        },
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 780,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 960,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 1320,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 1800,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 2220,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 3420,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 4140,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "757-U8",
+      "StopUID": "TXG1268",
+      "StopID": "1268",
+      "StopName": {
+        "Zh_tw": "頂何厝(專用道)",
+        "En": "Dinghecuo(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 540,
+      "StopSequence": 10,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:01:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 540,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 720,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 1080,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 1560,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 1980,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 3180,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 3900,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "757-U8",
+      "StopUID": "TXG1271",
+      "StopID": "1271",
+      "StopName": {
+        "Zh_tw": "中正國小(專用道)",
+        "En": "Chung-Cheng Elementary School(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 180,
+      "StopSequence": 7,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T18:55:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 180,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 360,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 720,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 1200,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 1620,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 2820,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 3540,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "757-U8",
+      "StopUID": "TXG1272",
+      "StopID": "1272",
+      "StopName": {
+        "Zh_tw": "茄苳腳(專用道)",
+        "En": "Qiedongjiao(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 120,
+      "StopSequence": 6,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T18:54:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 120,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 240,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 600,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 1140,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 1560,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 2760,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 3480,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "FAD-195",
+      "StopUID": "TXG1301",
+      "StopID": "1301",
+      "StopName": {
+        "Zh_tw": "茄苳腳(專用道)",
+        "En": "Qiedongjiao(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 300,
+      "StopSequence": 19,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:32:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 300,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 1500,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 2220,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "297-U8",
+      "StopUID": "TXG1309",
+      "StopID": "1309",
+      "StopName": {
+        "Zh_tw": "新光/遠百(專用道)",
+        "En": "Shin Kong Mitsukoshi/Top City Dept. Store(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 720,
+      "StopSequence": 13,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:19:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 720,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 1500,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "297-U8",
+      "StopUID": "TXG1311",
+      "StopID": "1311",
+      "StopName": {
+        "Zh_tw": "秋紅谷(專用道)",
+        "En": "Maple Garden(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 600,
+      "StopSequence": 12,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:17:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 600,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 1380,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "762-U8",
+      "StopUID": "TXG13530",
+      "StopID": "13530",
+      "StopName": {
+        "Zh_tw": "第二市場(臺灣大道)",
+        "En": "2nd Market(Taiwan Boulevard)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 180,
+      "StopSequence": 23,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:36:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 180,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 540,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 1800,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 2520,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "",
+      "StopUID": "TXG13567",
+      "StopID": "13567",
+      "StopName": {
+        "Zh_tw": "靜宜大學(專用道)",
+        "En": "Providence University(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "StopSequence": 1,
+      "StopStatus": 1,
+      "NextBusTime": "2024-01-11T18:55:00+08:00",
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "KKA-1601",
+      "StopUID": "TXG16564",
+      "StopID": "16564",
+      "StopName": {
+        "Zh_tw": "東海別墅(專用道)",
+        "En": "Donghai Villa(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 660,
+      "StopSequence": 6,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:06:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 660,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "618-U8",
+      "StopUID": "TXG16601",
+      "StopID": "16601",
+      "StopName": {
+        "Zh_tw": "東海別墅(專用道)",
+        "En": "Donghai Villa(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 420,
+      "StopSequence": 19,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:20:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "618-U8",
+          "EstimateTime": 420,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "616-U8",
+          "EstimateTime": 900,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 1680,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 1860,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 2160,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 2700,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 3120,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 4320,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 5040,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "KKA-6236",
+      "StopUID": "TXG1754",
+      "StopID": "1754",
+      "StopName": {
+        "Zh_tw": "第二市場(臺灣大道)",
+        "En": "2nd Market(Taiwan Boulevard)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 300,
+      "StopSequence": 2,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T18:48:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 300,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 780,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 1260,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 2460,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 3180,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "297-U8",
+      "StopUID": "TXG18163",
+      "StopID": "18163",
+      "StopName": {
+        "Zh_tw": "玉門路(專用道)",
+        "En": "Yumen Road(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 120,
+      "StopSequence": 8,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:10:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 120,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 900,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "755-U5",
+      "StopUID": "TXG1864",
+      "StopID": "1864",
+      "StopName": {
+        "Zh_tw": "臺灣大道原子街口",
+        "En": "Taiwan Boulevard-Yuanzi Intersection"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 180,
+      "StopSequence": 5,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T18:51:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 180,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 480,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 960,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 1440,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 2580,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 3300,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "755-U5",
+      "StopUID": "TXG1865",
+      "StopID": "1865",
+      "StopName": {
+        "Zh_tw": "臺灣大道中華路口",
+        "En": "Taiwan Boulevard-Zhonghua Intersection"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 120,
+      "StopSequence": 4,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T18:51:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 120,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 420,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 960,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 1380,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 2580,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 3300,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "FAD-195",
+      "StopUID": "TXG19264",
+      "StopID": "19264",
+      "StopName": {
+        "Zh_tw": "臺灣大道原子街口",
+        "En": "Taiwan Boulevard-Yuanzi Intersection"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 360,
+      "StopSequence": 20,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:33:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 360,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 1620,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 2340,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "762-U8",
+      "StopUID": "TXG19265",
+      "StopID": "19265",
+      "StopName": {
+        "Zh_tw": "臺灣大道中華路口",
+        "En": "Taiwan Boulevard-Zhonghua Intersection"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 0,
+      "StopSequence": 21,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:34:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 0,
+          "IsLastBus": false,
+          "VehicleStopStatus": 1
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 420,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 1680,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 2400,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "757-U8",
+      "StopUID": "TXG19429",
+      "StopID": "19429",
+      "StopName": {
+        "Zh_tw": "忠明國小(專用道)",
+        "En": "Chungming Elementary School(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 420,
+      "StopSequence": 9,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T18:59:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 420,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 600,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 960,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 1440,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 1860,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 3060,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 3780,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "297-U8",
+      "StopUID": "TXG19430",
+      "StopID": "19430",
+      "StopName": {
+        "Zh_tw": "忠明國小(專用道)",
+        "En": "Chungming Elementary School(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 1200,
+      "StopSequence": 16,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:26:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 1200,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 1920,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "297-U8",
+      "StopUID": "TXG19431",
+      "StopID": "19431",
+      "StopName": {
+        "Zh_tw": "頂何厝(專用道)",
+        "En": "Dinghecuo(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 1080,
+      "StopSequence": 15,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:24:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 1080,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 1800,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "FAD-196",
+      "StopUID": "TXG19432",
+      "StopID": "19432",
+      "StopName": {
+        "Zh_tw": "正英路(專用道)",
+        "En": "Zhengying Road(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 120,
+      "StopSequence": 21,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:27:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "FAD-196",
+          "EstimateTime": 120,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "618-U8",
+          "EstimateTime": 840,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "616-U8",
+          "EstimateTime": 1320,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 2100,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 2280,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 2640,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 3120,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 3540,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 4740,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 5460,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "KKA-1601",
+      "StopUID": "TXG19433",
+      "StopID": "19433",
+      "StopName": {
+        "Zh_tw": "正英路(專用道)",
+        "En": "Zhengying Road(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 180,
+      "StopSequence": 4,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T18:59:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 180,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "FAD-196",
+      "StopUID": "TXG19434",
+      "StopID": "19434",
+      "StopName": {
+        "Zh_tw": "弘光科技大學(專用道)",
+        "En": "Hungkuang University (Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 180,
+      "StopSequence": 22,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:29:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "FAD-196",
+          "EstimateTime": 180,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "618-U8",
+          "EstimateTime": 960,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "616-U8",
+          "EstimateTime": 1440,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 2220,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 2400,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 2760,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 3240,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 3660,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 4860,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 5580,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "KKA-1601",
+      "StopUID": "TXG19435",
+      "StopID": "19435",
+      "StopName": {
+        "Zh_tw": "弘光科技大學(專用道)",
+        "En": "Hungkuang University (Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 120,
+      "StopSequence": 3,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T18:57:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 120,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "FAD-196",
+      "StopUID": "TXG19436",
+      "StopID": "19436",
+      "StopName": {
+        "Zh_tw": "晉江寮(專用道)",
+        "En": "Jinjiangliao(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 240,
+      "StopSequence": 23,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:30:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "FAD-196",
+          "EstimateTime": 240,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "618-U8",
+          "EstimateTime": 1020,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "616-U8",
+          "EstimateTime": 1560,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 2280,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 2460,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 2820,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 3300,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 3720,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 4920,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 5640,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "KKA-1601",
+      "StopUID": "TXG19437",
+      "StopID": "19437",
+      "StopName": {
+        "Zh_tw": "晉江寮(專用道)",
+        "En": "Jinjiangliao(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 60,
+      "StopSequence": 2,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T18:55:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 60,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "FAE-781",
+      "StopUID": "TXG21478",
+      "StopID": "21478",
+      "StopName": {
+        "Zh_tw": "靜宜大學(專用道)",
+        "En": "Providence University(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 0,
+      "StopSequence": 24,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:32:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "FAE-781",
+          "EstimateTime": 0,
+          "IsLastBus": false,
+          "VehicleStopStatus": 1
+        },
+        {
+          "PlateNumb": "FAD-196",
+          "EstimateTime": 360,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "618-U8",
+          "EstimateTime": 1140,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "616-U8",
+          "EstimateTime": 1620,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 2400,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 2580,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 2880,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 3360,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 3780,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 4980,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 5700,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "762-U8",
+      "StopUID": "TXG22398",
+      "StopID": "22398",
+      "StopName": {
+        "Zh_tw": "第一廣場",
+        "En": "First Square"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 240,
+      "StopSequence": 25,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:38:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 240,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 660,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 1920,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 2640,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "618-U8",
+      "StopUID": "TXG22399",
+      "StopID": "22399",
+      "StopName": {
+        "Zh_tw": "玉門路(專用道)",
+        "En": "Yumen Road(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 180,
+      "StopSequence": 17,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:16:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "618-U8",
+          "EstimateTime": 180,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "616-U8",
+          "EstimateTime": 600,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 1440,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 1620,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 1920,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 2400,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 2820,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 4020,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 4740,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "757-U8",
+      "StopUID": "TXG22416",
+      "StopID": "22416",
+      "StopName": {
+        "Zh_tw": "科博館(專用道)",
+        "En": "National Museum of Natural Science(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 300,
+      "StopSequence": 8,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T18:58:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 300,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 480,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 840,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 1380,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 1800,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 3000,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 3720,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "755-U5",
+      "StopUID": "TXG22417",
+      "StopID": "22417",
+      "StopName": {
+        "Zh_tw": "仁愛醫院",
+        "En": "Ren-Ai Hospital"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 0,
+      "StopSequence": 3,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T18:49:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 0,
+          "IsLastBus": false,
+          "VehicleStopStatus": 1
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 360,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 840,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 1320,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 2520,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 3180,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "762-U8",
+      "StopUID": "TXG2381",
+      "StopID": "2381",
+      "StopName": {
+        "Zh_tw": "彰化銀行(臺灣大道)",
+        "En": "Chang Hwa Bank(Taiwan Boulevard)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 180,
+      "StopSequence": 24,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:37:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 180,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 660,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 1860,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 2580,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "762-U8",
+      "StopUID": "TXG5386",
+      "StopID": "5386",
+      "StopName": {
+        "Zh_tw": "仁愛醫院",
+        "En": "Ren-Ai Hospital"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 120,
+      "StopSequence": 22,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:35:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 120,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 480,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 1740,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 2400,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "FAD-195",
+      "StopUID": "TXG6053",
+      "StopID": "6053",
+      "StopName": {
+        "Zh_tw": "科博館(專用道)",
+        "En": "National Museum of Natural Science(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 0,
+      "StopSequence": 17,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:27:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 0,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 1260,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 1980,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "616-U8",
+      "StopUID": "TXG606",
+      "StopID": "606",
+      "StopName": {
+        "Zh_tw": "中港新城(專用道)",
+        "En": "Zhonggang Community(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 420,
+      "StopSequence": 15,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:12:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "616-U8",
+          "EstimateTime": 420,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 1200,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 1380,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 1740,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 2220,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 2640,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 3840,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 4560,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "618-U8",
+      "StopUID": "TXG657",
+      "StopID": "657",
+      "StopName": {
+        "Zh_tw": "榮總/東海大學(專用道)",
+        "En": "Taichung Veterans General Hospital/Tunghai Uni.(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 240,
+      "StopSequence": 18,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:18:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "618-U8",
+          "EstimateTime": 240,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "616-U8",
+          "EstimateTime": 720,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 1560,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 1740,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 2040,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 2520,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 2940,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 4140,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 4860,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "297-U8",
+      "StopUID": "TXG696",
+      "StopID": "696",
+      "StopName": {
+        "Zh_tw": "榮總/東海大學(專用道)",
+        "En": "Taichung Veterans General Hospital/Tunghai Uni.(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 0,
+      "StopSequence": 7,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:08:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 0,
+          "IsLastBus": false,
+          "VehicleStopStatus": 1
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 780,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "618-U8",
+      "StopUID": "TXG7104",
+      "StopID": "7104",
+      "StopName": {
+        "Zh_tw": "坪頂(專用道)",
+        "En": "Pingding(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 540,
+      "StopSequence": 20,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:22:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "618-U8",
+          "EstimateTime": 540,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "616-U8",
+          "EstimateTime": 1020,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 1800,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 1980,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 2340,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 2820,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 3240,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 4440,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 5160,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "757-U8",
+      "StopUID": "TXG8403",
+      "StopID": "8403",
+      "StopName": {
+        "Zh_tw": "市政府(專用道)",
+        "En": "Taichung City Hall(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 1,
+      "EstimateTime": 720,
+      "StopSequence": 11,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:04:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "757-U8",
+          "EstimateTime": 720,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "755-U5",
+          "EstimateTime": 840,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-6236",
+          "EstimateTime": 1200,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "762-U8",
+          "EstimateTime": 1740,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "FAD-195",
+          "EstimateTime": 2160,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 3360,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 4080,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "297-U8",
+      "StopUID": "TXG8503",
+      "StopID": "8503",
+      "StopName": {
+        "Zh_tw": "市政府(專用道)",
+        "En": "Taichung City Hall(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 900,
+      "StopSequence": 14,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:22:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 900,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 1680,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    },
+    {
+      "PlateNumb": "297-U8",
+      "StopUID": "TXG9993",
+      "StopID": "9993",
+      "StopName": {
+        "Zh_tw": "福安(專用道)",
+        "En": "Fu-an(Dedicated Road)"
+      },
+      "RouteUID": "TXG300",
+      "RouteID": "300",
+      "RouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "SubRouteUID": "TXG300",
+      "SubRouteID": "300",
+      "SubRouteName": {
+        "Zh_tw": "300",
+        "En": "300"
+      },
+      "Direction": 0,
+      "EstimateTime": 360,
+      "StopSequence": 11,
+      "StopStatus": 0,
+      "NextBusTime": "2024-01-11T19:14:00+08:00",
+      "Estimates": [
+        {
+          "PlateNumb": "297-U8",
+          "EstimateTime": 360,
+          "IsLastBus": false
+        },
+        {
+          "PlateNumb": "KKA-1601",
+          "EstimateTime": 1200,
+          "IsLastBus": false
+        }
+      ],
+      "SrcUpdateTime": "2024-01-11T18:39:59+08:00",
+      "UpdateTime": "2024-01-11T18:40:18+08:00"
+    }
+  ],
+  "dataUpdatedAt": 1704969634310,
+  "error": null,
+  "errorUpdatedAt": 0,
+  "failureCount": 0,
+  "failureReason": null,
+  "errorUpdateCount": 0,
+  "isFetched": true,
+  "isFetchedAfterMount": true,
+  "isFetching": false,
+  "isRefetching": false,
+  "isLoadingError": false,
+  "isPaused": false,
+  "isPlaceholderData": false,
+  "isPreviousData": false,
+  "isRefetchError": false,
+  "isStale": true,
+  "trpc": {
+    "path": "getRouteArrivalEst"
   }
-]
+}

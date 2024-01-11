@@ -2,7 +2,6 @@
 
 import { publicENV } from "@/lib/publicENV"
 import type { AllBusType }  from "@/type/AllBusType" 
-import type { BusRouteType } from "@/type/BusRouteType"
 import { trpc } from "../_trpc/client"
 import { useEffect, useId, useState } from "react"
 import {APIProvider, Map  } from '@vis.gl/react-google-maps';
@@ -12,15 +11,14 @@ import StopsMarker from "./_component/StopsMaker"
 
 export default function Bus({initData}: {initData: AllBusType[]}) {
     
+    const [order, setOrder] = useState(0)
+    const [position, setPosition] = useState({ lat: 24.137396608878987, lng: 120.68692065044608 });
     const [bus, setBus] = useState("")
     const routeDetail = trpc.getBusRoute.useQuery(bus , {
         enabled: Boolean(bus ?? "")
     })
-    const routeEst = trpc.getRouteArrivalEst.useQuery(bus, {
-        enabled: Boolean(bus ?? "")
-    })
-    const [order, setOrder] = useState(0)
-    const [position, setPosition] = useState({ lat: 24.137396608878987, lng: 120.68692065044608 });
+    
+    
     const regex1 = /^[\u4e00-\u9fa5]/
     const regex2 = /[\u4e00-\u9fa5][0-9]/
     const regex3 = /[\u4e00-\u9fa5A-Z()]/g
@@ -65,7 +63,7 @@ export default function Bus({initData}: {initData: AllBusType[]}) {
                                     else {setOrder(1)}
                                 }}>Change Direction</button>}
                             </div>
-                            <StopList routeDetail={routeDetail.data} direction={order} bus={bus} />     
+                            {routeDetail.isSuccess && <StopList routeDetail={routeDetail.data} direction={order} bus={bus} />}
                         </>}                         
                     </div>
                 </div>
@@ -83,7 +81,6 @@ export default function Bus({initData}: {initData: AllBusType[]}) {
                     </APIProvider>
                 </div>
             </div>
-            {JSON.stringify(routeEst)}
         </>
     )
 }

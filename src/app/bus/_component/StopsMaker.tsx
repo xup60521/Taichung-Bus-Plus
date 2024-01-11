@@ -4,7 +4,7 @@ import type { BusRouteType } from "@/type/BusRouteType";
 import DisplayMarker from "./DisplayMarker";
 import seedrandom from "seedrandom";
 
-export default function StopsMarker({routeDetail, direction, bus}: {routeDetail: BusRouteType[], direction: number, bus:string}) {
+export default function StopsMarker({routeDetail, direction, bus}: {routeDetail: BusRouteType[] | undefined, direction: number, bus:string}) {
     if (!Array.isArray(routeDetail)) {
         return ""
     }

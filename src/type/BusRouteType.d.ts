@@ -5,7 +5,7 @@ export type BusRouteType = {
     RouteName:  Name;
     Direction:  number;
     Stops:      Stop[];
-    UpdateTime: Date;
+    UpdateTime: string;
     VersionID:  number;
 }
 

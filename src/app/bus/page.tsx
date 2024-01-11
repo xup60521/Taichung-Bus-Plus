@@ -4,7 +4,7 @@ import Bus from "./Bus"
 
 export default async function Page() {
 
-    const data = await serverClient.getAllBus.query() as AllBusType["data"]
+    const data = await serverClient.getAllBus.query()
     
     return (
         <>

@@ -16,7 +16,7 @@ export type AllBusType = {
     RouteMapImageUrl?:     string;
     City:                  City;
     CityCode:              CityCode;
-    UpdateTime:            Date;
+    UpdateTime:            string;
     VersionID:             number;
 }
 

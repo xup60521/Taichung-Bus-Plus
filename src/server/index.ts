@@ -16,10 +16,8 @@ export const appRouter = router({
         )
         return allBus.data
         }),
-    getBusRoute: procedure.input(z.string().nullable()).query(async(routeName)=>{
-        if (!routeName.input) {
-            return {"statues": "not ok"};
-        }
+    getBusRoute: procedure.input(z.string()).query(async(routeName)=>{
+        
         const access_token = (await get_access_token())["access_token"]
         const route = await axios.get(
             `https://tdx.transportdata.tw/api/basic/v2/Bus/DisplayStopOfRoute/City/Taichung/${routeName.input}`,
@@ -30,7 +28,7 @@ export const appRouter = router({
             }
         )
         return route.data
-    })
+    }),
 })
 
 // export type definition of API

@@ -16,11 +16,8 @@ export default function StopsMarker({routeDetail, direction, bus}: {routeDetail:
         filteredData = routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus && item.Direction === direction)[0].Stops
     }
 
-    Math.floor(255*seedrandom(`${bus}R`)())
-    Math.floor(255*seedrandom(`${bus}G`)())
-    Math.floor(255*seedrandom(`${bus}B`)())
 
-    const bg_color = `rgb(${Math.floor(255*seedrandom(`${bus}R`)())},${Math.floor(255*seedrandom(`${bus}G`)())},${Math.floor(255*seedrandom(`${bus}B`)())})`
+    const bg_color = `rgb(${Math.floor(255*seedrandom(`${bus} R`)())},${Math.floor(255*seedrandom(`${bus} G`)())},${Math.floor(255*seedrandom(`${bus} B`)())})`
 
     return (
         <>

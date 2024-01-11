@@ -9,13 +9,13 @@ import {APIProvider, Map  } from '@vis.gl/react-google-maps';
 import Select from "react-select"
 import StopList from "./_component/StopList"
 import StopsMarker from "./_component/StopsMaker"
-import { useRouter } from "next/navigation"
 
 export default function Bus({initData}: {initData: AllBusType["data"]}) {
     
-    const router = useRouter()
     const [bus, setBus] = useState("")
-    const routeDetail = trpc.getBusRoute.useQuery(bus ?? "") as BusRouteType
+    const routeDetail = trpc.getBusRoute.useQuery(bus , {
+        enabled: Boolean(bus ?? "")
+    }) as BusRouteType
     const [order, setOrder] = useState(0)
     const [position, setPosition] = useState({ lat: 24.137396608878987, lng: 120.68692065044608 });
     const regex1 = /^[\u4e00-\u9fa5]/
@@ -51,9 +51,7 @@ export default function Bus({initData}: {initData: AllBusType["data"]}) {
                     <div className="bg-white bg-opacity-50 backdrop-blur-lg  w-96 h-full p-4 flex flex-col items-center gap-4 z-50">
                         <p className="font-black text-lg">---選擇路線---</p>
                         <Select onChange={(e)=>{
-                            setBus(e?.value ?? "")
-                            console.log(e?.value);
-                            
+                            setBus(e?.value ?? "")                            
                         }} options={selectOptions} instanceId={useId()} className="text-black w-full" />
                         {Boolean(bus) && <>
                             <div>

@@ -44,10 +44,6 @@ export default function Bus({initData}: {initData: AllBusType["data"]}) {
     }
     }, []);
 
-    useEffect(()=>{
-        router.refresh()
-    },[order])
-
     return (
         <>
             <div className=" w-screen h-screen text-black overflow-x-hidden flex flex-col justify-center items-center z-20">
@@ -77,6 +73,7 @@ export default function Bus({initData}: {initData: AllBusType["data"]}) {
                         center={position}
                         gestureHandling={'greedy'}
                         disableDefaultUI={true}
+                        mapId={publicENV.NEXT_PUBLIC_Google_Map_ID}
                         >
                             <StopsMarker routeDetail={routeDetail} direction={order} bus={bus} />   
                         </Map>
@@ -86,7 +83,3 @@ export default function Bus({initData}: {initData: AllBusType["data"]}) {
         </>
     )
 }
-
-
-
-

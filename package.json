@@ -9,11 +9,15 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@googlemaps/react-wrapper": "^1.1.35",
+    "@react-google-maps/api": "^2.19.2",
     "@tanstack/react-query": "4",
     "@trpc/client": "^10.45.0",
     "@trpc/next": "^10.45.0",
     "@trpc/react-query": "^10.45.0",
     "@trpc/server": "^10.45.0",
+    "@types/google.maps": "^3.54.10",
+    "@types/seedrandom": "^3.0.8",
     "@vis.gl/react-google-maps": "^0.4.2",
     "axios": "^1.6.5",
     "next": "14.0.4",
@@ -21,6 +25,7 @@
     "react-dom": "^18",
     "react-icons": "^4.12.0",
     "react-select": "^5.8.0",
+    "seedrandom": "^3.0.5",
     "zod": "^3.22.4"
   },
   "devDependencies": {

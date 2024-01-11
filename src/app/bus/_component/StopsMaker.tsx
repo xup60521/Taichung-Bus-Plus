@@ -2,6 +2,7 @@
 
 import type { BusRouteType } from "@/type/BusRouteType";
 import DisplayMarker from "./DisplayMarker";
+import seedrandom from "seedrandom";
 
 export default function StopsMarker({routeDetail, direction, bus}: {routeDetail: BusRouteType, direction: number, bus:string}) {
     if (!Array.isArray(routeDetail.data)) {
@@ -15,10 +16,16 @@ export default function StopsMarker({routeDetail, direction, bus}: {routeDetail:
         filteredData = routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus && item.Direction === direction)[0].Stops
     }
 
+    Math.floor(255*seedrandom(`${bus}R`)())
+    Math.floor(255*seedrandom(`${bus}G`)())
+    Math.floor(255*seedrandom(`${bus}B`)())
+
+    const bg_color = `rgb(${Math.floor(255*seedrandom(`${bus}R`)())},${Math.floor(255*seedrandom(`${bus}G`)())},${Math.floor(255*seedrandom(`${bus}B`)())})`
+
     return (
         <>
             {filteredData.reverse().map((d)=>{
-                return <DisplayMarker  key={d.StopSequence.toString()} d={d} />
+                return <DisplayMarker bg_color={bg_color} key={d.StopSequence.toString()} d={d} />
             })}
         </>
     )

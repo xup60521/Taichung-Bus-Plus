@@ -29,7 +29,7 @@ export default function StopList({routeDetail, direction, bus}: {routeDetail: Bu
             <div className=" flex-grow w-full overflow-y-auto flex flex-col gap-2">
                 {filteredData.reverse().map(d=>{
                     return (
-                        <div key={d.StopName.Zh_tw}>
+                        <div key={`${d.StopName.Zh_tw} ${d.StopSequence.toString()}`}>
                             <span className="text-xl">{d.StopName.Zh_tw}</span>
                         </div>
                     )

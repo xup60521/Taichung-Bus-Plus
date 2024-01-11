@@ -1,31 +1,5 @@
-export type BusRouteType = {
-    status:              string;
-    fetchStatus:         string;
-    isLoading:           boolean;
-    isSuccess:           boolean;
-    isError:             boolean;
-    isInitialLoading:    boolean;
-    data:                Datum[];
-    dataUpdatedAt:       number;
-    error:               null;
-    errorUpdatedAt:      number;
-    failureCount:        number;
-    failureReason:       null;
-    errorUpdateCount:    number;
-    isFetched:           boolean;
-    isFetchedAfterMount: boolean;
-    isFetching:          boolean;
-    isRefetching:        boolean;
-    isLoadingError:      boolean;
-    isPaused:            boolean;
-    isPlaceholderData:   boolean;
-    isPreviousData:      boolean;
-    isRefetchError:      boolean;
-    isStale:             boolean;
-    trpc:                Trpc;
-}
 
-export type Datum = {
+export type BusRouteType = {
     RouteUID:   string;
     RouteID:    string;
     RouteName:  Name;

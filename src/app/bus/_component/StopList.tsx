@@ -3,18 +3,18 @@
 import type { BusRouteType } from "@/type/BusRouteType";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-export default function StopList({routeDetail, direction, bus}: {routeDetail: BusRouteType, direction: number, bus:string}) {
-    if (!Array.isArray(routeDetail.data)) {
+export default function StopList({routeDetail, direction, bus}: {routeDetail: BusRouteType[], direction: number, bus:string}) {
+    if (!Array.isArray(routeDetail)) {
         return ""
     }
 
     
-    const isOneWay = (routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
+    const isOneWay = (routeDetail.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
     let filteredData;
     if (isOneWay) {
-        filteredData = routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus)[0].Stops
+        filteredData = routeDetail.filter((item)=>item.RouteName.Zh_tw === bus)[0].Stops
     } else {
-        filteredData = routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus && item.Direction === direction)[0].Stops.sort((a, b)=>a.StopSequence - b.StopSequence)
+        filteredData = routeDetail.filter((item)=>item.RouteName.Zh_tw === bus && item.Direction === direction)[0].Stops.sort((a, b)=>a.StopSequence - b.StopSequence)
     }
     
     

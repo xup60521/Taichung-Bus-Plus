@@ -10,12 +10,15 @@ import Select from "react-select"
 import StopList from "./_component/StopList"
 import StopsMarker from "./_component/StopsMaker"
 
-export default function Bus({initData}: {initData: AllBusType["data"]}) {
+export default function Bus({initData}: {initData: AllBusType[]}) {
     
     const [bus, setBus] = useState("")
     const routeDetail = trpc.getBusRoute.useQuery(bus , {
         enabled: Boolean(bus ?? "")
-    }) as BusRouteType
+    })
+    const routeEst = trpc.getRouteArrivalEst.useQuery(bus, {
+        enabled: Boolean(bus ?? "")
+    })
     const [order, setOrder] = useState(0)
     const [position, setPosition] = useState({ lat: 24.137396608878987, lng: 120.68692065044608 });
     const regex1 = /^[\u4e00-\u9fa5]/
@@ -44,6 +47,8 @@ export default function Bus({initData}: {initData: AllBusType["data"]}) {
     }
     }, []);
 
+    
+
     return (
         <>
             <div className=" w-screen h-screen text-black overflow-x-hidden flex flex-col justify-center items-center z-20">
@@ -60,7 +65,7 @@ export default function Bus({initData}: {initData: AllBusType["data"]}) {
                                     else {setOrder(1)}
                                 }}>Change Direction</button>}
                             </div>
-                            <StopList routeDetail={routeDetail} direction={order} bus={bus} />     
+                            <StopList routeDetail={routeDetail.data} direction={order} bus={bus} />     
                         </>}                         
                     </div>
                 </div>
@@ -73,11 +78,12 @@ export default function Bus({initData}: {initData: AllBusType["data"]}) {
                         disableDefaultUI={true}
                         mapId={publicENV.NEXT_PUBLIC_Google_Map_ID}
                         >
-                            <StopsMarker routeDetail={routeDetail} direction={order} bus={bus} />   
+                            <StopsMarker routeDetail={routeDetail.data} direction={order} bus={bus} />   
                         </Map>
                     </APIProvider>
                 </div>
             </div>
+            {JSON.stringify(routeEst)}
         </>
     )
 }

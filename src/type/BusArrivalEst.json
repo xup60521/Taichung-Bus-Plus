@@ -1,0 +1,1564 @@
+[
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG12952",
+    "StopID": "12952",
+    "StopName": {
+      "Zh_tw": "東勢林業文化園區",
+      "En": "Dongshih Forestry Culture Park"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 27,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:25:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG12953",
+    "StopID": "12953",
+    "StopName": {
+      "Zh_tw": "東勢林業文化園區",
+      "En": "Dongshih Forestry Culture Park"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 2,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG13594",
+    "StopID": "13594",
+    "StopName": {
+      "Zh_tw": "東勢游泳池",
+      "En": "Dongshi Swimming pool"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 21,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:17:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG13713",
+    "StopID": "13713",
+    "StopName": {
+      "Zh_tw": "新盛里(東勢高工)",
+      "En": "Xinsheng Village(Dongshih Industrial Senior High School)"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 1,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG18058",
+    "StopID": "18058",
+    "StopName": {
+      "Zh_tw": "石岡國小",
+      "En": "Shigang Elementary School"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 8,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:03:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG18058",
+    "StopID": "18058",
+    "StopName": {
+      "Zh_tw": "石岡國小",
+      "En": "Shigang Elementary School"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 23,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5029",
+    "StopID": "5029",
+    "StopName": {
+      "Zh_tw": "九房厝",
+      "En": "Jiufangcuo"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 11,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:07:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5029",
+    "StopID": "5029",
+    "StopName": {
+      "Zh_tw": "九房厝",
+      "En": "Jiufangcuo"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 26,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5101",
+    "StopID": "5101",
+    "StopName": {
+      "Zh_tw": "下土牛",
+      "En": "Xiatu-niu"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 17,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:12:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5101",
+    "StopID": "5101",
+    "StopName": {
+      "Zh_tw": "下土牛",
+      "En": "Xiatu-niu"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 14,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5198",
+    "StopID": "5198",
+    "StopName": {
+      "Zh_tw": "土牛(豐勢路)",
+      "En": "Tuniu(Fengshi Road)"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 20,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:14:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5198",
+    "StopID": "5198",
+    "StopName": {
+      "Zh_tw": "土牛(豐勢路)",
+      "En": "Tuniu(Fengshi Road)"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 11,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5302",
+    "StopID": "5302",
+    "StopName": {
+      "Zh_tw": "中嵙口",
+      "En": "Zhongkekou"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 24,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:22:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5302",
+    "StopID": "5302",
+    "StopName": {
+      "Zh_tw": "中嵙口",
+      "En": "Zhongkekou"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 5,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5654",
+    "StopID": "5654",
+    "StopName": {
+      "Zh_tw": "石角口",
+      "En": "Shijiaokou"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 3,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5657",
+    "StopID": "5657",
+    "StopName": {
+      "Zh_tw": "石岡",
+      "En": "Shihgang"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 9,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:05:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5657",
+    "StopID": "5657",
+    "StopName": {
+      "Zh_tw": "石岡",
+      "En": "Shihgang"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 24,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5659",
+    "StopID": "5659",
+    "StopName": {
+      "Zh_tw": "石岡區公所",
+      "En": "Shihgang District Office"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 10,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:06:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5659",
+    "StopID": "5659",
+    "StopName": {
+      "Zh_tw": "石岡區公所",
+      "En": "Shihgang District Office"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 25,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5745",
+    "StopID": "5745",
+    "StopName": {
+      "Zh_tw": "東勢老人會館",
+      "En": "Dongshi Sr. Citizens Hall"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 8,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5865",
+    "StopID": "5865",
+    "StopName": {
+      "Zh_tw": "明山寺",
+      "En": "Mingshan Temple"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 16,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:11:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5865",
+    "StopID": "5865",
+    "StopName": {
+      "Zh_tw": "明山寺",
+      "En": "Mingshan Temple"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 15,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5889",
+    "StopID": "5889",
+    "StopName": {
+      "Zh_tw": "東勢南站",
+      "En": "Dongshi South Station"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 25,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:23:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5889",
+    "StopID": "5889",
+    "StopName": {
+      "Zh_tw": "東勢南站",
+      "En": "Dongshi South Station"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 4,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5899",
+    "StopID": "5899",
+    "StopName": {
+      "Zh_tw": "東勢",
+      "En": "Dongshi"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 22,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:19:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5899",
+    "StopID": "5899",
+    "StopName": {
+      "Zh_tw": "東勢",
+      "En": "Dongshi"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 7,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5905",
+    "StopID": "5905",
+    "StopName": {
+      "Zh_tw": "東新國中",
+      "En": "Dung-shing Junior High School"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 9,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5947",
+    "StopID": "5947",
+    "StopName": {
+      "Zh_tw": "社寮角",
+      "En": "Sheliaojiao"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 13,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:08:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5947",
+    "StopID": "5947",
+    "StopName": {
+      "Zh_tw": "社寮角",
+      "En": "Sheliaojiao"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 28,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5987",
+    "StopID": "5987",
+    "StopName": {
+      "Zh_tw": "南平里",
+      "En": "Nanping Village"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 23,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:20:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG5987",
+    "StopID": "5987",
+    "StopName": {
+      "Zh_tw": "南平里",
+      "En": "Nanping Village"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 6,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6194",
+    "StopID": "6194",
+    "StopName": {
+      "Zh_tw": "情人木橋",
+      "En": "Lovers Wood Bridge"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 12,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:08:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6194",
+    "StopID": "6194",
+    "StopName": {
+      "Zh_tw": "情人木橋",
+      "En": "Lovers Wood Bridge"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 27,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6213",
+    "StopID": "6213",
+    "StopName": {
+      "Zh_tw": "梅子",
+      "En": "Meizi"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 15,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:10:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6213",
+    "StopID": "6213",
+    "StopName": {
+      "Zh_tw": "梅子",
+      "En": "Meizi"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 30,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6268",
+    "StopID": "6268",
+    "StopName": {
+      "Zh_tw": "連厝",
+      "En": "Liancuo"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 18,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:13:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6268",
+    "StopID": "6268",
+    "StopName": {
+      "Zh_tw": "連厝",
+      "En": "Liancuo"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 13,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6460",
+    "StopID": "6460",
+    "StopName": {
+      "Zh_tw": "新豐冷凍",
+      "En": "Xinfeng Freezer Company"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 14,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:10:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6460",
+    "StopID": "6460",
+    "StopName": {
+      "Zh_tw": "新豐冷凍",
+      "En": "Xinfeng Freezer Company"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 29,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6462",
+    "StopID": "6462",
+    "StopName": {
+      "Zh_tw": "新豐新寧街口",
+      "En": "Xinfeng-Xinning Intersection"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 10,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6595",
+    "StopID": "6595",
+    "StopName": {
+      "Zh_tw": "德興里",
+      "En": "Dexing Village"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 19,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:13:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6595",
+    "StopID": "6595",
+    "StopName": {
+      "Zh_tw": "德興里",
+      "En": "Dexing Village"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 12,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6956",
+    "StopID": "6956",
+    "StopName": {
+      "Zh_tw": "石岡國中",
+      "En": "Shigang Junior High School"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 1,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T16:55:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6956",
+    "StopID": "6956",
+    "StopName": {
+      "Zh_tw": "石岡國中",
+      "En": "Shigang Junior High School"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 31,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6957",
+    "StopID": "6957",
+    "StopName": {
+      "Zh_tw": "新豐冷凍",
+      "En": "Xinfeng Freezer Company"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 2,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T16:58:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6957",
+    "StopID": "6957",
+    "StopName": {
+      "Zh_tw": "新豐冷凍",
+      "En": "Xinfeng Freezer Company"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 17,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6958",
+    "StopID": "6958",
+    "StopName": {
+      "Zh_tw": "社寮角",
+      "En": "Sheliaojiao"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 3,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T16:59:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6958",
+    "StopID": "6958",
+    "StopName": {
+      "Zh_tw": "社寮角",
+      "En": "Sheliaojiao"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 18,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6959",
+    "StopID": "6959",
+    "StopName": {
+      "Zh_tw": "情人木橋",
+      "En": "Lovers Wood Bridge"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 4,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T16:59:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6959",
+    "StopID": "6959",
+    "StopName": {
+      "Zh_tw": "情人木橋",
+      "En": "Lovers Wood Bridge"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 19,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6960",
+    "StopID": "6960",
+    "StopName": {
+      "Zh_tw": "九房厝",
+      "En": "Jiufangcuo"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 5,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:00:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6960",
+    "StopID": "6960",
+    "StopName": {
+      "Zh_tw": "九房厝",
+      "En": "Jiufangcuo"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 20,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6961",
+    "StopID": "6961",
+    "StopName": {
+      "Zh_tw": "石岡區公所",
+      "En": "Shihgang District Office"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 6,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:01:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6961",
+    "StopID": "6961",
+    "StopName": {
+      "Zh_tw": "石岡區公所",
+      "En": "Shihgang District Office"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 21,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6962",
+    "StopID": "6962",
+    "StopName": {
+      "Zh_tw": "石岡",
+      "En": "Shihgang"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 7,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:02:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6962",
+    "StopID": "6962",
+    "StopName": {
+      "Zh_tw": "石岡",
+      "En": "Shihgang"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 22,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG6963",
+    "StopID": "6963",
+    "StopName": {
+      "Zh_tw": "梅子",
+      "En": "Meizi"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 1,
+    "StopSequence": 16,
+    "StopStatus": 3,
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG7072",
+    "StopID": "7072",
+    "StopName": {
+      "Zh_tw": "石角口",
+      "En": "Shijiaokou"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 26,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:24:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  },
+  {
+    "PlateNumb": "",
+    "StopUID": "TXG7073",
+    "StopID": "7073",
+    "StopName": {
+      "Zh_tw": "新盛里(東勢高工)",
+      "En": "Xinsheng Village(Dongshih Industrial Senior High School)"
+    },
+    "RouteUID": "TXG956",
+    "RouteID": "956",
+    "RouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "SubRouteUID": "TXG956",
+    "SubRouteID": "956",
+    "SubRouteName": {
+      "Zh_tw": "206延",
+      "En": "206E"
+    },
+    "Direction": 0,
+    "StopSequence": 28,
+    "StopStatus": 1,
+    "NextBusTime": "2024-01-11T17:25:00+08:00",
+    "SrcUpdateTime": "2024-01-11T15:46:58+08:00",
+    "UpdateTime": "2024-01-11T15:47:18+08:00"
+  }
+]

@@ -62,7 +62,7 @@ export default function Bus({initData, setRouteDetail}:
                         <p className="font-black text-lg">---選擇路線---</p>
                         <Select onChange={(e)=>{
                             setBus(e?.value ?? "")                            
-                        }} options={selectOptions} instanceId={useId()} defaultInputValue={bus} className="text-black w-full" />
+                        }} options={selectOptions} instanceId={useId()} defaultInputValue={searchparams.get("route") ?? ""} className="text-black w-full" />
                         {Boolean(bus) && <>
                             <div>
                                 {!isOneWay && <button onClick={()=>{

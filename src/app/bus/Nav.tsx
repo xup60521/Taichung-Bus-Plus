@@ -20,7 +20,7 @@ export default function Nav({initData}: {initData: AllBusType[]}) {
     const [routeDetail, setRouteDetail] = useState<BusRouteType[] | null>(null)
     
     return (
-        <HashRouter>
+        {typeof window === "undefined" ? "" : <HashRouter>
             <div className="absolute w-full h-full box-border flex bg-red-300">
                 <nav className="h-full w-12 z-20 bg-white flex flex-col justify-center items-center">
                     <NavLink to={"/"} className=""><FaBus /></NavLink>
@@ -44,6 +44,6 @@ export default function Nav({initData}: {initData: AllBusType[]}) {
                         </Map>
                     </APIProvider>
                 </div>
-        </HashRouter>
+        </HashRouter>}
     )
 }

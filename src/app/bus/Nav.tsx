@@ -18,9 +18,14 @@ export default function Nav({initData}: {initData: AllBusType[]}) {
     const position = usePosition()
     const direction = useDirection()
     const [routeDetail, setRouteDetail] = useState<BusRouteType[] | null>(null)
+
+   if (typeof window === "undefined") {
+     return ""
+   }
+
     
     return (
-        {typeof window === "undefined" ? "" : <HashRouter>
+         <HashRouter>
             <div className="absolute w-full h-full box-border flex bg-red-300">
                 <nav className="h-full w-12 z-20 bg-white flex flex-col justify-center items-center">
                     <NavLink to={"/"} className=""><FaBus /></NavLink>
@@ -44,6 +49,6 @@ export default function Nav({initData}: {initData: AllBusType[]}) {
                         </Map>
                     </APIProvider>
                 </div>
-        </HashRouter>}
+        </HashRouter>
     )
 }

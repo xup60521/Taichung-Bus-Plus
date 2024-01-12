@@ -4,8 +4,8 @@ import type { BusRouteType } from "@/type/BusRouteType";
 import DisplayMarker from "./DisplayMarker";
 import seedrandom from "seedrandom";
 
-export default function StopsMarker({routeDetail, direction, bus}: {routeDetail: BusRouteType[] | undefined, direction: number, bus:string}) {
-    if (!Array.isArray(routeDetail)) {
+export default function StopsMarker({routeDetail, direction, bus}: {routeDetail: BusRouteType[] | undefined | null, direction: number, bus:string}) {
+    if (!Array.isArray(routeDetail) || routeDetail.length === 0) {
         return ""
     }
     const isOneWay = (routeDetail.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
@@ -13,7 +13,7 @@ export default function StopsMarker({routeDetail, direction, bus}: {routeDetail:
     if (isOneWay) {
         filteredData = routeDetail.filter((item)=>item.RouteName.Zh_tw === bus)[0].Stops
     } else {
-        filteredData = routeDetail.filter((item)=>item.RouteName.Zh_tw === bus && item.Direction === direction)[0].Stops
+        filteredData = routeDetail.filter((item)=>item.RouteName.Zh_tw === bus && item.Direction === direction)[0]?.Stops
     }
 
 
@@ -21,7 +21,7 @@ export default function StopsMarker({routeDetail, direction, bus}: {routeDetail:
 
     return (
         <>
-            {filteredData.reverse().map((d)=>{
+            {filteredData?.reverse().map((d)=>{
                 return <DisplayMarker bg_color={bg_color} key={d.StopSequence.toString()} d={d} />
             })}
         </>

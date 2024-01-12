@@ -2,11 +2,12 @@
 
 import type { AllBusType }  from "@/type/AllBusType" 
 import { trpc } from "../../_trpc/client"
-import { useId } from "react"
+import { useEffect, useId, useState } from "react"
 import Select from "react-select"
-import StopList from "./StopList"
+import StopList from "./Bus/StopList"
 import { useBus, useDirection, useSetBus, useSetDirection } from "@/utils/BusContext"
 import { BusRouteType } from "@/type/BusRouteType"
+import { useRouter, useSearchParams } from "next/navigation"
 
 export default function Bus({initData, setRouteDetail}: 
     {initData: AllBusType[], setRouteDetail: React.Dispatch<React.SetStateAction<BusRouteType[] | null>>}) {
@@ -15,9 +16,14 @@ export default function Bus({initData, setRouteDetail}:
     const setDirection = useSetDirection()
     const bus = useBus()
     const setBus = useSetBus()
+    const router = useRouter()
+    const searchparams = useSearchParams()
+    const [loading, setLoading] = useState(true)
     const routeDetail = trpc.getBusRoute.useQuery(bus , {
         enabled: Boolean(bus ?? ""),
-        onSuccess: (data) => {setRouteDetail([...data])}
+        onSuccess: (data) => {
+            setRouteDetail([...data])
+        }
         
     })
     const regex1 = /^[\u4e00-\u9fa5]/
@@ -33,7 +39,20 @@ export default function Bus({initData, setRouteDetail}:
         isOneWay = (routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
     }
 
-    
+    useEffect(()=>{
+        if (!loading) {
+            router.push(`?route=${bus}`, {
+                scroll: false        })
+        }
+    }, [bus])
+
+    useEffect(()=>{
+        const param = searchparams.get("route")
+        if (param) {
+            setBus(param)
+        }
+        setLoading(false)
+    },[])
 
     return (
         <>
@@ -43,7 +62,7 @@ export default function Bus({initData, setRouteDetail}:
                         <p className="font-black text-lg">---選擇路線---</p>
                         <Select onChange={(e)=>{
                             setBus(e?.value ?? "")                            
-                        }} options={selectOptions} instanceId={useId()} className="text-black w-full" />
+                        }} options={selectOptions} instanceId={useId()} defaultInputValue={bus} className="text-black w-full" />
                         {Boolean(bus) && <>
                             <div>
                                 {!isOneWay && <button onClick={()=>{

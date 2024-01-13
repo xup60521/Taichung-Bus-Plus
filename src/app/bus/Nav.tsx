@@ -1,7 +1,6 @@
 'use client'
 
 import type { AllBusType } from "@/type/AllBusType";
-import { Routes, Route, NavLink, HashRouter } from "react-router-dom"
 import { FaBus, FaShekelSign } from "react-icons/fa";
 import Bus from "./_component/Bus";
 import { useBus, useDirection, usePosition } from "@/utils/BusContext";

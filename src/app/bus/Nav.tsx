@@ -24,17 +24,14 @@ export default function Nav({initData}: {initData: AllBusType[]}) {
 
     
     return (
-        <HashRouter >
+        <>
             <div className="absolute w-full h-full box-border flex bg-red-300">
                 <div className="h-full w-12 z-20 bg-white flex flex-col justify-center items-center gap-6">
-                    <NavLink to={"/"} className=" h-2 active:text-red-700"><FaBus /></NavLink>
-                    <NavLink to="/bus-stop" ><FaShekelSign /></NavLink>
+                    <a  className=" h-2 active:text-red-700"><FaBus /></a>
+                    <a ><FaShekelSign /></a>
                 </div>   
                 <div className="h-full w-full flex-grow overflow-x-hidden bg-slate-400">
-                    <Routes>
-                        <Route path="/" element={<Bus setRouteDetail={setRouteDetail} initData={initData} />} />
-                        <Route path="/bus-stop" />
-                    </Routes>
+                    <Bus setRouteDetail={setRouteDetail} initData={initData} />
                 </div>
             </div>
             <div className="absolute h-full w-full z-10 left-0">
@@ -50,6 +47,6 @@ export default function Nav({initData}: {initData: AllBusType[]}) {
                     </Map>
                 </APIProvider>
             </div>
-        </HashRouter>
+        </>
     )
 }

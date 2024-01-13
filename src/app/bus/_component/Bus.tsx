@@ -41,7 +41,7 @@ export default function Bus({initData, setRouteDetail}:
 
     useEffect(()=>{
         if (!loading) {
-            router.push(`?route=${bus}`, {
+            router.push(`?page=bus&route=${bus}`, {
                 scroll: false        })
         }
     }, [bus])
@@ -74,7 +74,6 @@ export default function Bus({initData, setRouteDetail}:
                         </>}                         
                     </div>
                 </div>
-                
             </div>
         </>
     )

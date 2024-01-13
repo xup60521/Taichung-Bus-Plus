@@ -6,11 +6,11 @@ import Nav from "./Nav"
 
 export default async function Page() {
 
-    const {initBusData, initAllStation} = await serverClient.getAllBusAllStation.query()
+    const initBusData = await serverClient.getAllBus.query()
     
     return (
         <BusProvider>
-            <Nav initBusData={initBusData} initAllStation={initAllStation} />
+            <Nav initBusData={initBusData}  />
         </BusProvider>
     )
 }

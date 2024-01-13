@@ -13,8 +13,8 @@ import { useRouter, useSearchParams } from "next/navigation";
 import BusStop from "./_component/BusStop";
 import { AllStationType } from "@/type/AllStationType";
 
-export default function Nav({initBusData, initAllStation}: 
-    {initBusData: AllBusType[], initAllStation: AllStationType[]}) {
+export default function Nav({initBusData}: 
+    {initBusData: AllBusType[]}) {
 
     const bus = useBus()
     const setBus = useSetBus()
@@ -63,7 +63,7 @@ export default function Nav({initBusData, initAllStation}:
                             return <Bus setRouteDetail={setRouteDetail} initBusData={initBusData} />
                         }
                         if (page === "bus_stop") {
-                            return <BusStop initAllStation={initAllStation} />
+                            return <BusStop />
                         }
                         return ""
                     })()}

@@ -1,0 +1,362 @@
+[
+    {
+      "StationName": {
+        "Zh_tw": "福星西安街口"
+      },
+      "StationPosition": {
+        "PositionLon": 120.64505,
+        "PositionLat": 24.18155,
+        "GeoHash": "wsmc96559"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "下內新"
+      },
+      "StationPosition": {
+        "PositionLon": 120.68855,
+        "PositionLat": 24.10292,
+        "GeoHash": "wsmc47f9x"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "后科三豐路口"
+      },
+      "StationPosition": {
+        "PositionLon": 120.72638,
+        "PositionLat": 24.32114,
+        "GeoHash": "wsmf75w2b"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "衛道中學"
+      },
+      "StationPosition": {
+        "PositionLon": 120.67566,
+        "PositionLat": 24.18346,
+        "GeoHash": "wsmcd43qf"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "秀水里活動中心"
+      },
+      "StationPosition": {
+        "PositionLon": 120.56214,
+        "PositionLat": 24.27793,
+        "GeoHash": "wsmdp7wtj"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "清海國中(中央路)"
+      },
+      "StationPosition": {
+        "PositionLon": 120.55424,
+        "PositionLat": 24.27582,
+        "GeoHash": "wsmdp72bv"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "甲桂林社區(中社路)"
+      },
+      "StationPosition": {
+        "PositionLon": 120.54842,
+        "PositionLat": 24.27333,
+        "GeoHash": "wsmdp4udm"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "海濱里活動中心"
+      },
+      "StationPosition": {
+        "PositionLon": 120.54632,
+        "PositionLat": 24.28872,
+        "GeoHash": "wsmdpjehh"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "鎮元宮"
+      },
+      "StationPosition": {
+        "PositionLon": 120.5565,
+        "PositionLat": 24.29168,
+        "GeoHash": "wsmdpq4t6"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "臨江里(中央路)"
+      },
+      "StationPosition": {
+        "PositionLon": 120.56492,
+        "PositionLat": 24.29129,
+        "GeoHash": "wsmdpw0en"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "港區運動公園"
+      },
+      "StationPosition": {
+        "PositionLon": 120.56509,
+        "PositionLat": 24.2044,
+        "GeoHash": "wsm9xw2bf"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "保安宮"
+      },
+      "StationPosition": {
+        "PositionLon": 120.5654,
+        "PositionLat": 24.20854,
+        "GeoHash": "wsm9xx10c"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "正義路97巷口"
+      },
+      "StationPosition": {
+        "PositionLon": 120.57152,
+        "PositionLat": 24.2073,
+        "GeoHash": "wsm9xwv98"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "北勢國小"
+      },
+      "StationPosition": {
+        "PositionLon": 120.57318,
+        "PositionLat": 24.21574,
+        "GeoHash": "wsm9z8qdy"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "南勢溪公園"
+      },
+      "StationPosition": {
+        "PositionLon": 120.56362,
+        "PositionLat": 24.21678,
+        "GeoHash": "wsm9z2x8z"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "自由路鎮南路口"
+      },
+      "StationPosition": {
+        "PositionLon": 120.56842,
+        "PositionLat": 24.22019,
+        "GeoHash": "wsm9z95hz"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "福成路100巷口"
+      },
+      "StationPosition": {
+        "PositionLon": 120.56544,
+        "PositionLat": 24.22348,
+        "GeoHash": "wsm9z99pf"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "青山公園(福至路)"
+      },
+      "StationPosition": {
+        "PositionLon": 120.56687,
+        "PositionLat": 24.22599,
+        "GeoHash": "wsm9zd4ne"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "青山公園(福至路)"
+      },
+      "StationPosition": {
+        "PositionLon": 120.56687,
+        "PositionLat": 24.22599,
+        "GeoHash": "wsm9zd4ne"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "福成路100巷口"
+      },
+      "StationPosition": {
+        "PositionLon": 120.56544,
+        "PositionLat": 24.22348,
+        "GeoHash": "wsm9z99pf"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "自由路鎮南路口"
+      },
+      "StationPosition": {
+        "PositionLon": 120.56842,
+        "PositionLat": 24.22019,
+        "GeoHash": "wsm9z95hz"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "南勢溪公園"
+      },
+      "StationPosition": {
+        "PositionLon": 120.56362,
+        "PositionLat": 24.21678,
+        "GeoHash": "wsm9z2x8z"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "北勢國小"
+      },
+      "StationPosition": {
+        "PositionLon": 120.57318,
+        "PositionLat": 24.21574,
+        "GeoHash": "wsm9z8qdy"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "正義路97巷口"
+      },
+      "StationPosition": {
+        "PositionLon": 120.57152,
+        "PositionLat": 24.2073,
+        "GeoHash": "wsm9xwv98"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "仁愛國小"
+      },
+      "StationPosition": {
+        "PositionLon": 120.67178,
+        "PositionLat": 24.18003,
+        "GeoHash": "wsmc9cydb"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "保安宮"
+      },
+      "StationPosition": {
+        "PositionLon": 120.5654,
+        "PositionLat": 24.20854,
+        "GeoHash": "wsm9xx10c"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "港區運動公園"
+      },
+      "StationPosition": {
+        "PositionLon": 120.56509,
+        "PositionLat": 24.2044,
+        "GeoHash": "wsm9xw2bf"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "媽祖公園(建成路)"
+      },
+      "StationPosition": {
+        "PositionLon": 120.69489,
+        "PositionLat": 24.14194,
+        "GeoHash": "wsmc66zkf"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "媽祖公園(建成路)"
+      },
+      "StationPosition": {
+        "PositionLon": 120.69587,
+        "PositionLat": 24.14102,
+        "GeoHash": "wsmc6d8p9"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    },
+    {
+      "StationName": {
+        "Zh_tw": "永忠"
+      },
+      "StationPosition": {
+        "PositionLon": 120.53219,
+        "PositionLat": 24.22058,
+        "GeoHash": "wsm9yc0z5"
+      },
+      "UpdateTime": "2024-01-13T10:30:48+08:00",
+      "VersionID": 5893
+    }
+  ]

@@ -9,7 +9,9 @@ const BusContext = createContext({
     bus: "",
     setBus: unknown as React.Dispatch<React.SetStateAction<string>>,
     direction: 0,
-    setDirection: unknown as React.Dispatch<React.SetStateAction<number>>
+    setDirection: unknown as React.Dispatch<React.SetStateAction<number>>,
+    station: "",
+    setStation: unknown as React.Dispatch<React.SetStateAction<string>>,
 })
 
 export function BusProvider({children}: {children: React.ReactNode}) {
@@ -17,6 +19,7 @@ export function BusProvider({children}: {children: React.ReactNode}) {
     const [bus, setBus] = useState("")
     const [position, setPosition] = useState({ lat: 24.137396608878987, lng: 120.68692065044608 });
     const [direction, setDirection] = useState(0)
+    const [station, setStation] = useState("")
     
     useEffect(() => {
         if ("geolocation" in navigator) {
@@ -32,7 +35,15 @@ export function BusProvider({children}: {children: React.ReactNode}) {
         }, []);
     
     return (
-        <BusContext.Provider value={{bus, setBus, position, direction, setDirection}}>
+        <BusContext.Provider value={{
+            bus, 
+            setBus, 
+            position,
+            direction, 
+            setDirection,
+            station,
+            setStation
+            }}>
             {children}
         </BusContext.Provider>
     )
@@ -43,3 +54,5 @@ export const useSetBus = () => useContext(BusContext).setBus
 export const usePosition = () => useContext(BusContext).position
 export const useDirection = () => useContext(BusContext).direction
 export const useSetDirection = () => useContext(BusContext).setDirection
+export const useStation = () => useContext(BusContext).station
+export const useSetStation = () => useContext(BusContext).setStation

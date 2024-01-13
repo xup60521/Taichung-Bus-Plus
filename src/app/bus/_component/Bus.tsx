@@ -9,16 +9,15 @@ import { useBus, useDirection, useSetBus, useSetDirection } from "@/utils/BusCon
 import { BusRouteType } from "@/type/BusRouteType"
 import { useRouter, useSearchParams } from "next/navigation"
 
-export default function Bus({initData, setRouteDetail}: 
-    {initData: AllBusType[], setRouteDetail: React.Dispatch<React.SetStateAction<BusRouteType[] | null>>}) {
+export default function Bus({initBusData, setRouteDetail}: 
+    {initBusData: AllBusType[], setRouteDetail: React.Dispatch<React.SetStateAction<BusRouteType[] | null>>}) {
     
     const direction = useDirection()
     const setDirection = useSetDirection()
     const bus = useBus()
     const setBus = useSetBus()
-    const router = useRouter()
+    
     const searchparams = useSearchParams()
-    const [loading, setLoading] = useState(true)
     const routeDetail = trpc.getBusRoute.useQuery(bus , {
         enabled: Boolean(bus ?? ""),
         onSuccess: (data) => {
@@ -29,7 +28,7 @@ export default function Bus({initData, setRouteDetail}:
     const regex1 = /^[\u4e00-\u9fa5]/
     const regex2 = /[\u4e00-\u9fa5][0-9]/
     const regex3 = /[\u4e00-\u9fa5A-Z()]/g
-    const selectOptions = initData.map(d=>{
+    const selectOptions = initBusData.map(d=>{
     return {
         "value": d.RouteName.Zh_tw,
         "label": `${d.RouteName.Zh_tw} ${d.SubRoutes[0].Headsign}`,
@@ -39,19 +38,14 @@ export default function Bus({initData, setRouteDetail}:
         isOneWay = (routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
     }
 
-    useEffect(()=>{
-        if (!loading) {
-            router.push(`?page=bus&route=${bus}`, {
-                scroll: false        })
-        }
-    }, [bus])
+    
 
     useEffect(()=>{
         const param = searchparams.get("route")
         if (param) {
             setBus(param)
         }
-        setLoading(false)
+        
     },[])
 
     return (

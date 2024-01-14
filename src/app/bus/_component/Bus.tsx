@@ -39,7 +39,10 @@ export default function Bus({initBusData}:
         isOneWay = (routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
     }
 
-    
+    const defaultOption = {
+        value: searchparams.get("route"),
+        label: selectOptions.find(item => item.value === searchparams.get("route"))?.label
+    }
 
     useEffect(()=>{
         const param = searchparams.get("route")
@@ -51,13 +54,14 @@ export default function Bus({initBusData}:
 
     return (
         <>
-            <div className=" w-full h-full box-border text-black overflow-x-hidden flex flex-col justify-center items-center z-20">
+            <div className=" w-full h-full box-border text-black overflow-x-hidden flex flex-col justify-center items-center">
                 <div className="flex h-full w-full">
-                    <div className="bg-white bg-opacity-50 backdrop-blur-lg  w-full h-full p-4 flex flex-col items-center gap-2 z-50">
+                    <div className="bg-white bg-opacity-50 backdrop-blur-lg  w-full h-full p-4 flex flex-col items-center gap-2">
                         <p className="font-black text-lg">---選擇路線---</p>
                             <Select onChange={(e)=>{
                                 setBus(e?.value ?? "")                            
-                            }} options={selectOptions} instanceId={useId()} defaultInputValue={searchparams.get("route") ?? ""} className="text-black w-full" />
+                            }} options={selectOptions} instanceId={useId()} defaultValue={defaultOption.value ? defaultOption : null} className="text-black w-full" />
+
                             {Boolean(bus) && <>
                             <div className="w-full flex flex-col items-center justify-center">
                                 {!isOneWay && <button onClick={()=>{

@@ -16,6 +16,7 @@ import {
     ResizablePanel,
     ResizablePanelGroup,
   } from "@/components/ui/resizable"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 
 export default function Nav({initBusData}: 
     {initBusData: AllBusType[]}) {
@@ -54,13 +55,13 @@ export default function Nav({initBusData}:
     
     return (
         <>
-            <div className="absolute w-full h-full box-border flex bg-gradient-to-b from-rose-100 to-teal-100 overflow-hidden">
+            <div className="w-full h-screen box-border flex bg-gradient-to-b from-rose-100 to-teal-100 overflow-hidden">
                 <ResizablePanelGroup direction="horizontal">
                     <ResizablePanel defaultSize={2}>
-                        <div className="h-full w-full z-50 bg-white flex flex-col justify-center items-center gap-2">
+                        <div className="h-full w-full bg-white flex flex-col justify-center items-center gap-2">
                             <button onClick={()=>setPage("bus")}  className={`${page === "bus" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`}><FaBus /></button>
                             <button onClick={()=>setPage("bus_stop")} className={`${page === "bus_stop" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`} ><FaShekelSign /></button>
-                        </div>  
+                        </div>                          
                     </ResizablePanel>
                     <ResizableHandle className="w-1" />
                     <ResizablePanel defaultSize={25}>
@@ -78,7 +79,7 @@ export default function Nav({initBusData}:
                     </ResizablePanel>
                     <ResizableHandle className="w-1.5" />
                     <ResizablePanel>
-                        <div className="h-screen w-screen absolute">
+                        <div className="h-screen w-full">
                             <APIProvider apiKey={publicENV.NEXT_PUBLIC_Google_Map_API_Key??""}>
                                 <Map
                                 zoom={11.5}

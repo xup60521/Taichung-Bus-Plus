@@ -8,6 +8,9 @@ import { useEffect, useRef, useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import "./progress.css"
 import { useSetToggleShowStopInfo } from "@/utils/BusContext";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import { FiMenu, FiPlus} from "react-icons/fi";
+
 
 export default function StopList({routeDetail, direction, bus}: 
     {routeDetail: BusRouteType[], direction: number, bus:string}) {
@@ -50,9 +53,10 @@ export default function StopList({routeDetail, direction, bus}:
         return ()=>{clearInterval(intervalId2)}
       }, [])
 
-    return (
-        <>  
+      return (
+          <>  
             <div className="w-full">
+
                 <div className="flex items-center justify-center gap-2 bg-slate-200 text-slate-900 font-bold border-2 rounded-md rounded-b-none p-2 w-full">
                     <span className="w-2/5 text-center">{filteredData[0].StopName.Zh_tw}</span>
                     <span className="w-1/5 flex justify-center "><FaArrowRightLong /></span>
@@ -62,8 +66,7 @@ export default function StopList({routeDetail, direction, bus}:
                     <progress className=" w-full -translate-y-3 " max={14} value={seconds} />
                 </div>
             </div>
-            
-            <div className=" flex-grow w-full overflow-y-auto flex flex-col gap-2">
+            <div className=" flex-grow w-full overflow-y-auto flex flex-col gap-3">
                 {filteredData.reverse().map((d, )=>{
 
                     const remainingTimeData = routeEst.data?.filter((item)=>{
@@ -73,19 +76,21 @@ export default function StopList({routeDetail, direction, bus}:
                     })[0]
                     
                     return (
-                        <div key={`${d.StopName.Zh_tw} ${d.StopSequence.toString()}`} className="flex items-center pr-4">
+                        <div key={`${d.StopName.Zh_tw} ${d.StopSequence.toString()}`} className="flex relative items-center pr-4 gap-2">
+                            {remainingTimeData?<RemainningTime remainingTimeData={remainingTimeData} />:""}
                             <button className="relative group">
                                 <span onClick={()=>{
                                 setToggleShowStopInfo({
                                     stopName: d.StopName.Zh_tw,
                                     randomNumber: Math.random()
                                 })
-                            }} className="text-lg pl-1">{`${d.StopName.Zh_tw}`}</span>
+                            }} className="text-md pl-1 font-bold">{`${d.StopName.Zh_tw}`}</span>
                                 <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 bg-red-400 group-hover:w-1/2 group-hover:transition-all"></span>
                                 <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 bg-red-400 group-hover:w-1/2 group-hover:transition-all"></span>
                             </button>
                             <div className=" flex-grow" />
-                            {remainingTimeData?<RemainningTime remainingTimeData={remainingTimeData} />:""}
+                            <button className=" border-2 border-blue-200 bg-blue-200 font-bold text-gray-600 p-1 w-fit rounded h-fit text-center"><FiPlus /></button>
+                            <DropDownMenu />
                         </div>
                     )
                 })}
@@ -112,7 +117,24 @@ const RemainningTime = ({remainingTimeData}:
         if (estTime <= 3) {
             return <span className="bg-red-100 w-20 text-center text-red-800 p-1  rounded h-fit ">{`${estTime} 分鐘`}</span>
         }
-        return <span className="p-1  rounded w-20 text-center h-fit ">{`${estTime}分鐘`}</span>
+        return <span className="p-1  rounded w-20 text-center h-fit bg-white">{`${estTime} 分鐘`}</span>
     }
     return <span className="w-20 text-center">末班駛離</span>
+}
+
+const DropDownMenu = () => {
+
+    return (
+        <DropdownMenu>
+            <DropdownMenuTrigger>
+                <button className=" border-2 border-slate-300 bg-transparant font-bold text-gray-600 p-1 w-fit rounded h-fit text-center"><FiMenu /></button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent>
+                <DropdownMenuItem>Billing</DropdownMenuItem>
+                <DropdownMenuItem>Team</DropdownMenuItem>
+                <DropdownMenuItem>Subscription</DropdownMenuItem>
+            </DropdownMenuContent>
+        </DropdownMenu>
+
+    )
 }

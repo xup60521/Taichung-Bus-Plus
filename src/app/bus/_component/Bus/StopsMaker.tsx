@@ -3,11 +3,16 @@
 import type { BusRouteType } from "@/type/BusRouteType";
 import DisplayMarker from "./DisplayMarker";
 import seedrandom from "seedrandom";
+import { useBus, useDirection, useRouteDetail } from "@/utils/BusContext";
 
-export default function StopsMarker({routeDetail, direction, bus}: {routeDetail: BusRouteType[] | undefined | null, direction: number, bus:string}) {
+export default function StopsMarker() {
+    const routeDetail = useRouteDetail()
+    const direction = useDirection()
+    const bus = useBus()
     if (!Array.isArray(routeDetail) || routeDetail.length === 0) {
         return ""
     }
+
     const isOneWay = (routeDetail.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
     let filteredData;
     if (isOneWay) {

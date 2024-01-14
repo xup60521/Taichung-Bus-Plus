@@ -7,12 +7,14 @@ import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import "./progress.css"
+import { useSetToggleShowStopInfo } from "@/utils/BusContext";
 
 export default function StopList({routeDetail, direction, bus}: 
     {routeDetail: BusRouteType[], direction: number, bus:string}) {
     
     const router = useRouter()
     const utils = trpc.useUtils()
+    const setToggleShowStopInfo = useSetToggleShowStopInfo()
     const [seconds, setSeconds] = useState(14);
     const isOneWay = (routeDetail.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
     let filteredData:BusRouteType["Stops"]
@@ -71,8 +73,18 @@ export default function StopList({routeDetail, direction, bus}:
                     })[0]
                     
                     return (
-                        <div key={`${d.StopName.Zh_tw} ${d.StopSequence.toString()}`} className="flex justify-between items-center pr-4">
-                            <span className="text-lg pl-1">{`${d.StopName.Zh_tw}`}</span>
+                        <div key={`${d.StopName.Zh_tw} ${d.StopSequence.toString()}`} className="flex items-center pr-4">
+                            <button className="relative group">
+                                <span onClick={()=>{
+                                setToggleShowStopInfo({
+                                    stopName: d.StopName.Zh_tw,
+                                    randomNumber: Math.random()
+                                })
+                            }} className="text-lg pl-1">{`${d.StopName.Zh_tw}`}</span>
+                                <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 bg-red-400 group-hover:w-1/2 group-hover:transition-all"></span>
+                                <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 bg-red-400 group-hover:w-1/2 group-hover:transition-all"></span>
+                            </button>
+                            <div className=" flex-grow" />
                             {remainingTimeData?<RemainningTime remainingTimeData={remainingTimeData} />:""}
                         </div>
                     )

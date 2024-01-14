@@ -23,10 +23,8 @@ export default function Nav({initBusData}:
     const bus = useBus()
     const setBus = useSetBus()
     const position = usePosition()
-    const direction = useDirection()
     const searchparams = useSearchParams()
     const router = useRouter()
-    const [routeDetail, setRouteDetail] = useState<BusRouteType[] | null>(null)
     const [page, setPage] = useState<string | "bus" | "bus_stop">("")
     const [loading, setLoading] = useState(true)
 
@@ -56,7 +54,7 @@ export default function Nav({initBusData}:
     
     return (
         <>
-            <div className="absolute w-full h-full box-border flex bg-gradient-to-b from-rose-100 to-teal-100">
+            <div className="absolute w-full h-full box-border flex bg-gradient-to-b from-rose-100 to-teal-100 overflow-hidden">
                 <ResizablePanelGroup direction="horizontal">
                     <ResizablePanel defaultSize={2}>
                         <div className="h-full w-full z-50 bg-white flex flex-col justify-center items-center gap-2">
@@ -69,7 +67,7 @@ export default function Nav({initBusData}:
                         <div className="h-full w-full flex-grow overflow-x-hidden">
                             {(()=>{
                                 if (page === "bus" || page === "") {
-                                    return <Bus setRouteDetail={setRouteDetail} initBusData={initBusData} />
+                                    return <Bus initBusData={initBusData} />
                                 }
                                 if (page === "bus_stop") {
                                     return <BusStop />
@@ -80,7 +78,7 @@ export default function Nav({initBusData}:
                     </ResizablePanel>
                     <ResizableHandle className="w-1.5" />
                     <ResizablePanel>
-                        <div className="h-full w-full">
+                        <div className="h-screen w-screen absolute">
                             <APIProvider apiKey={publicENV.NEXT_PUBLIC_Google_Map_API_Key??""}>
                                 <Map
                                 zoom={11.5}
@@ -89,7 +87,7 @@ export default function Nav({initBusData}:
                                 disableDefaultUI={true}
                                 mapId={publicENV.NEXT_PUBLIC_Google_Map_ID}
                                 >
-                                    <StopsMarker routeDetail={routeDetail} direction={direction} bus={bus} />   
+                                    <StopsMarker />   
                                 </Map>
                             </APIProvider>
                         </div>

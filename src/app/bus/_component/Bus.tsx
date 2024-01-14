@@ -5,15 +5,16 @@ import { trpc } from "../../_trpc/client"
 import { useEffect, useId, useState } from "react"
 import Select from "react-select"
 import StopList from "./Bus/StopList"
-import { useBus, useDirection, useSetBus, useSetDirection } from "@/utils/BusContext"
+import { useBus, useDirection, useSetBus, useSetDirection, useSetRouteDetail } from "@/utils/BusContext"
 import { BusRouteType } from "@/type/BusRouteType"
 import { useRouter, useSearchParams } from "next/navigation"
 
-export default function Bus({initBusData, setRouteDetail}: 
-    {initBusData: AllBusType[], setRouteDetail: React.Dispatch<React.SetStateAction<BusRouteType[] | null>>}) {
+export default function Bus({initBusData}: 
+    {initBusData: AllBusType[]}) {
     
     const direction = useDirection()
     const setDirection = useSetDirection()
+    const setRouteDetail = useSetRouteDetail()
     const bus = useBus()
     const setBus = useSetBus()
     

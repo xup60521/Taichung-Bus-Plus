@@ -2,13 +2,20 @@
 
 import type { BusRouteType } from "@/type/BusRouteType";
 import type { Unpacked } from "@/type/TypeOperator";
+import { useToggleShowStopInfo } from "@/utils/BusContext";
 import { InfoWindow,  AdvancedMarker, Pin } from "@vis.gl/react-google-maps";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function DisplayMarker({d, bg_color}:{d: Unpacked<BusRouteType["Stops"]>, bg_color:string}) {
     
     const [open, setOpen] = useState(false)    
-    
+    const toggleShowStopInfo = useToggleShowStopInfo()
+    useEffect(()=>{
+        if (d.StopName.Zh_tw === toggleShowStopInfo.stopName) {
+            setOpen(prev => !prev)
+        }
+    },[toggleShowStopInfo])
+
     return (
         <>
             <AdvancedMarker position={{lat: d.StopPosition.PositionLat, lng: d.StopPosition.PositionLon}}

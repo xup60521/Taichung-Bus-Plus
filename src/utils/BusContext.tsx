@@ -1,5 +1,6 @@
 'use client'
 
+import { BusRouteType } from "@/type/BusRouteType";
 import  { createContext, useContext, useEffect, useState } from "react";
 import type React from "react"
 import { unknown } from "zod";
@@ -12,6 +13,16 @@ const BusContext = createContext({
     setDirection: unknown as React.Dispatch<React.SetStateAction<number>>,
     station: "",
     setStation: unknown as React.Dispatch<React.SetStateAction<string>>,
+    routeDetail: null as null | BusRouteType[],
+    setRouteDetail: unknown as React.Dispatch<React.SetStateAction<BusRouteType[] | null>>,
+    toggleShowStopInfo: {
+        stopName: "",
+        randomNumber: 0
+    },
+    setToggleShowStopInfo: unknown as React.Dispatch<React.SetStateAction<{
+        stopName: string,
+        randomNumber: number
+    }>>
 })
 
 export function BusProvider({children}: {children: React.ReactNode}) {
@@ -20,6 +31,11 @@ export function BusProvider({children}: {children: React.ReactNode}) {
     const [position, setPosition] = useState({ lat: 24.137396608878987, lng: 120.68692065044608 });
     const [direction, setDirection] = useState(0)
     const [station, setStation] = useState("")
+    const [routeDetail, setRouteDetail] = useState<BusRouteType[] | null>(null)
+    const [toggleShowStopInfo, setToggleShowStopInfo] = useState({
+        stopName: "",
+        randomNumber: 0
+    })
     
     useEffect(() => {
         if ("geolocation" in navigator) {
@@ -42,7 +58,11 @@ export function BusProvider({children}: {children: React.ReactNode}) {
             direction, 
             setDirection,
             station,
-            setStation
+            setStation,
+            routeDetail,
+            setRouteDetail,
+            toggleShowStopInfo,
+            setToggleShowStopInfo
             }}>
             {children}
         </BusContext.Provider>
@@ -56,3 +76,7 @@ export const useDirection = () => useContext(BusContext).direction
 export const useSetDirection = () => useContext(BusContext).setDirection
 export const useStation = () => useContext(BusContext).station
 export const useSetStation = () => useContext(BusContext).setStation
+export const useRouteDetail = () => useContext(BusContext).routeDetail
+export const useSetRouteDetail = () => useContext(BusContext).setRouteDetail
+export const useToggleShowStopInfo = () => useContext(BusContext).toggleShowStopInfo
+export const useSetToggleShowStopInfo = () => useContext(BusContext).setToggleShowStopInfo

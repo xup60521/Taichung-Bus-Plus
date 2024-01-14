@@ -22,6 +22,7 @@ export type Stop = {
     StopSequence: number;
     StopPosition: StopPosition;
     StationID:    string;
+    open?:        boolean;
 }
 
 export type StopPosition = {

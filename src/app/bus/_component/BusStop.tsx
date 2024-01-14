@@ -20,9 +20,8 @@ export default function BusStop() {
         <>
             <div className=" w-full h-full box-border text-black overflow-x-hidden flex flex-col justify-center items-center z-20">
                 <div className="flex h-full w-full">
-                    <div className="bg-white bg-opacity-50 backdrop-blur-lg  w-96 h-full p-4 flex flex-col items-center gap-4 z-50">
-                        <p className="font-black text-lg">---選擇站牌---</p>
-                        <Select  className="w-full" />
+                    <div className="bg-white bg-opacity-50 backdrop-blur-lg  w-full h-full p-4 flex flex-col items-center gap-4 z-50">
+                        <p className="font-black text-lg">站牌</p>
                     </div>
                 </div>
             </div>

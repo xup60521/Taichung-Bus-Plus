@@ -52,17 +52,17 @@ export default function Bus({initBusData, setRouteDetail}:
         <>
             <div className=" w-full h-full box-border text-black overflow-x-hidden flex flex-col justify-center items-center z-20">
                 <div className="flex h-full w-full">
-                    <div className="bg-white bg-opacity-50 backdrop-blur-lg  w-96 h-full p-4 flex flex-col items-center gap-4 z-50">
+                    <div className="bg-white bg-opacity-50 backdrop-blur-lg  w-full h-full p-4 flex flex-col items-center gap-2 z-50">
                         <p className="font-black text-lg">---選擇路線---</p>
-                        <Select onChange={(e)=>{
-                            setBus(e?.value ?? "")                            
-                        }} options={selectOptions} instanceId={useId()} defaultInputValue={searchparams.get("route") ?? ""} className="text-black w-full" />
-                        {Boolean(bus) && <>
-                            <div>
+                            <Select onChange={(e)=>{
+                                setBus(e?.value ?? "")                            
+                            }} options={selectOptions} instanceId={useId()} defaultInputValue={searchparams.get("route") ?? ""} className="text-black w-full" />
+                            {Boolean(bus) && <>
+                            <div className="w-full flex flex-col items-center justify-center">
                                 {!isOneWay && <button onClick={()=>{
                                     if (direction === 1) {setDirection(0)} 
                                     else {setDirection(1)}
-                                }}>Change Direction</button>}
+                                }} >Change Direction</button>}
                             </div>
                             {routeDetail.isSuccess && <StopList routeDetail={routeDetail.data} direction={direction} bus={bus} />}
                         </>}                         

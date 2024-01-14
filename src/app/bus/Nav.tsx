@@ -11,7 +11,11 @@ import { publicENV } from "@/lib/publicENV";
 import StopsMarker from "./_component/Bus/StopsMaker";
 import { useRouter, useSearchParams } from "next/navigation";
 import BusStop from "./_component/BusStop";
-import { AllStationType } from "@/type/AllStationType";
+import {
+    ResizableHandle,
+    ResizablePanel,
+    ResizablePanelGroup,
+  } from "@/components/ui/resizable"
 
 export default function Nav({initBusData}: 
     {initBusData: AllBusType[]}) {
@@ -52,35 +56,45 @@ export default function Nav({initBusData}:
     
     return (
         <>
-            <div className="absolute w-full h-full box-border flex bg-red-300">
-                <div className="h-full w-fit z-20 bg-white flex flex-col justify-center items-center gap-2">
-                    <button onClick={()=>setPage("bus")}  className={`${page === "bus" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`}><FaBus /></button>
-                    <button onClick={()=>setPage("bus_stop")} className={`${page === "bus_stop" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`} ><FaShekelSign /></button>
-                </div>   
-                <div className="h-full w-full flex-grow overflow-x-hidden bg-slate-400">
-                    {(()=>{
-                        if (page === "bus" || page === "") {
-                            return <Bus setRouteDetail={setRouteDetail} initBusData={initBusData} />
-                        }
-                        if (page === "bus_stop") {
-                            return <BusStop />
-                        }
-                        return ""
-                    })()}
-                </div>
-            </div>
-            <div className="absolute h-full w-full z-10 left-0">
-                <APIProvider apiKey={publicENV.NEXT_PUBLIC_Google_Map_API_Key??""}>
-                    <Map
-                    zoom={11.5}
-                    center={position}
-                    gestureHandling={'greedy'}
-                    disableDefaultUI={true}
-                    mapId={publicENV.NEXT_PUBLIC_Google_Map_ID}
-                    >
-                        <StopsMarker routeDetail={routeDetail} direction={direction} bus={bus} />   
-                    </Map>
-                </APIProvider>
+            <div className="absolute w-full h-full box-border flex bg-gradient-to-b from-rose-100 to-teal-100">
+                <ResizablePanelGroup direction="horizontal">
+                    <ResizablePanel defaultSize={2}>
+                        <div className="h-full w-full z-50 bg-white flex flex-col justify-center items-center gap-2">
+                            <button onClick={()=>setPage("bus")}  className={`${page === "bus" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`}><FaBus /></button>
+                            <button onClick={()=>setPage("bus_stop")} className={`${page === "bus_stop" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`} ><FaShekelSign /></button>
+                        </div>  
+                    </ResizablePanel>
+                    <ResizableHandle className="w-1" />
+                    <ResizablePanel defaultSize={25}>
+                        <div className="h-full w-full flex-grow overflow-x-hidden">
+                            {(()=>{
+                                if (page === "bus" || page === "") {
+                                    return <Bus setRouteDetail={setRouteDetail} initBusData={initBusData} />
+                                }
+                                if (page === "bus_stop") {
+                                    return <BusStop />
+                                }
+                                return ""
+                            })()}
+                        </div>
+                    </ResizablePanel>
+                    <ResizableHandle className="w-1.5" />
+                    <ResizablePanel>
+                        <div className="h-full w-full">
+                            <APIProvider apiKey={publicENV.NEXT_PUBLIC_Google_Map_API_Key??""}>
+                                <Map
+                                zoom={11.5}
+                                center={position}
+                                gestureHandling={'greedy'}
+                                disableDefaultUI={true}
+                                mapId={publicENV.NEXT_PUBLIC_Google_Map_ID}
+                                >
+                                    <StopsMarker routeDetail={routeDetail} direction={direction} bus={bus} />   
+                                </Map>
+                            </APIProvider>
+                        </div>
+                    </ResizablePanel>
+                </ResizablePanelGroup>                 
             </div>
         </>
     )

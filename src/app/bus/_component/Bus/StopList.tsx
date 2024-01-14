@@ -4,14 +4,16 @@ import { trpc } from "@/app/_trpc/client";
 import { BusRouteEstType } from "@/type/BusRouteEstType";
 import type { BusRouteType } from "@/type/BusRouteType";
 import { useRouter } from "next/navigation";
-import { JSXElementConstructor, PromiseLikeOfReactNode, ReactElement, ReactNode, ReactPortal, useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
+import "./progress.css"
 
 export default function StopList({routeDetail, direction, bus}: 
     {routeDetail: BusRouteType[], direction: number, bus:string}) {
     
     const router = useRouter()
     const utils = trpc.useUtils()
+    const [seconds, setSeconds] = useState(14);
     const isOneWay = (routeDetail.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
     let filteredData:BusRouteType["Stops"]
     if (isOneWay) {
@@ -20,27 +22,43 @@ export default function StopList({routeDetail, direction, bus}:
         filteredData = routeDetail.filter((item)=>item.RouteName.Zh_tw === bus && item.Direction === direction)[0].Stops.sort((a, b)=>a.StopSequence - b.StopSequence)
     }
     const routeEst = trpc.getRouteArrivalEst.useQuery(bus, {
-        enabled: Boolean(bus ?? "")
+        enabled: Boolean(bus ?? ""),
+        onSuccess: ()=>{
+            setSeconds(14)
+            router.refresh()
+        }
     })
+    
 
     useEffect(()=>{
         let intervalId: NodeJS.Timeout;
         intervalId = setInterval(()=>{
             if (routeDetail && routeEst.isSuccess) {
-                utils.getRouteArrivalEst.invalidate()
-                router.refresh()
+                utils.getRouteArrivalEst.refetch()
             }
-        }, 10000)
+        }, 15000)
         return ()=>{clearInterval(intervalId)}
-      }, [])
+      }, [routeEst.isSuccess])
     
+      useEffect(()=>{
+        let intervalId2: NodeJS.Timeout;
+        intervalId2 = setInterval(()=>{
+            setSeconds(prev=>prev-0.01)
+        }, 10)
+        return ()=>{clearInterval(intervalId2)}
+      }, [])
 
     return (
         <>  
-            <div className="flex items-center justify-center gap-2 bg-slate-200 text-slate-900 font-bold border-2 rounded-md p-2 w-full">
-                <span className="w-2/5 text-center">{filteredData[0].StopName.Zh_tw}</span>
-                <span className="w-1/5 flex justify-center "><FaArrowRightLong /></span>
-                <span className="w-2/5 text-center">{filteredData.reverse()[0].StopName.Zh_tw}</span>
+            <div className="w-full">
+                <div className="flex items-center justify-center gap-2 bg-slate-200 text-slate-900 font-bold border-2 rounded-md rounded-b-none p-2 w-full">
+                    <span className="w-2/5 text-center">{filteredData[0].StopName.Zh_tw}</span>
+                    <span className="w-1/5 flex justify-center "><FaArrowRightLong /></span>
+                    <span className="w-2/5 text-center">{filteredData.reverse()[0].StopName.Zh_tw}</span>
+                </div>
+                <div className="w-ful p-0 overflow-y-hidden">
+                    <progress className=" w-full -translate-y-3 " max={14} value={seconds} />
+                </div>
             </div>
             
             <div className=" flex-grow w-full overflow-y-auto flex flex-col gap-2">
@@ -54,7 +72,7 @@ export default function StopList({routeDetail, direction, bus}:
                     
                     return (
                         <div key={`${d.StopName.Zh_tw} ${d.StopSequence.toString()}`} className="flex justify-between items-center pr-4">
-                            <span className="text-lg">{`${d.StopName.Zh_tw}`}</span>
+                            <span className="text-lg pl-1">{`${d.StopName.Zh_tw}`}</span>
                             {remainingTimeData?<RemainningTime remainingTimeData={remainingTimeData} />:""}
                         </div>
                     )

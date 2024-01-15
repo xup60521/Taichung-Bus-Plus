@@ -7,9 +7,11 @@ import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import "./progress.css"
-import { useSetToggleShowStopInfo } from "@/utils/BusContext";
+import { useSetStation, useSetToggleShowStopInfo } from "@/utils/BusContext";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { FiMenu, FiPlus} from "react-icons/fi";
+import Link from "next/link";
+import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
 
 
 export default function StopList({routeDetail, direction, bus}: 
@@ -18,6 +20,7 @@ export default function StopList({routeDetail, direction, bus}:
     const router = useRouter()
     const utils = trpc.useUtils()
     const setToggleShowStopInfo = useSetToggleShowStopInfo()
+    const setStation = useSetStation()
     const [seconds, setSeconds] = useState(14);
     const isOneWay = (routeDetail.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
     let filteredData:BusRouteType["Stops"]
@@ -89,8 +92,8 @@ export default function StopList({routeDetail, direction, bus}:
                                 <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 bg-red-400 group-hover:w-1/2 group-hover:transition-all"></span>
                             </button>
                             <div className=" flex-grow" />
-                            <button className=" border-2 border-blue-200 bg-blue-200 font-bold text-gray-600 p-1 w-fit rounded h-fit text-center"><FiPlus /></button>
-                            <DropDownMenu />
+                            <button className=" border-2 border-blue-200 font-bold hover:bg-blue-200 hover:text-black transition-all  text-blue-400 p-1 w-fit rounded h-fit text-center"><FiPlus /></button>
+                            <DropDownMenu  setStation={setStation} currentStation={d.StopName.Zh_tw} />
                         </div>
                     )
                 })}
@@ -122,17 +125,22 @@ const RemainningTime = ({remainingTimeData}:
     return <span className="w-20 text-center">末班駛離</span>
 }
 
-const DropDownMenu = () => {
+const DropDownMenu = ({ setStation, currentStation}:
+    {setStation: React.Dispatch<React.SetStateAction<string>>, currentStation: string}) => {
+
+    const handleCheckStation = () => {
+        setStation(currentStation)
+    }
 
     return (
         <DropdownMenu>
             <DropdownMenuTrigger>
-                <button className=" border-2 border-slate-300 bg-transparant font-bold text-gray-600 p-1 w-fit rounded h-fit text-center"><FiMenu /></button>
+                <button className=" border-2 border-slate-300 hover:bg-slate-300 hover:text-black transition-all bg-transparant font-bold text-slate-500 p-1 w-fit rounded h-fit text-center"><FiMenu /></button>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
-                <DropdownMenuItem>Billing</DropdownMenuItem>
-                <DropdownMenuItem>Team</DropdownMenuItem>
-                <DropdownMenuItem>Subscription</DropdownMenuItem>
+                <DropdownMenuItem>
+                    <button onClick={handleCheckStation}>查看站牌</button>
+                </DropdownMenuItem>
             </DropdownMenuContent>
         </DropdownMenu>
 

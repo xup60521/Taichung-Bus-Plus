@@ -3,7 +3,7 @@
 import type { AllBusType } from "@/type/AllBusType";
 import { FaBus, FaShekelSign } from "react-icons/fa";
 import Bus from "./_component/Bus";
-import { useBus, useDirection, usePosition, useSetBus } from "@/utils/BusContext";
+import { useBus, useDirection, usePosition, useSetBus, useSetStation, useStation } from "@/utils/BusContext";
 import { useEffect, useState } from "react";
 import { BusRouteType } from "@/type/BusRouteType";
 import { APIProvider, Map } from "@vis.gl/react-google-maps";
@@ -24,6 +24,8 @@ export default function Nav({initBusData}:
     const bus = useBus()
     const setBus = useSetBus()
     const position = usePosition()
+    const station = useStation()
+    const setStation = useSetStation()
     const searchparams = useSearchParams()
     const router = useRouter()
     const [page, setPage] = useState<string | "bus" | "bus_stop">("")
@@ -32,22 +34,25 @@ export default function Nav({initBusData}:
     useEffect(()=>{
         const sBus = searchparams.get("bus")
         const sPage = searchparams.get("page")
+        const sStation = searchparams.get("station")
         if (sBus) {
             setBus(sBus)
         }
         if (sPage) {
             setPage(sPage)
         } else {setPage("bus")}
-        
+        if (sStation) {
+            setStation(sStation)
+        }
         setLoading(false)
     },[])
     
     useEffect(()=>{
         if (!loading) {
-            router.push(`?page=${page}&route=${bus}`, {
+            router.push(`?page=${page}&route=${bus}&station=${station}`, {
                 scroll: false        })
         }
-        }, [bus, page])
+        }, [bus, page,station])
 
     if (typeof window === "undefined") {
         return <div>browser window is not ready</div>
@@ -88,7 +93,7 @@ export default function Nav({initBusData}:
                                 disableDefaultUI={true}
                                 mapId={publicENV.NEXT_PUBLIC_Google_Map_ID}
                                 >
-                                    <StopsMarker />   
+                                <StopsMarker />   
                                 </Map>
                             </APIProvider>
                         </div>

@@ -1,6 +1,5 @@
 'use client'
 
-import type { BusRouteType } from "@/type/BusRouteType";
 import DisplayMarker from "./DisplayMarker";
 import seedrandom from "seedrandom";
 import { useBus, useDirection, useRouteDetail } from "@/utils/BusContext";

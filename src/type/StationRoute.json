@@ -1,0 +1,763 @@
+[
+    {
+      "StationUID": "TXG720",
+      "StationID": "720",
+      "StationName": {
+        "Zh_tw": "臺中車站(臺灣大道)"
+      },
+      "StationPosition": {
+        "PositionLon": 120.68441,
+        "PositionLat": 24.13821,
+        "GeoHash": "wsmc64pxq"
+      },
+      "StationGroupID": "6513",
+      "Stops": [
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG1000",
+          "RouteID": "1000",
+          "RouteName": {
+            "Zh_tw": "100",
+            "En": "100"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG101",
+          "RouteID": "101",
+          "RouteName": {
+            "Zh_tw": "101",
+            "En": "101"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG105",
+          "RouteID": "105",
+          "RouteName": {
+            "Zh_tw": "105",
+            "En": "105"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG1051",
+          "RouteID": "1051",
+          "RouteName": {
+            "Zh_tw": "105副",
+            "En": "105V"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG1052",
+          "RouteID": "1052",
+          "RouteName": {
+            "Zh_tw": "105延",
+            "En": "105E"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG108",
+          "RouteID": "108",
+          "RouteName": {
+            "Zh_tw": "108",
+            "En": "108"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG14",
+          "RouteID": "14",
+          "RouteName": {
+            "Zh_tw": "14",
+            "En": "14"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG141",
+          "RouteID": "141",
+          "RouteName": {
+            "Zh_tw": "14副",
+            "En": "14V"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG1411",
+          "RouteID": "1411",
+          "RouteName": {
+            "Zh_tw": "14副2",
+            "En": "14V2"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG144",
+          "RouteID": "144",
+          "RouteName": {
+            "Zh_tw": "14延",
+            "En": "14E"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG15",
+          "RouteID": "15",
+          "RouteName": {
+            "Zh_tw": "15",
+            "En": "15"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG2000",
+          "RouteID": "2000",
+          "RouteName": {
+            "Zh_tw": "200",
+            "En": "200"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG301",
+          "RouteID": "301",
+          "RouteName": {
+            "Zh_tw": "301",
+            "En": "301"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG302",
+          "RouteID": "302",
+          "RouteName": {
+            "Zh_tw": "302",
+            "En": "302"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG3021",
+          "RouteID": "3021",
+          "RouteName": {
+            "Zh_tw": "302延",
+            "En": "302E"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG303",
+          "RouteID": "303",
+          "RouteName": {
+            "Zh_tw": "303",
+            "En": "303"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG304",
+          "RouteID": "304",
+          "RouteName": {
+            "Zh_tw": "304",
+            "En": "304"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG305",
+          "RouteID": "305",
+          "RouteName": {
+            "Zh_tw": "305",
+            "En": "305"
+          }
+        },
+        {
+          "StopUID": "TXG14537",
+          "StopID": "14537",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG305",
+          "RouteID": "305",
+          "RouteName": {
+            "Zh_tw": "305",
+            "En": "305"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG306",
+          "RouteID": "306",
+          "RouteName": {
+            "Zh_tw": "306",
+            "En": "306"
+          }
+        },
+        {
+          "StopUID": "TXG14537",
+          "StopID": "14537",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG306",
+          "RouteID": "306",
+          "RouteName": {
+            "Zh_tw": "306",
+            "En": "306"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG307",
+          "RouteID": "307",
+          "RouteName": {
+            "Zh_tw": "307",
+            "En": "307"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG308",
+          "RouteID": "308",
+          "RouteName": {
+            "Zh_tw": "308",
+            "En": "308"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG3081",
+          "RouteID": "3081",
+          "RouteName": {
+            "Zh_tw": "308副",
+            "En": "308"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG3082",
+          "RouteID": "3082",
+          "RouteName": {
+            "Zh_tw": "308副繞",
+            "En": "308A"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG326",
+          "RouteID": "326",
+          "RouteName": {
+            "Zh_tw": "326",
+            "En": "326"
+          }
+        },
+        {
+          "StopUID": "TXG22956",
+          "StopID": "22956",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG328",
+          "RouteID": "328",
+          "RouteName": {
+            "Zh_tw": "328",
+            "En": "328"
+          }
+        },
+        {
+          "StopUID": "TXG22956",
+          "StopID": "22956",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG3281",
+          "RouteID": "3281",
+          "RouteName": {
+            "Zh_tw": "328繞",
+            "En": "328A"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG5000",
+          "RouteID": "5000",
+          "RouteName": {
+            "Zh_tw": "500",
+            "En": "500"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG5001",
+          "RouteID": "5001",
+          "RouteName": {
+            "Zh_tw": "500跳蛙公車",
+            "En": "500J"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG5002",
+          "RouteID": "5002",
+          "RouteName": {
+            "Zh_tw": "500延",
+            "En": "500E"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG5004",
+          "RouteID": "5004",
+          "RouteName": {
+            "Zh_tw": "500延區2",
+            "En": "500ES2"
+          }
+        },
+        {
+          "StopUID": "TXG23225",
+          "StopID": "23225",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG525",
+          "RouteID": "525",
+          "RouteName": {
+            "Zh_tw": "525",
+            "En": "525"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG6",
+          "RouteID": "6",
+          "RouteName": {
+            "Zh_tw": "6",
+            "En": "6"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG601",
+          "RouteID": "601",
+          "RouteName": {
+            "Zh_tw": "6副",
+            "En": "6V"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG61",
+          "RouteID": "61",
+          "RouteName": {
+            "Zh_tw": "61",
+            "En": "61"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG8",
+          "RouteID": "8",
+          "RouteName": {
+            "Zh_tw": "8",
+            "En": "8"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG81",
+          "RouteID": "81",
+          "RouteName": {
+            "Zh_tw": "81",
+            "En": "81"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG82",
+          "RouteID": "82",
+          "RouteName": {
+            "Zh_tw": "82",
+            "En": "82"
+          }
+        },
+        {
+          "StopUID": "TXG24326",
+          "StopID": "24326",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG86",
+          "RouteID": "86",
+          "RouteName": {
+            "Zh_tw": "86",
+            "En": "86"
+          }
+        },
+        {
+          "StopUID": "TXG24326",
+          "StopID": "24326",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG861",
+          "RouteID": "861",
+          "RouteName": {
+            "Zh_tw": "86E",
+            "En": "86E"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG901",
+          "RouteID": "901",
+          "RouteName": {
+            "Zh_tw": "901",
+            "En": "901"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG9012",
+          "RouteID": "9012",
+          "RouteName": {
+            "Zh_tw": "901副2",
+            "En": "901V"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG904",
+          "RouteID": "904",
+          "RouteName": {
+            "Zh_tw": "305W",
+            "En": "305W"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG905",
+          "RouteID": "905",
+          "RouteName": {
+            "Zh_tw": "305E",
+            "En": "305E"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG906",
+          "RouteID": "906",
+          "RouteName": {
+            "Zh_tw": "306W",
+            "En": "306W"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG907",
+          "RouteID": "907",
+          "RouteName": {
+            "Zh_tw": "307副",
+            "En": "307V"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG908",
+          "RouteID": "908",
+          "RouteName": {
+            "Zh_tw": "306E",
+            "En": "306E"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG910",
+          "RouteID": "910",
+          "RouteName": {
+            "Zh_tw": "901副",
+            "En": "901V"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG915",
+          "RouteID": "915",
+          "RouteName": {
+            "Zh_tw": "15繞1",
+            "En": "15A1"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG933",
+          "RouteID": "933",
+          "RouteName": {
+            "Zh_tw": "105區2",
+            "En": "105S2"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG937",
+          "RouteID": "937",
+          "RouteName": {
+            "Zh_tw": "306繞",
+            "En": "306A"
+          }
+        },
+        {
+          "StopUID": "TXG11020",
+          "StopID": "11020",
+          "StopName": {
+            "Zh_tw": "臺中車站(臺灣大道)",
+            "En": "Taichung Station(Taiwan Boulevard)"
+          },
+          "RouteUID": "TXG982",
+          "RouteID": "982",
+          "RouteName": {
+            "Zh_tw": "82延",
+            "En": "82E"
+          }
+        }
+      ],
+      "LocationCityCode": "TXG",
+      "Bearing": "NW",
+      "UpdateTime": "2024-01-15T20:50:35+08:00",
+      "VersionID": 5907
+    }
+  ]

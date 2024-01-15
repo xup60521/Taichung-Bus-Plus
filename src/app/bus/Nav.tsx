@@ -3,7 +3,7 @@
 import type { AllBusType } from "@/type/AllBusType";
 import { FaBus, FaShekelSign } from "react-icons/fa";
 import Bus from "./_component/Bus";
-import { useBus, useDirection, usePosition, useSetBus, useSetStation, useStation } from "@/utils/BusContext";
+import { useBus, useDirection, usePage, usePosition, useSetBus, useSetDirection, useSetPage, useSetStationName, useStationName } from "@/utils/BusContext";
 import { useEffect, useState } from "react";
 import { BusRouteType } from "@/type/BusRouteType";
 import { APIProvider, Map } from "@vis.gl/react-google-maps";
@@ -24,35 +24,43 @@ export default function Nav({initBusData}:
     const bus = useBus()
     const setBus = useSetBus()
     const position = usePosition()
-    const station = useStation()
-    const setStation = useSetStation()
+    const stationName = useStationName()
+    const setStationName = useSetStationName()
     const searchparams = useSearchParams()
+    const direction = useDirection()
+    const setDirection = useSetDirection()
     const router = useRouter()
-    const [page, setPage] = useState<string | "bus" | "bus_stop">("")
+    const page = usePage()
+    const setPage = useSetPage()
     const [loading, setLoading] = useState(true)
 
     useEffect(()=>{
         const sBus = searchparams.get("bus")
         const sPage = searchparams.get("page")
-        const sStation = searchparams.get("station")
+        const sStationName = searchparams.get("stationName")
+        const sDirection = searchparams.get("direction")
         if (sBus) {
             setBus(sBus)
         }
         if (sPage) {
             setPage(sPage)
         } else {setPage("bus")}
-        if (sStation) {
-            setStation(sStation)
+        if (sStationName) {
+            setStationName(sStationName)
+        }
+        if (sDirection) {
+            setDirection(Number(sDirection))
         }
         setLoading(false)
     },[])
     
     useEffect(()=>{
         if (!loading) {
-            router.push(`?page=${page}&route=${bus}&station=${station}`, {
-                scroll: false        })
+            router.push(`?page=${page}&route=${bus}&stationName=${stationName}&direction=${direction}`, {
+                scroll: false        
+            })
         }
-        }, [bus, page,station])
+        }, [bus, page,stationName, direction])
 
     if (typeof window === "undefined") {
         return <div>browser window is not ready</div>

@@ -11,8 +11,8 @@ const BusContext = createContext({
     setBus: unknown as React.Dispatch<React.SetStateAction<string>>,
     direction: 0,
     setDirection: unknown as React.Dispatch<React.SetStateAction<number>>,
-    station: "",
-    setStation: unknown as React.Dispatch<React.SetStateAction<string>>,
+    stationName: "",
+    setStationName: unknown as React.Dispatch<React.SetStateAction<string>>,
     routeDetail: null as null | BusRouteType[],
     setRouteDetail: unknown as React.Dispatch<React.SetStateAction<BusRouteType[] | null>>,
     toggleShowStopInfo: {
@@ -32,7 +32,7 @@ export function BusProvider({children}: {children: React.ReactNode}) {
     const [bus, setBus] = useState("")
     const [position, setPosition] = useState({ lat: 24.137396608878987, lng: 120.68692065044608 });
     const [direction, setDirection] = useState(0)
-    const [station, setStation] = useState("")
+    const [stationName, setStationName] = useState("")
     const [routeDetail, setRouteDetail] = useState<BusRouteType[] | null>(null)
     const [toggleShowStopInfo, setToggleShowStopInfo] = useState({
         stopName: "",
@@ -60,8 +60,8 @@ export function BusProvider({children}: {children: React.ReactNode}) {
             position,
             direction, 
             setDirection,
-            station,
-            setStation,
+            stationName,
+            setStationName,
             routeDetail,
             setRouteDetail,
             toggleShowStopInfo,
@@ -79,8 +79,8 @@ export const useSetBus = () => useContext(BusContext).setBus
 export const usePosition = () => useContext(BusContext).position
 export const useDirection = () => useContext(BusContext).direction
 export const useSetDirection = () => useContext(BusContext).setDirection
-export const useStation = () => useContext(BusContext).station
-export const useSetStation = () => useContext(BusContext).setStation
+export const useStationName = () => useContext(BusContext).stationName
+export const useSetStationName = () => useContext(BusContext).setStationName
 export const useRouteDetail = () => useContext(BusContext).routeDetail
 export const useSetRouteDetail = () => useContext(BusContext).setRouteDetail
 export const useToggleShowStopInfo = () => useContext(BusContext).toggleShowStopInfo

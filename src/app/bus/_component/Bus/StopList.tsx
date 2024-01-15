@@ -7,7 +7,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import "./progress.css"
-import { useSetStation, useSetToggleShowStopInfo } from "@/utils/BusContext";
+import { useSetPage, useSetStationName, useSetToggleShowStopInfo } from "@/utils/BusContext";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { FiMenu, FiPlus} from "react-icons/fi";
 import Link from "next/link";
@@ -20,8 +20,9 @@ export default function StopList({routeDetail, direction, bus}:
     const router = useRouter()
     const utils = trpc.useUtils()
     const setToggleShowStopInfo = useSetToggleShowStopInfo()
-    const setStation = useSetStation()
+    const setStationName = useSetStationName()
     const [seconds, setSeconds] = useState(14);
+    const setPage = useSetPage()
     const isOneWay = (routeDetail.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
     let filteredData:BusRouteType["Stops"]
     if (isOneWay) {
@@ -93,7 +94,7 @@ export default function StopList({routeDetail, direction, bus}:
                             </button>
                             <div className=" flex-grow" />
                             <button className=" border-2 border-blue-200 font-bold hover:bg-blue-200 hover:text-black transition-all  text-blue-400 p-1 w-fit rounded h-fit text-center"><FiPlus /></button>
-                            <DropDownMenu  setStation={setStation} currentStation={d.StopName.Zh_tw} />
+                            <DropDownMenu  setStationName={setStationName} currentStationName={d.StopName.Zh_tw} setPage={setPage} />
                         </div>
                     )
                 })}
@@ -125,11 +126,16 @@ const RemainningTime = ({remainingTimeData}:
     return <span className="w-20 text-center">末班駛離</span>
 }
 
-const DropDownMenu = ({ setStation, currentStation}:
-    {setStation: React.Dispatch<React.SetStateAction<string>>, currentStation: string}) => {
+const DropDownMenu = ({ setStationName, currentStationName, setPage}:
+    {
+        setStationName: React.Dispatch<React.SetStateAction<string>>, 
+        currentStationName: string,
+        setPage: React.Dispatch<React.SetStateAction<string>>, 
+     }) => {
 
     const handleCheckStation = () => {
-        setStation(currentStation)
+        setStationName(currentStationName)
+        setPage("bus_stop")
     }
 
     return (

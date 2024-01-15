@@ -8,6 +8,7 @@ import StopList from "./Bus/StopList"
 import { useBus, useDirection, useSetBus, useSetDirection, useSetRouteDetail } from "@/utils/BusContext"
 import { BusRouteType } from "@/type/BusRouteType"
 import { useRouter, useSearchParams } from "next/navigation"
+import { Switch } from "@/components/ui/switch"
 
 export default function Bus({initBusData}: 
     {initBusData: AllBusType[]}) {
@@ -64,10 +65,14 @@ export default function Bus({initBusData}:
 
                             {Boolean(bus) && <>
                             <div className="w-full flex flex-col items-center justify-center">
-                                {!isOneWay && <button onClick={()=>{
-                                    if (direction === 1) {setDirection(0)} 
-                                    else {setDirection(1)}
-                                }} >Change Direction</button>}
+                                {!isOneWay && <div className="w-fit h-fit flex items-center gap-1">
+                                    <label htmlFor="switch">順向</label>
+                                    <Switch id="switch" checked={Boolean(direction)} onCheckedChange={()=>{
+                                        if (direction === 1) {setDirection(0)} 
+                                        else {setDirection(1)}
+                                    }} />
+                                    <label htmlFor="switch">逆向</label>
+                                </div>}
                             </div>
                             {routeDetail.isSuccess && <StopList routeDetail={routeDetail.data} direction={direction} bus={bus} />}
                         </>}                         
@@ -77,3 +82,4 @@ export default function Bus({initBusData}:
         </>
     )
 }
+

@@ -44,7 +44,7 @@ export default function BusStop() {
       }, [])
     
     return (
-        <>
+        !stationName ? "": <>
             <div className=" w-full h-full box-border text-black overflow-x-hidden flex flex-col justify-center items-center z-20">
                 <div className="flex h-full w-full">
                     <div className="bg-white bg-opacity-50 backdrop-blur-lg  w-full h-full p-4 flex flex-col items-center gap-4">

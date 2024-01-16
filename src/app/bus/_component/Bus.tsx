@@ -16,25 +16,20 @@ import { cn } from "@/lib/utils"
 import { CommandInput, CommandEmpty, CommandGroup, CommandItem } from "cmdk"
 import { Command } from "@/components/ui/command"
 import Spinner from "@/app/_components/Spinner"
+import { UseTRPCQueryResult } from "@trpc/react-query/shared"
+import type { AppRouter } from "@/server"
 
 
-export default function Bus({initBusData}: 
-    {initBusData: AllBusType[]}) {
+export default function Bus({initBusData, routeDetail}: 
+    {initBusData: AllBusType[], routeDetail: BusRouteType[] | undefined}) {
     
     const direction = useDirection()
     const setDirection = useSetDirection()
-    const setRouteDetail = useSetRouteDetail()
+    
     const bus = useBus()
     const setBus = useSetBus()
     const [loading, setLoading] = useState(true)
     const searchparams = useSearchParams()
-    const routeDetail = trpc.getBusRoute.useQuery(bus , {
-        enabled: Boolean(bus ?? ""),
-        onSuccess: (data) => {
-            setRouteDetail([...data])
-        }
-        
-    })
  
     const selectOptions = initBusData.map(d=>{
     return {
@@ -42,8 +37,8 @@ export default function Bus({initBusData}:
         "label": `${d.RouteName.Zh_tw} ${d.SubRoutes[0].Headsign}`,
     }}).sort((a,b)=>Number(RNN(a.value)) - Number(RNN(b.value)))
     let isOneWay = false;
-    if (Array.isArray(routeDetail.data)) {
-        isOneWay = (routeDetail.data.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
+    if (Array.isArray(routeDetail)) {
+        isOneWay = (routeDetail.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
     }
 
     const defaultOption = {
@@ -63,7 +58,7 @@ export default function Bus({initBusData}:
                             {Boolean(bus) && <>
                             <div className="w-full flex flex-col items-center justify-center">
                             </div>
-                            {routeDetail.isSuccess ? <StopList routeDetail={routeDetail.data} direction={direction} bus={bus} /> 
+                            {routeDetail ? <StopList routeDetail={routeDetail} direction={direction} bus={bus} /> 
                             : <div className="w-full flex-grow flex justify-center items-center">
                                 <Spinner />
                               </div>}

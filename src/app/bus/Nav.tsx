@@ -3,7 +3,7 @@
 import type { AllBusType } from "@/type/AllBusType";
 import { FaBus, FaShekelSign } from "react-icons/fa";
 import Bus from "./_component/Bus";
-import { useBus, useDirection, usePage, usePosition, useSetBus, useSetDirection, useSetPage, useSetStationName, useStationName } from "@/utils/BusContext";
+import { useBus, useDirection, usePage, usePosition, useSetBus, useSetDirection, useSetPage, useSetRouteDetail, useSetStationName, useStationName } from "@/utils/BusContext";
 import { useEffect, useState } from "react";
 import { BusRouteType } from "@/type/BusRouteType";
 import { APIProvider, Map } from "@vis.gl/react-google-maps";
@@ -17,6 +17,7 @@ import {
     ResizablePanelGroup,
   } from "@/components/ui/resizable"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import { trpc } from "../_trpc/client";
 
 export default function Nav({initBusData}: 
     {initBusData: AllBusType[]}) {
@@ -29,10 +30,17 @@ export default function Nav({initBusData}:
     const searchparams = useSearchParams()
     const direction = useDirection()
     const setDirection = useSetDirection()
+    const setRouteDetail = useSetRouteDetail()
     const router = useRouter()
     const page = usePage()
     const setPage = useSetPage()
     const [loading, setLoading] = useState(true)
+    const routeDetail = trpc.getBusRoute.useQuery(bus , {
+        enabled: Boolean(bus ?? ""),
+        onSuccess: (data) => {
+            setRouteDetail([...data])
+        }        
+    }).data
 
     useEffect(()=>{
         const sBus = searchparams.get("route")
@@ -81,7 +89,7 @@ export default function Nav({initBusData}:
                         <div className="h-full w-full flex-grow overflow-x-hidden">
                             {(()=>{
                                 if (page === "bus" || page === "") {
-                                    return <Bus initBusData={initBusData} />
+                                    return <Bus initBusData={initBusData} routeDetail={routeDetail} />
                                 }
                                 if (page === "bus_stop") {
                                     return <BusStop />

@@ -15,6 +15,7 @@ import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { CommandInput, CommandEmpty, CommandGroup, CommandItem } from "cmdk"
 import { Command } from "@/components/ui/command"
+import Spinner from "@/app/_components/Spinner"
 
 
 export default function Bus({initBusData}: 
@@ -62,7 +63,10 @@ export default function Bus({initBusData}:
                             {Boolean(bus) && <>
                             <div className="w-full flex flex-col items-center justify-center">
                             </div>
-                            {routeDetail.isSuccess && <StopList routeDetail={routeDetail.data} direction={direction} bus={bus} />}
+                            {routeDetail.isSuccess ? <StopList routeDetail={routeDetail.data} direction={direction} bus={bus} /> 
+                            : <div className="w-full flex-grow flex justify-center items-center">
+                                <Spinner />
+                              </div>}
                         </>}                         
                     </div>
                 </div>

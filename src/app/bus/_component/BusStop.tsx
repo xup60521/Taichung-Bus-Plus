@@ -7,6 +7,7 @@ import { useEffect, useState } from "react"
 import { RemainningTime } from "./Bus/RemainningTime"
 import { FiMenu, FiPlus } from "react-icons/fi"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import Spinner from "@/app/_components/Spinner"
 
 
 export default function BusStop() {
@@ -64,7 +65,9 @@ export default function BusStop() {
                                 <DropDownMenu setBus={setBus} currentRouteName={d.RouteName.Zh_tw} currentRouteDirection={d.Direction} setPage={setPage} setDirection={setDirection} />
                             </div>
                             )
-                        }) : ""}                         
+                        }) : <div className="w-full flex-grow flex justify-center items-center">
+                        <Spinner />
+                      </div>}                         
                         </div>                                                   
                     </div>
                 </div>

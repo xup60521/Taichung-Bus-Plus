@@ -58,9 +58,6 @@ export default function Bus({initBusData}:
                 <div className="flex h-full w-full">
                     <div className="bg-white bg-opacity-50 backdrop-blur-lg  w-full h-full p-4 flex flex-col items-center gap-2">
                         <p className="font-black text-lg">---選擇路線---</p>
-                            {/* <Select onChange={(e)=>{
-                                setBus(e?.value ?? "")                            
-                            }} options={selectOptions} instanceId={useId()}  className="text-black w-full" /> */}
                             <ComboboxDemo selectOptions={selectOptions} />
                             {Boolean(bus) && <>
                             <div className="w-full flex flex-col items-center justify-center">
@@ -94,13 +91,13 @@ export function ComboboxDemo({selectOptions}:{selectOptions: {
         >
           {value
             ? selectOptions.find((framework) => framework.value === value)?.label
-            : "Select framework..."}
+            : "Select bus..."}
         </Button>
       </PopoverTrigger>
       <PopoverContent className="w-min p-0">
         <Command>
-          <CommandInput placeholder="Search framework..." className="h-9 p-2 m-2 border-2 rounded" />
-          <CommandEmpty>No Bus Found.</CommandEmpty>
+          <CommandInput placeholder="Search bus..." className="h-9 p-2 m-2 border-2 rounded" />
+          <CommandEmpty className="p-4">No Bus Found.</CommandEmpty>
           <CommandGroup className=" overflow-y-scroll h-96 ">
             {selectOptions.map((framework) => (
               <CommandItem

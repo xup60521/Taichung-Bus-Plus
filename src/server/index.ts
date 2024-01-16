@@ -45,18 +45,19 @@ export const appRouter = router({
         )
         return BusRouteEst.data as BusRouteEstType[]
     }),
-    getStationRoute: procedure.input(z.string()).query(async(StationName)=>{
+    getStationRouteEst: procedure.input(z.string()).query(async(StationName)=>{
         const access_token = (await get_access_token())["access_token"]
         const StationRoute = await axios.get(
-            `https://tdx.transportdata.tw/api/basic/v2/Bus/Station/City/Taichung?%24filter=StationName/Zh_tw%20eq%20%27${StationName.input}%27&%24format=JSON`,
+            `https://tdx.transportdata.tw/api/basic/v2/Bus/EstimatedTimeOfArrival/City/Taichung?$filter=StopName/Zh_tw eq '${StationName.input}'&$format=JSON`,
             {
                 headers: {
                     Authorization: `Bearer ${access_token}`
                 }
             }
         )
-        return StationRoute.data as StationRouteType[]
-    })
+        return StationRoute.data as BusRouteEstType[]
+    }),
+    
 })
 
 // export type definition of API

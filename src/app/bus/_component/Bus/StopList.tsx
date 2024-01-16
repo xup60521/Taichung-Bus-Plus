@@ -1,18 +1,16 @@
 'use client'
 
 import { trpc } from "@/app/_trpc/client";
-import { BusRouteEstType } from "@/type/BusRouteEstType";
 import type { BusRouteType } from "@/type/BusRouteType";
 import { useRouter } from "next/navigation";
-import { useEffect, useRef, useState } from "react";
-import { FaArrowRightLong } from "react-icons/fa6";
+import { useEffect, useState } from "react";
+import { FaArrowRightArrowLeft, FaArrowRightLong } from "react-icons/fa6";
 import "./progress.css"
-import { useSetPage, useSetStationName, useSetToggleShowStopInfo } from "@/utils/BusContext";
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
+import { useSetDirection, useSetPage, useSetStationName, useSetToggleShowStopInfo } from "@/utils/BusContext";
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { FiMenu, FiPlus} from "react-icons/fi";
-import Link from "next/link";
-import { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
-
+import { RemainningTime } from "./RemainningTime";
+import { useToast } from "@/components/ui/use-toast";
 
 export default function StopList({routeDetail, direction, bus}: 
     {routeDetail: BusRouteType[], direction: number, bus:string}) {
@@ -23,6 +21,8 @@ export default function StopList({routeDetail, direction, bus}:
     const setStationName = useSetStationName()
     const [seconds, setSeconds] = useState(14);
     const setPage = useSetPage()
+    const setDirection = useSetDirection()
+    const {toast} = useToast()
     const isOneWay = (routeDetail.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
     let filteredData:BusRouteType["Stops"]
     if (isOneWay) {
@@ -61,12 +61,23 @@ export default function StopList({routeDetail, direction, bus}:
           <>  
             <div className="w-full">
 
-                <div className="flex items-center justify-center gap-2 bg-slate-200 text-slate-900 font-bold border-2 rounded-md rounded-b-none p-2 w-full">
+                <div className="flex items-center justify-center gap-2 bg-slate-200 text-slate-900 font-bold border-2 rounded-md rounded-b-none p-2 w-full h-12">
                     <span className="w-2/5 text-center">{filteredData[0].StopName.Zh_tw}</span>
-                    <span className="w-1/5 flex justify-center "><FaArrowRightLong /></span>
+                    <button className="w-8 h-8 p-1 flex justify-center items-center" onClick={()=>{
+                        if (!isOneWay) {
+                            if (direction === 1) {setDirection(0)} 
+                            else {setDirection(1)}
+                        }
+                        else {
+                            toast({
+                                title: "Error",
+                                description: `${bus} 僅行駛單方向`,
+                            })
+                        }
+                    }}>{isOneWay ? <FaArrowRightLong /> : <FaArrowRightArrowLeft />}</button>
                     <span className="w-2/5 text-center">{filteredData.reverse()[0].StopName.Zh_tw}</span>
                 </div>
-                <div className="w-ful p-0 overflow-y-hidden">
+                <div className="w-full p-0 overflow-y-hidden">
                     <progress className=" w-full -translate-y-3 " max={14} value={seconds} />
                 </div>
             </div>
@@ -104,27 +115,7 @@ export default function StopList({routeDetail, direction, bus}:
     )
 }
 
-const RemainningTime = ({remainingTimeData}:
-    {remainingTimeData:BusRouteEstType}) => {
-    if (remainingTimeData.StopStatus === 1 && remainingTimeData.NextBusTime) {
-        const t = new Date(remainingTimeData.NextBusTime)
-        const hours = String(t.getHours()).padStart(2, '0');
-        const minutes = String(t.getMinutes()).padStart(2, '0');
-        const formattedTime = `${hours}:${minutes}`;
-        return <span className=" border-2 border-slate-300 p-1 w-20 rounded h-fit text-center">{formattedTime}</span>
-    } 
-    if (remainingTimeData.StopStatus === 0 && typeof remainingTimeData.EstimateTime === "number") {
-        const estTime = (Math.ceil(Number(remainingTimeData?.EstimateTime))/60-1)
-        if (estTime <= 0) {
-            return <span className="bg-red-500 w-20 text-center text-white p-1  rounded h-fit ">進站中</span>
-        }
-        if (estTime <= 3) {
-            return <span className="bg-red-100 w-20 text-center text-red-800 p-1  rounded h-fit ">{`${estTime} 分鐘`}</span>
-        }
-        return <span className="p-1  rounded w-20 text-center h-fit bg-white">{`${estTime} 分鐘`}</span>
-    }
-    return <span className="w-20 text-center">末班駛離</span>
-}
+
 
 const DropDownMenu = ({ setStationName, currentStationName, setPage}:
     {
@@ -144,8 +135,8 @@ const DropDownMenu = ({ setStationName, currentStationName, setPage}:
                 <button className=" border-2 border-slate-300 hover:bg-slate-300 hover:text-black transition-all bg-transparant font-bold text-slate-500 p-1 w-fit rounded h-fit text-center"><FiMenu /></button>
             </DropdownMenuTrigger>
             <DropdownMenuContent>
-                <DropdownMenuItem>
-                    <button onClick={handleCheckStation}>查看站牌</button>
+                <DropdownMenuItem onClick={handleCheckStation}>
+                    <span>查看站牌</span>
                 </DropdownMenuItem>
             </DropdownMenuContent>
         </DropdownMenu>

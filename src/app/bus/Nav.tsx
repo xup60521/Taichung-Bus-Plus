@@ -35,7 +35,7 @@ export default function Nav({initBusData}:
     const [loading, setLoading] = useState(true)
 
     useEffect(()=>{
-        const sBus = searchparams.get("bus")
+        const sBus = searchparams.get("route")
         const sPage = searchparams.get("page")
         const sStationName = searchparams.get("stationName")
         const sDirection = searchparams.get("direction")

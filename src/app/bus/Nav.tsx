@@ -67,6 +67,8 @@ export default function Nav({initBusData}:
             router.push(`?page=${page}&route=${bus}&stationName=${stationName}&direction=${direction}`, {
                 scroll: false        
             })
+            const params = new URLSearchParams(searchparams.toString())
+            window.history.pushState(null, '', `?${params.toString()}`)
         }
         }, [bus, page,stationName, direction])
 

@@ -61,7 +61,6 @@ export default function BusStop() {
                                 <RemainningTime remainingTimeData={d} />
                                 <span className="pl-2 font-medium text-md">{`${d.RouteName.Zh_tw}`}</span>
                                 <div className="flex-grow" />
-                                <button className=" border-2 border-blue-200 font-bold hover:bg-blue-200 hover:text-black transition-all  text-blue-400 p-1 w-fit rounded h-fit text-center"><FiPlus /></button>
                                 <DropDownMenu setBus={setBus} currentRouteName={d.RouteName.Zh_tw} currentRouteDirection={d.Direction} setPage={setPage} setDirection={setDirection} />
                             </div>
                             )

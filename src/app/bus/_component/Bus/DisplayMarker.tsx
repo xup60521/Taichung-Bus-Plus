@@ -6,7 +6,8 @@ import { useToggleShowStopInfo } from "@/utils/BusContext";
 import { InfoWindow,  AdvancedMarker, Pin } from "@vis.gl/react-google-maps";
 import { useEffect, useState } from "react";
 
-export default function DisplayMarker({d, bg_color}:{d: Unpacked<BusRouteType["Stops"]>, bg_color:string}) {
+export default function DisplayMarker({d, bg_color, bus,headsign}:
+    {d: Unpacked<BusRouteType["Stops"]>, bg_color:string, bus:string,headsign:string}) {
     
     const [open, setOpen] = useState(false)    
     const toggleShowStopInfo = useToggleShowStopInfo()
@@ -25,6 +26,7 @@ export default function DisplayMarker({d, bg_color}:{d: Unpacked<BusRouteType["S
             {open && <InfoWindow position={{lat: d.StopPosition.PositionLat, lng: d.StopPosition.PositionLon}}
              key={d.StopSequence.toString()+"info"} onCloseClick={()=>setOpen(false)} >
                         <div key={d.StopSequence.toString()+"infoElm"} className="">
+                            <p>{`${bus} ${headsign}`}</p>
                             <p className="font-bold" >{`${d.StopSequence} ${d.StopName.Zh_tw}`}</p>
                         </div>
             </InfoWindow>}

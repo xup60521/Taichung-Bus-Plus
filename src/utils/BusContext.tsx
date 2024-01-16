@@ -24,7 +24,9 @@ const BusContext = createContext({
         randomNumber: number
     }>>,
     page: "",
-    setPage: unknown as React.Dispatch<React.SetStateAction<string | "bus" | "bus_stop">>
+    setPage: unknown as React.Dispatch<React.SetStateAction<string | "bus" | "bus_stop">>,
+    stayOnRouteDetails: [] as BusRouteType[],
+    setStayOnRouteDetails: unknown as React.Dispatch<React.SetStateAction<BusRouteType[]>>
 })
 
 export function BusProvider({children}: {children: React.ReactNode}) {
@@ -39,6 +41,7 @@ export function BusProvider({children}: {children: React.ReactNode}) {
         randomNumber: 0
     })
     const [page, setPage] = useState("")
+    const [stayOnRouteDetails,setStayOnRouteDetails] = useState<BusRouteType[]>([])
     
     useEffect(() => {
         if ("geolocation" in navigator) {
@@ -67,7 +70,9 @@ export function BusProvider({children}: {children: React.ReactNode}) {
             toggleShowStopInfo,
             setToggleShowStopInfo,
             page,
-            setPage
+            setPage,
+            stayOnRouteDetails,
+            setStayOnRouteDetails
             }}>
             {children}
         </BusContext.Provider>
@@ -87,3 +92,5 @@ export const useToggleShowStopInfo = () => useContext(BusContext).toggleShowStop
 export const useSetToggleShowStopInfo = () => useContext(BusContext).setToggleShowStopInfo
 export const usePage = () => useContext(BusContext).page
 export const useSetPage = () => useContext(BusContext).setPage
+export const useStayOnRouteDetails = () => useContext(BusContext).stayOnRouteDetails
+export const useSetStayOnRouteDetails = () =>useContext(BusContext).setStayOnRouteDetails

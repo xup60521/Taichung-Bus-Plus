@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { FaArrowRightArrowLeft, FaArrowRightLong } from "react-icons/fa6";
 import "./progress.css"
-import { useSetDirection, useSetPage, useSetStationName, useSetToggleShowStopInfo } from "@/utils/BusContext";
+import { useSetDirection, useSetPage, useSetStationName, useSetStayOnRouteDetails, useSetToggleShowStopInfo } from "@/utils/BusContext";
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { FiMenu, FiPlus} from "react-icons/fi";
 import { RemainningTime } from "./RemainningTime";
@@ -60,7 +60,6 @@ export default function StopList({routeDetail, direction, bus}:
       return (
           <>  
             <div className="w-full">
-
                 <div className="flex items-center justify-center gap-2 bg-slate-200 text-slate-900 font-bold border-2 rounded-md rounded-b-none p-2 w-full h-12">
                     <span className="w-2/5 text-center">{filteredData[0].StopName.Zh_tw}</span>
                     <button className="w-8 h-8 p-1 flex justify-center items-center" onClick={()=>{
@@ -81,6 +80,7 @@ export default function StopList({routeDetail, direction, bus}:
                     <progress className=" w-full -translate-y-3 " max={14} value={seconds} />
                 </div>
             </div>
+            
             <div className=" flex-grow w-full overflow-y-auto flex flex-col gap-3">
                 {filteredData.reverse().map((d, )=>{
 
@@ -104,7 +104,6 @@ export default function StopList({routeDetail, direction, bus}:
                                 <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 bg-red-400 group-hover:w-1/2 group-hover:transition-all"></span>
                             </button>
                             <div className=" flex-grow" />
-                            <button className=" border-2 border-blue-200 font-bold hover:bg-blue-200 hover:text-black transition-all  text-blue-400 p-1 w-fit rounded h-fit text-center"><FiPlus /></button>
                             <DropDownMenu  setStationName={setStationName} currentStationName={d.StopName.Zh_tw} setPage={setPage} />
                         </div>
                     )

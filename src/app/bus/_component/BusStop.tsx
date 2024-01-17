@@ -59,7 +59,14 @@ export default function BusStop() {
                             return (
                             <div key={`${d.RouteName.Zh_tw} ${d.Direction} ${d.StopSequence}`} className="flex relative items-center pr-4 gap-2" >
                                 <RemainningTime remainingTimeData={d} />
-                                <span className="pl-2 font-medium text-md">{`${d.RouteName.Zh_tw}`}</span>
+                                <button className="relative group">
+                                <span onClick={()=>{
+                                    setBus(d.RouteName.Zh_tw)
+                                    setDirection(d.Direction)
+                            }} className="text-md pl-1 font-bold">{`${d.RouteName.Zh_tw}`}</span>
+                                <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 bg-red-400 group-hover:w-1/2 group-hover:transition-all"></span>
+                                <span className="absolute -bottom-1 right-1/2 w-0 h-0.5 bg-red-400 group-hover:w-1/2 group-hover:transition-all"></span>
+                            </button>
                                 <div className="flex-grow" />
                                 <DropDownMenu setBus={setBus} currentRouteName={d.RouteName.Zh_tw} currentRouteDirection={d.Direction} setPage={setPage} setDirection={setDirection} />
                             </div>

@@ -61,7 +61,7 @@ export default function BusStop() {
                                 <RemainningTime remainingTimeData={d} />
                                 <button className="relative group">
                                 <span onClick={()=>{
-                                    setBus(d.RouteName.Zh_tw)
+                                    setBus(d.RouteName.Zh_tw.toUpperCase())
                                     setDirection(d.Direction)
                             }} className="text-md pl-1 font-bold">{`${d.RouteName.Zh_tw}`}</span>
                                 <span className="absolute -bottom-1 left-1/2 w-0 h-0.5 bg-red-400 group-hover:w-1/2 group-hover:transition-all"></span>

@@ -18,7 +18,7 @@ export default function StopsMarker() {
     if (isOneWay) {
         filteredData = routeDetail.filter((item)=>item.RouteName.Zh_tw === bus)[0].Stops
     } else {
-        filteredData = routeDetail.filter((item)=>item.RouteName.Zh_tw === bus && item.Direction === direction)[0]?.Stops
+        filteredData = routeDetail.filter((item)=>item.RouteName.Zh_tw.toUpperCase() === bus.toUpperCase() && item.Direction === direction)[0]?.Stops
     }
     let headsign = ""
     if (filteredData) {

@@ -28,7 +28,7 @@ export default function StopList({routeDetail, direction, bus}:
     if (isOneWay) {
         filteredData = routeDetail.filter((item)=>item.RouteName.Zh_tw === bus)[0].Stops
     } else {
-        filteredData = routeDetail.filter((item)=>item.RouteName.Zh_tw === bus && item.Direction === direction)[0].Stops.sort((a, b)=>a.StopSequence - b.StopSequence)
+        filteredData = routeDetail.filter((item)=>item.RouteName.Zh_tw === bus.toUpperCase() && item.Direction === direction)[0]?.Stops.sort((a, b)=>a.StopSequence - b.StopSequence)
     }
     const routeEst = trpc.getRouteArrivalEst.useQuery(bus, {
         enabled: Boolean(bus ?? ""),

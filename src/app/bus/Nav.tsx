@@ -1,11 +1,11 @@
 'use client'
 
 import type { AllBusType } from "@/type/AllBusType";
-import { FaBus, FaShekelSign } from "react-icons/fa";
+import { FaBus, FaMapSigns, FaSign } from "react-icons/fa";
 import Bus from "./_component/Bus";
 import { useBus, useDirection, usePage, usePosition, useSetBus, useSetDirection, useSetPage, useSetRouteDetail, useSetStationName, useStationName } from "@/utils/BusContext";
 import { useEffect, useState } from "react";
-import { BusRouteType } from "@/type/BusRouteType";
+import Draggable from "react-draggable"
 import { APIProvider, Map } from "@vis.gl/react-google-maps";
 import { publicENV } from "@/lib/publicENV";
 import StopsMarker from "./_component/Bus/StopsMaker";
@@ -18,6 +18,8 @@ import {
   } from "@/components/ui/resizable"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "@/components/ui/dropdown-menu";
 import { trpc } from "../_trpc/client";
+import { Button } from "@/components/ui/button";
+import BusList from "./_component/BusList";
 
 export default function Nav({initBusData}: 
     {initBusData: AllBusType[]}) {
@@ -48,7 +50,7 @@ export default function Nav({initBusData}:
         const sStationName = searchparams.get("stationName")
         const sDirection = searchparams.get("direction")
         if (sBus) {
-            setBus(sBus)
+            setBus(sBus.toUpperCase())
         }
         if (sPage) {
             setPage(sPage)
@@ -82,24 +84,54 @@ export default function Nav({initBusData}:
                 <ResizablePanelGroup direction="horizontal">
                     <ResizablePanel defaultSize={2}>
                         <div className="h-full w-full bg-white flex flex-col justify-center items-center gap-2">
-                            <button onClick={()=>setPage("bus")}  className={`${page === "bus" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`}><FaBus /></button>
-                            <button onClick={()=>setPage("bus_stop")} className={`${page === "bus_stop" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`} ><FaShekelSign /></button>
+                            <button onClick={()=>{
+                                if (page==="bus") {
+                                    setPage("")
+                                } else {
+                                    setPage("bus")
+                                }
+                            }}  className={`${page === "bus" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`}><FaBus /></button>
+                            <button onClick={()=>{
+                                if (page==="bus_stop") {
+                                    setPage("")
+                                } else {
+                                    setPage("bus_stop")
+                                }
+                                }} className={`${page === "bus_stop" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`} ><FaSign /></button>
+                            <button onClick={()=>{
+                            if (page==="bus_list") {
+                                setPage("")
+                            } else {
+                                setPage("bus_list")
+                            }
+                            }} className={`${page === "bus_list" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`} ><FaMapSigns /></button>
                         </div>                          
                     </ResizablePanel>
-                    <ResizableHandle className="w-1" />
-                    <ResizablePanel defaultSize={25}>
-                        <div className="h-full w-full flex-grow overflow-x-hidden">
-                            {(()=>{
-                                if (page === "bus" || page === "") {
-                                    return <Bus initBusData={initBusData} routeDetail={routeDetail} />
-                                }
-                                if (page === "bus_stop") {
-                                    return <BusStop />
-                                }
-                                return ""
-                            })()}
-                        </div>
-                    </ResizablePanel>
+                    {(()=>{
+                        if (page) {
+                            return (
+                                <>
+                                    <ResizableHandle className="w-1" />
+                                    <ResizablePanel defaultSize={25}>
+                                        <div className="h-full w-full flex-grow overflow-x-hidden">
+                                            {(()=>{
+                                                if (page === "bus") {
+                                                    return <Bus initBusData={initBusData} routeDetail={routeDetail} />
+                                                }
+                                                if (page === "bus_stop") {
+                                                    return <BusStop />
+                                                }
+                                                if (page==="bus_list") {
+                                                    return <BusList />
+                                                }
+                                                return ""
+                                            })()}
+                                        </div>
+                                    </ResizablePanel>
+                                </>
+                            )
+                        }
+                    })()}
                     <ResizableHandle className="w-1.5" />
                     <ResizablePanel>
                         <div className="h-screen w-full">
@@ -116,7 +148,7 @@ export default function Nav({initBusData}:
                             </APIProvider>
                         </div>
                     </ResizablePanel>
-                </ResizablePanelGroup>                 
+                </ResizablePanelGroup>
             </div>
         </>
     )

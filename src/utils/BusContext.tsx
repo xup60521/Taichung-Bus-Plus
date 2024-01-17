@@ -24,7 +24,7 @@ const BusContext = createContext({
         randomNumber: number
     }>>,
     page: "",
-    setPage: unknown as React.Dispatch<React.SetStateAction<string | "bus" | "bus_stop">>,
+    setPage: unknown as React.Dispatch<React.SetStateAction<string | "bus" | "bus_stop" | "bus_list">>,
     stayOnRouteDetails: [] as BusRouteType[],
     setStayOnRouteDetails: unknown as React.Dispatch<React.SetStateAction<BusRouteType[]>>
 })

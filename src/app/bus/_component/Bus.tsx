@@ -24,7 +24,7 @@ export default function Bus({initBusData, routeDetail}:
   const setStayOnRouteDetails = useSetStayOnRouteDetails()
   const selectOptions = initBusData.map(d=>{
   return {
-    "value": d.RouteName.Zh_tw,
+    "value": d.RouteName.Zh_tw.toUpperCase(),
     "label": `${d.RouteName.Zh_tw} ${d.SubRoutes[0].Headsign}`,
   }}).sort((a,b)=>Number(RNN(a.value)) - Number(RNN(b.value)))
   let isOneWay = false;
@@ -126,7 +126,7 @@ export function ComboboxDemo({selectOptions, direction, isOneWay}:
                 key={framework.value}
                 value={framework.value}
                 onSelect={(currentValue) => {
-                  setValue(currentValue === value ? "" : currentValue)
+                  setValue(currentValue.toUpperCase() === value.toUpperCase() ? "" : currentValue.toUpperCase())
                   setOpen(false)
                 }}
                 className=" hover:bg-blue-100 px-4 py-2"

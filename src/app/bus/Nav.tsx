@@ -26,6 +26,7 @@ import axios from "axios";
 import { toast } from "@/components/ui/use-toast";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Separator } from "@/components/ui/separator"
+import DisplayMarkers from "./_component/Map/DisplayMarkers";
 
 
 export default function Nav({initBusData}: 
@@ -98,96 +99,96 @@ export default function Nav({initBusData}:
 
     if (typeof window === "undefined") {
         return <div>browser window is not ready</div>
-    }
+    } 
     
-    return (
-        <>
-            <div className={`w-full h-screen box-border flex bg-gradient-to-b from-rose-100 to-teal-100 overflow-hidden ${openPopup ? " blur-sm" : ""} transition-all`}>
-                <ResizablePanelGroup direction="horizontal">
-                    <ResizablePanel defaultSize={2}>
-                        <div className="h-full w-full bg-white flex flex-col justify-center items-center gap-2">
-                            <button onClick={()=>{
-                                if (page==="bus") {
+    if (!loading) {
+        return (
+            <>
+                <div className={`w-full h-screen box-border flex bg-gradient-to-b from-rose-100 to-teal-100 overflow-hidden ${openPopup ? " blur-sm" : ""} transition-all`}>
+                    <ResizablePanelGroup direction="horizontal">
+                        <ResizablePanel defaultSize={2}>
+                            <div className="h-full w-full bg-white flex flex-col justify-center items-center gap-2">
+                                <button onClick={()=>{
+                                    if (page==="bus") {
+                                        setPage("")
+                                    } else {
+                                        setPage("bus")
+                                    }
+                                }}  className={`${page === "bus" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`}><FaBus /></button>
+                                <button onClick={()=>{
+                                    if (page==="bus_stop") {
+                                        setPage("")
+                                    } else {
+                                        setPage("bus_stop")
+                                    }
+                                    }} className={`${page === "bus_stop" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`} ><FaSign /></button>
+                                <button onClick={()=>{
+                                if (page==="bus_list") {
                                     setPage("")
                                 } else {
-                                    setPage("bus")
-                                }
-                            }}  className={`${page === "bus" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`}><FaBus /></button>
-                            <button onClick={()=>{
-                                if (page==="bus_stop") {
-                                    setPage("")
-                                } else {
-                                    setPage("bus_stop")
-                                }
-                                }} className={`${page === "bus_stop" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`} ><FaSign /></button>
-                            <button onClick={()=>{
-                            if (page==="bus_list") {
-                                setPage("")
-                            } else {
-                                setPage("bus_list")                            }
-                            }} className={`${page === "bus_list" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`} ><FaMapSigns /></button>
-                            <button onClick={()=>setOpenPopup(true)} className="flex justify-center items-center p-2 hover:bg-slate-200"><FaMagnifyingGlass /></button>
-                        </div>                          
-                    </ResizablePanel>
-                    {(()=>{
-                        if (page) {
-                            return (
-                                <>
-                                    <ResizableHandle className="w-1" />
-                                    <ResizablePanel defaultSize={25}>
-                                        <div className="h-full w-full flex-grow overflow-x-hidden">
-                                            {(()=>{
-                                                if (page === "bus") {
-                                                    return <Bus initBusData={initBusData} routeDetail={routeDetail} />
-                                                }
-                                                if (page === "bus_stop") {
-                                                    return <BusStop />
-                                                }
-                                                if (page==="bus_list") {
-                                                    return <BusList />
-                                                }
-                                                return ""
-                                            })()}
-                                        </div>
-                                    </ResizablePanel>
-                                </>
-                            )
-                        }
-                    })()}
-                    <ResizableHandle className="w-1.5" />
-                    <ResizablePanel defaultSize={70}>
-                        <div className="h-screen w-full flex flex-col">
-                            {/* <APIProvider apiKey={publicENV.NEXT_PUBLIC_Google_Map_API_Key??""}>
-                                <Map
-                                zoom={11.5}
-                                center={position}
-                                gestureHandling={'greedy'}
-                                disableDefaultUI={true}
-                                mapId={publicENV.NEXT_PUBLIC_Google_Map_ID}
-                                >
-                                <StopsMarker />   
-                                </Map>
-                            </APIProvider> */}
-                            {(()=>{
-                                if (typeof window !== "undefined") {
-                                    return <MapContainer center={[position.lat, position.lng]} zoom={13} scrollWheelZoom={true} className="h-screen flex-grow " >
-                                                <TileLayer
-                                                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                                                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                                                    className="absolute left-0"
-                                                />
-                                            </MapContainer>
-                                }
-                            })()}
-                        </div>
-                    </ResizablePanel>
-                </ResizablePanelGroup>
-            </div>
-            <Popup open={openPopup} onClose={()=>setOpenPopup(false)}>
-                <SearchResult setStationName={setStationName} setPage={setPage} setOpenPopup={setOpenPopup}  />
-            </Popup>
-        </>
-    )
+                                    setPage("bus_list")                            }
+                                }} className={`${page === "bus_list" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`} ><FaMapSigns /></button>
+                                <button onClick={()=>setOpenPopup(true)} className="flex justify-center items-center p-2 hover:bg-slate-200"><FaMagnifyingGlass /></button>
+                            </div>                          
+                        </ResizablePanel>
+                        {(()=>{
+                            if (page) {
+                                return (
+                                    <>
+                                        <ResizableHandle className="w-1" />
+                                        <ResizablePanel defaultSize={25}>
+                                            <div className="h-full w-full flex-grow overflow-x-hidden">
+                                                {(()=>{
+                                                    if (page === "bus") {
+                                                        return <Bus initBusData={initBusData} routeDetail={routeDetail} />
+                                                    }
+                                                    if (page === "bus_stop") {
+                                                        return <BusStop />
+                                                    }
+                                                    if (page==="bus_list") {
+                                                        return <BusList />
+                                                    }
+                                                    return ""
+                                                })()}
+                                            </div>
+                                        </ResizablePanel>
+                                    </>
+                                )
+                            }
+                        })()}
+                        <ResizableHandle className="w-1.5" />
+                        <ResizablePanel defaultSize={70}>
+                            <div className="h-screen w-full flex flex-col">
+                                {/* <APIProvider apiKey={publicENV.NEXT_PUBLIC_Google_Map_API_Key??""}>
+                                    <Map
+                                    zoom={11.5}
+                                    center={position}
+                                    gestureHandling={'greedy'}
+                                    disableDefaultUI={true}
+                                    mapId={publicENV.NEXT_PUBLIC_Google_Map_ID}
+                                    >
+                                    <StopsMarker />   
+                                    </Map>
+                                </APIProvider> */}
+                                <MapContainer center={[position.lat, position.lng]} zoom={13} scrollWheelZoom={true} className="h-screen flex-grow " >
+                                    <TileLayer
+                                        attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                                        className="absolute left-0"
+                                    />
+                                    <DisplayMarkers />
+                                </MapContainer>
+                            </div>
+                        </ResizablePanel>
+                    </ResizablePanelGroup>
+                </div>
+                <Popup open={openPopup} onClose={()=>setOpenPopup(false)}>
+                    <SearchResult setStationName={setStationName} setPage={setPage} setOpenPopup={setOpenPopup}  />
+                </Popup>
+            </>
+        )
+    }
+    return "not ready"
 }
 
 type SearchResultType = {

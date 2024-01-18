@@ -9,6 +9,8 @@ import { useEffect, useRef, useState } from "react";
 import { APIProvider, Map } from "@vis.gl/react-google-maps";
 import { publicENV } from "@/lib/publicENV";
 import StopsMarker from "./_component/Bus/StopsMaker";
+import { MapContainer, Marker, TileLayer, useMap } from 'react-leaflet'
+import "leaflet/dist/leaflet.css"
 import { useRouter, useSearchParams } from "next/navigation";
 import BusStop from "./_component/BusStop";
 import {
@@ -153,9 +155,9 @@ export default function Nav({initBusData}:
                         }
                     })()}
                     <ResizableHandle className="w-1.5" />
-                    <ResizablePanel>
-                        <div className="h-screen w-full">
-                            <APIProvider apiKey={publicENV.NEXT_PUBLIC_Google_Map_API_Key??""}>
+                    <ResizablePanel defaultSize={70}>
+                        <div className="h-screen w-full flex flex-col">
+                            {/* <APIProvider apiKey={publicENV.NEXT_PUBLIC_Google_Map_API_Key??""}>
                                 <Map
                                 zoom={11.5}
                                 center={position}
@@ -165,7 +167,18 @@ export default function Nav({initBusData}:
                                 >
                                 <StopsMarker />   
                                 </Map>
-                            </APIProvider>
+                            </APIProvider> */}
+                            {(()=>{
+                                if (typeof window !== "undefined") {
+                                    return <MapContainer center={[position.lat, position.lng]} zoom={13} scrollWheelZoom={true} className="h-screen flex-grow " >
+                                                <TileLayer
+                                                    attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                                                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                                                    className="absolute left-0"
+                                                />
+                                            </MapContainer>
+                                }
+                            })()}
                         </div>
                     </ResizablePanel>
                 </ResizablePanelGroup>

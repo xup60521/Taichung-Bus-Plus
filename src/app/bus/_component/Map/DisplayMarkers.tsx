@@ -42,8 +42,8 @@ export default function DisplayMarkers() {
                     return <MapMarker headsign={headsign} bus={bus} bg_color={bg_color} key={d.StopSequence.toString()} d={d} />
                 }
             })}
-            {stayOnRouteDetails?.map(d=>{
-                const sign = `${d.Stops[0].StopName.Zh_tw} - ${d.Stops.reverse()[0].StopName.Zh_tw}`
+            {stayOnRouteDetails?.map((d, _i, arr)=>{
+                const sign = `${d.Stops[0].StopName.Zh_tw} - ${d.Stops.at(-1)?.StopName.Zh_tw}`
                 const color = `rgb(${Math.floor(255*seedrandom(`${d.RouteName.Zh_tw} ${d.Direction} R`)())},${Math.floor(255*seedrandom(`${d.RouteName.Zh_tw} ${d.Direction} G`)())},${Math.floor(255*seedrandom(`${d.RouteName.Zh_tw} ${d.Direction} B`)())})`
                 return d.Stops.map(item=>{
                     const icon = new Icon({
@@ -55,7 +55,7 @@ export default function DisplayMarkers() {
                             <Marker key={`${item.StopName.Zh_tw} stop`} position={[item.StopPosition.PositionLat, item.StopPosition.PositionLon]} icon={icon} >
                             <Tooltip>
                                 <div key={item.StopSequence.toString()+"infoElm"} className="">
-                                    <p>{`${bus} ${headsign}`}</p>
+                                    <p>{`${d.RouteName.Zh_tw} ${sign}`}</p>
                                     <p className="font-bold" >{`${item.StopSequence} ${item.StopName.Zh_tw}`}</p>
                                 </div>
                             </Tooltip>

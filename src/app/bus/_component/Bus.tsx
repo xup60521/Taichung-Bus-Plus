@@ -3,7 +3,7 @@
 import type { AllBusType }  from "@/type/AllBusType" 
 import { useState } from "react"
 import StopList from "./Bus/StopList"
-import { useBus, useDirection, useRouteDetail, useSetBus, useSetStayOnRouteDetails, useStayOnRouteDetails } from "@/utils/BusContext"
+import { useBus, useDirection, useRouteDetail, useSetBus, useSetBusShape, useSetStayOnRouteDetails, useStayOnRouteDetails } from "@/utils/BusContext"
 import { BusRouteType } from "@/type/BusRouteType"
 import {RNN} from "@/lib/RouteNameNormalize"
 import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover"
@@ -13,6 +13,8 @@ import { Command } from "@/components/ui/command"
 import Spinner from "@/app/_components/Spinner"
 import { FiPlus,FiMinus  } from "react-icons/fi"
 import { toast } from "@/components/ui/use-toast"
+import axios from "axios"
+import { BusShapePost } from "@/type/BusShape"
 
 
 export default function Bus({initBusData, routeDetail}: 
@@ -22,6 +24,7 @@ export default function Bus({initBusData, routeDetail}:
   const bus = useBus()
   const stayOnRouteDetails = useStayOnRouteDetails()
   const setStayOnRouteDetails = useSetStayOnRouteDetails()
+  const setBusShape = useSetBusShape()
   const selectOptions = initBusData.map(d=>{
   return {
     "value": d.RouteName.Zh_tw.toUpperCase(),
@@ -32,7 +35,7 @@ export default function Bus({initBusData, routeDetail}:
     isOneWay = (routeDetail.filter((item)=>item.RouteName.Zh_tw === bus).length === 1) ? true : false
   }
 
-  const addToList = () => {
+  const addToList = async () => {
     if ((!routeDetail || !bus)||(stayOnRouteDetails.map(d=>d.RouteName.Zh_tw).includes(bus) && stayOnRouteDetails.map(d=>d.Direction).includes(direction))) {
       return;
     }
@@ -43,18 +46,35 @@ export default function Bus({initBusData, routeDetail}:
         filteredData = routeDetail.filter((item)=>item.RouteName.Zh_tw === bus && item.Direction === direction)[0]
     }
     setStayOnRouteDetails(prev => [...prev, filteredData])
+    await addToPolygon()
     toast({
       title: "新增成功"
     })
+  }
+
+  const addToPolygon = async () => {
+    if (!bus) {return}
+    const regex = /[A-Za-z]/g
+    const routeName = bus.replace(regex, "")
+    const data = (await axios.post(`/api/getRouteShape`, {
+      RouteName: bus,
+      Direction: (!isOneWay)? direction : 0,
+    } satisfies BusShapePost)).data
+    setBusShape(prev => [...prev, data])
   }
 
   const removeFromList = () => {
     setStayOnRouteDetails(prev => {
       return prev.filter(item=> item.RouteName.Zh_tw !== bus || item.Direction !== direction)
     })
+    removeFromPolygon()
     toast({
       title: "成功刪除"
     })
+  }
+
+  const removeFromPolygon = () => {
+    setBusShape(prev => prev.filter(item=> item.RouteName.Zh_tw !== bus || item.Direction!== direction))
   }
 
   const isAdded = Boolean(stayOnRouteDetails.filter(item=> item.RouteName.Zh_tw===bus && item.Direction===direction).length)

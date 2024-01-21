@@ -1,6 +1,7 @@
 'use client'
 
 import { BusRouteType } from "@/type/BusRouteType";
+import { BusRouteShapeType } from "@/type/BusShape";
 import  { createContext, useContext, useEffect, useState } from "react";
 import type React from "react"
 import { unknown } from "zod";
@@ -26,7 +27,9 @@ const BusContext = createContext({
     page: "",
     setPage: unknown as React.Dispatch<React.SetStateAction<string | "bus" | "bus_stop" | "bus_list">>,
     stayOnRouteDetails: [] as BusRouteType[],
-    setStayOnRouteDetails: unknown as React.Dispatch<React.SetStateAction<BusRouteType[]>>
+    setStayOnRouteDetails: unknown as React.Dispatch<React.SetStateAction<BusRouteType[]>>,
+    busShape: null as null | BusRouteShapeType[],
+    setBusShape: unknown as React.Dispatch<React.SetStateAction<BusRouteShapeType[]>>
 })
 
 export function BusProvider({children}: {children: React.ReactNode}) {
@@ -42,6 +45,7 @@ export function BusProvider({children}: {children: React.ReactNode}) {
     })
     const [page, setPage] = useState("")
     const [stayOnRouteDetails,setStayOnRouteDetails] = useState<BusRouteType[]>([])
+    const [busShape, setBusShape] = useState<BusRouteShapeType[]>([])
     
     useEffect(() => {
         if ("geolocation" in navigator) {
@@ -72,7 +76,9 @@ export function BusProvider({children}: {children: React.ReactNode}) {
             page,
             setPage,
             stayOnRouteDetails,
-            setStayOnRouteDetails
+            setStayOnRouteDetails,
+            busShape,
+            setBusShape
             }}>
             {children}
         </BusContext.Provider>
@@ -94,3 +100,5 @@ export const usePage = () => useContext(BusContext).page
 export const useSetPage = () => useContext(BusContext).setPage
 export const useStayOnRouteDetails = () => useContext(BusContext).stayOnRouteDetails
 export const useSetStayOnRouteDetails = () =>useContext(BusContext).setStayOnRouteDetails
+export const useBusShape = () =>useContext(BusContext).busShape
+export const useSetBusShape = () =>useContext(BusContext).setBusShape

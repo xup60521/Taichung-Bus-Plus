@@ -17,8 +17,7 @@ const MapMarker = ({d, bg_color, bus,headsign}:
     }
     const icon = new Icon({
         iconUrl: "https://cdn-icons-png.flaticon.com/512/684/684908.png",
-        iconSize: [38,38],
-        
+        iconSize: [35,35],
     })   
         
     return (

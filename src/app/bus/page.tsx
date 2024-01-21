@@ -15,9 +15,7 @@ export default async function Page() {
     
     return (
         <BusProvider>
-            
                 <DC initBusData={initBusData}  />
-            
         </BusProvider>
     )
 }

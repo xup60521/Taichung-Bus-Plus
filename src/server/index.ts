@@ -35,7 +35,7 @@ export const appRouter = router({
         return route.data as BusRouteType[]
     }),
     getRouteArrivalEst: procedure.input(z.string()).query(async(routeName)=>{
-        const regex = /[A-Za-z]/
+        const regex = /[A-Za-z]/g
         const access_token = (await get_access_token())["access_token"]
         let str = routeName.input
         str = str.replace(regex, "")

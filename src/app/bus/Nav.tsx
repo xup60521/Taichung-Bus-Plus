@@ -13,11 +13,6 @@ import { MapContainer, Marker, TileLayer, useMap } from 'react-leaflet'
 import "leaflet/dist/leaflet.css"
 import { useRouter, useSearchParams } from "next/navigation";
 import BusStop from "./_component/BusStop";
-import {
-    ResizableHandle,
-    ResizablePanel,
-    ResizablePanelGroup,
-  } from "@/components/ui/resizable"
 import { trpc } from "../_trpc/client";
 import BusList from "./_component/BusList";
 import Popup from "reactjs-popup"
@@ -104,10 +99,8 @@ export default function Nav({initBusData}:
     if (!loading) {
         return (
             <>
-                <div className={`w-full h-screen box-border flex bg-gradient-to-b from-rose-100 to-teal-100 overflow-hidden ${openPopup ? " blur-sm" : ""} transition-all`}>
-                    <ResizablePanelGroup direction="horizontal">
-                        <ResizablePanel defaultSize={2}>
-                            <div className="h-full w-full bg-white flex flex-col justify-center items-center gap-2">
+                <div className={`w-full h-screen box-border flex flex-col bg-gradient-to-b from-rose-100 to-teal-100 overflow-hidden ${openPopup ? " blur-sm" : ""} transition-all md:flex-row`}>
+                            <div className="md:h-full md:w-fit  bg-white flex md:flex-col justify-center items-center gap-2 h-8">
                                 <button onClick={()=>{
                                     if (page==="bus") {
                                         setPage("")
@@ -130,35 +123,29 @@ export default function Nav({initBusData}:
                                 }} className={`${page === "bus_list" ? "bg-slate-200" : ""} flex justify-center items-center p-2 hover:bg-slate-200`} ><FaMapSigns /></button>
                                 <button onClick={()=>setOpenPopup(true)} className="flex justify-center items-center p-2 hover:bg-slate-200"><FaMagnifyingGlass /></button>
                             </div>                          
-                        </ResizablePanel>
                         {(()=>{
                             if (page) {
                                 return (
                                     <>
-                                        <ResizableHandle className="w-1" />
-                                        <ResizablePanel defaultSize={25}>
-                                            <div className="h-full w-full flex-grow overflow-x-hidden">
-                                                {(()=>{
-                                                    if (page === "bus") {
-                                                        return <Bus initBusData={initBusData} routeDetail={routeDetail} />
-                                                    }
-                                                    if (page === "bus_stop") {
-                                                        return <BusStop />
-                                                    }
-                                                    if (page==="bus_list") {
-                                                        return <BusList />
-                                                    }
-                                                    return ""
-                                                })()}
-                                            </div>
-                                        </ResizablePanel>
+                                        <div className="md:h-full md:w-[30rem] w-full h-[calc(50vh)]">
+                                            {(()=>{
+                                                if (page === "bus") {
+                                                    return <Bus initBusData={initBusData} routeDetail={routeDetail} />
+                                                }
+                                                if (page === "bus_stop") {
+                                                    return <BusStop />
+                                                }
+                                                if (page==="bus_list") {
+                                                    return <BusList />
+                                                }
+                                                return ""
+                                            })()}
+                                        </div>
                                     </>
                                 )
                             }
                         })()}
-                        <ResizableHandle className="w-1.5" />
-                        <ResizablePanel defaultSize={70}>
-                            <div className="h-screen w-full flex flex-col">
+                            <div className="h-[calc(50vh-2rem)] w-full flex flex-col">
                                 {/* <APIProvider apiKey={publicENV.NEXT_PUBLIC_Google_Map_API_Key??""}>
                                     <Map
                                     zoom={11.5}
@@ -179,8 +166,6 @@ export default function Nav({initBusData}:
                                     <DisplayMarkers />
                                 </MapContainer>
                             </div>
-                        </ResizablePanel>
-                    </ResizablePanelGroup>
                 </div>
                 <Popup open={openPopup} onClose={()=>setOpenPopup(false)}>
                     <SearchResult setStationName={setStationName} setPage={setPage} setOpenPopup={setOpenPopup}  />

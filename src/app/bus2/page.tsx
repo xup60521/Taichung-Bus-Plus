@@ -1,20 +1,16 @@
-'use client'
-
-import { MapContainer, TileLayer } from "react-leaflet"
-import Spinner from "../_components/Spinner"
-import "leaflet/dist/leaflet.css"
+import dynamic from "next/dynamic"
+import { serverClient } from "../_trpc/serverClient"
 
 
-export default function Bus2() {
+const Bus = dynamic(()=> import('./Bus'), {ssr: false})
+
+export default async function Bus2() {
+
+    const initBusData = await serverClient.getAllBus.query()
 
     return (
-        <div className="">
-            {/* <MapContainer center={[51.505, -0.09]} zoom={13} scrollWheelZoom={false} className="w-screen h-screen">
-            <TileLayer
-                attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-                url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            />
-            </MapContainer> */}
+        <div className="w-screen h-screen">
+            <Bus />
         </div>
     )
 }

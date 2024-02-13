@@ -106,7 +106,7 @@ export default function Bus({initBusData, routeDetail}:
 }
 
 
-export function ComboboxDemo({selectOptions, direction, isOneWay}:
+function ComboboxDemo({selectOptions, direction, isOneWay}:
   {selectOptions: {
     label: string,
     value: string

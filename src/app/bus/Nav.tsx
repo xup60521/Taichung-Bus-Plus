@@ -145,7 +145,7 @@ export default function Nav({initBusData}:
                                 )
                             }
                         })()}
-                            <div className="h-[calc(50vh-2rem)] w-full flex flex-col">
+                            <div className="h-[calc(50vh-2rem)] w-full flex flex-col md:h-screen">
                                 {/* <APIProvider apiKey={publicENV.NEXT_PUBLIC_Google_Map_API_Key??""}>
                                     <Map
                                     zoom={11.5}

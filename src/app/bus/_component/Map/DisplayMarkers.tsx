@@ -1,6 +1,6 @@
 'use client'
 
-import { useBus, useBusShape, useDirection, useRouteDetail, useStayOnRouteDetails } from "@/utils/BusContext"
+import { useBus, useBusShape, useDirection, useRouteDetail, useStayOnRouteDetails, useStationName } from "@/utils/BusContext"
 import seedrandom from "seedrandom"
 import MapMarker from "./MapMarker"
 import NoSSR from "react-no-ssr"
@@ -50,6 +50,8 @@ export default function DisplayMarkers() {
                         iconUrl: "https://cdn-icons-png.flaticon.com/512/1828/1828677.png",
                         iconSize: [12, 12],
                     })   
+                     
+
                     if (typeof window !== "undefined") {
                         return (
                             <Marker key={`${item.StopName.Zh_tw} stop`} position={[item.StopPosition.PositionLat, item.StopPosition.PositionLon]} icon={icon} >

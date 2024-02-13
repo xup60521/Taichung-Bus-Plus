@@ -127,7 +127,7 @@ export default function Nav({initBusData}:
                             if (page) {
                                 return (
                                     <>
-                                        <div className="md:h-full md:w-[30rem] w-full h-[calc(50vh)]">
+                                        <div className="md:h-full md:w-[30rem] w-full h-[calc(45vh)]">
                                             {(()=>{
                                                 if (page === "bus") {
                                                     return <Bus initBusData={initBusData} routeDetail={routeDetail} />
@@ -145,7 +145,7 @@ export default function Nav({initBusData}:
                                 )
                             }
                         })()}
-                            <div className="h-[calc(50vh-2rem)] w-full flex flex-col md:h-screen">
+                            <div className="h-[calc(55vh-2rem)] w-full flex flex-col md:h-screen">
                                 {/* <APIProvider apiKey={publicENV.NEXT_PUBLIC_Google_Map_API_Key??""}>
                                     <Map
                                     zoom={11.5}

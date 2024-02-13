@@ -83,8 +83,7 @@ export default function Bus({initBusData, routeDetail}:
     <>
         <div className=" w-full h-full box-border text-black overflow-x-hidden flex flex-col justify-center items-center">
             <div className="flex h-full w-full">
-                <div className="bg-white bg-opacity-50 backdrop-blur-lg  w-full h-full p-4 flex flex-col items-center gap-2">
-                    <p className="font-black text-lg">---選擇路線---</p>
+                <div className="bg-white bg-opacity-50 backdrop-blur-lg  w-full h-full p-2 flex flex-col items-center gap-2">
                         <div className="w-full flex items-center gap-2">
                           <ComboboxDemo isOneWay={isOneWay} direction={direction} selectOptions={selectOptions} />
                           {(!bus) ? "" : (isAdded ? <button onClick={removeFromList} className=" box-border w-10 h-full border-2 border-red-400 text-2xl hover:bg-red-600 hover:border-red-600 hover:text-white transition-all  text-red-400 p-1 rounded flex justify-center items-center"><FiMinus /></button> :
@@ -131,7 +130,7 @@ function ComboboxDemo({selectOptions, direction, isOneWay}:
             ? (placeholder ? (
               placeholder + (!isOneWay ? (direction === 0 ? " (順向)" : " (逆向)") : "")
             ) : "")
-            : "Select bus..."}
+            : "選擇路線..."}
           </p>
 
         </Button>

@@ -81,7 +81,7 @@ export default function StopList({routeDetail, direction, bus}:
                 </div>
             </div>
             
-            <div className=" flex-grow w-full overflow-y-auto flex flex-col gap-3">
+            <div className=" flex-grow w-full overflow-y-auto flex flex-col gap-2 -mt-4">
                 {filteredData.reverse().map((d, )=>{
 
                     const remainingTimeData = routeEst.data?.filter((item)=>{
